@@ -764,6 +764,9 @@ recipes:
       lapis:
         material: LAPIS_BLOCK
         amount: 12
+      cobblestone:
+        material: COBBLESTONE
+        amount: 20
   crush_coal:
     production_time: 4s
     name: Crush Coal Ore
@@ -776,6 +779,9 @@ recipes:
       coal:
         material: COAL
         amount: 64
+      cobblestone:
+        material: COBBLESTONE
+        amount: 20
   crush_redstone:
     production_time: 4s
     name: Crush Redstone Ore
@@ -785,9 +791,12 @@ recipes:
         material: REDSTONE_ORE
         amount: 32
     output:
-      coal:
+      redstone:
         material: REDSTONE
         amount: 96
+      cobblestone:
+        material: COBBLESTONE
+        amount: 20
   crush_stone:
     production_time: 4s
     name: Crush Stone
@@ -797,7 +806,7 @@ recipes:
         material: STONE
         amount: 32
     output:
-      coal:
+      cobblestone:
         material: COBBLESTONE
         amount: 32
   crush_cobble:
@@ -809,7 +818,7 @@ recipes:
         material: COBBLESTONE
         amount: 32
     output:
-      coal:
+      gravel:
         material: GRAVEL
         amount: 32
   crush_gravel:
@@ -821,7 +830,7 @@ recipes:
         material: GRAVEL
         amount: 32
     output:
-      coal:
+      sand:
         material: SAND
         amount: 32
   crush_glowstone:
@@ -833,7 +842,7 @@ recipes:
         material: GLOWSTONE
         amount: 32
     output:
-      coal:
+      glowdust:
         material: GLOWSTONE_DUST
         amount: 128
   grind_bones:
@@ -846,8 +855,9 @@ recipes:
         amount: 32
     output:
       bonemeal:
-        material: BONE_MEAL
+        material: INK_SACK
         amount: 128
+        durability: 15
   grind_roses:
     production_time: 4s
     name: Grind Roses
@@ -858,8 +868,9 @@ recipes:
         amount: 64
     output:
       rosered:
-        material: ROSE_RED
+        material: INK_SACK
         amount: 128
+        durability: 1
   grind_dandelions:
     production_time: 4s
     name: Grind Dandelions
@@ -870,8 +881,9 @@ recipes:
         amount: 64
     output:
       dandelionyellow:
-        material: DANDELION_YELLOW
+        material: INK_SACK
         amount: 128
+        durability: 11
   make_string:
     production_time: 4s
     name: Make String
