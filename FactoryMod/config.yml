@@ -1202,6 +1202,22 @@ recipes:
         material: STONE
         amount: 512
     factory: Basic Smelter
+  upgrade_to_mill:
+    production_time: 4s
+    name: Upgrade to Grinding Mill
+    type: UPGRADE
+    input:
+      stone:
+        material: STONE
+        amount: 128
+      log:
+        material: LOG
+        amount: 128
+        durability: -1
+      leather:
+        material: LEATHER
+        amount: 32
+    factory: Grinding Mill
   upgrade_to_textile:
     production_time: 30s
     name: Upgrade to Textile Factory
