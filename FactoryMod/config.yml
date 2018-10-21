@@ -787,7 +787,7 @@ recipes:
     name: Crush Redstone Ore
     type: PRODUCTION
     input:
-      coal_ore:
+      redstone_ore:
         material: REDSTONE_ORE
         amount: 32
     output:
@@ -814,7 +814,7 @@ recipes:
     name: Crush Cobblestone
     type: PRODUCTION
     input:
-      stone:
+      cobble:
         material: COBBLESTONE
         amount: 32
     output:
@@ -826,7 +826,7 @@ recipes:
     name: Crush Gravel
     type: PRODUCTION
     input:
-      stone:
+      gravel:
         material: GRAVEL
         amount: 32
     output:
@@ -838,7 +838,7 @@ recipes:
     name: Crush Glowstone
     type: PRODUCTION
     input:
-      stone:
+      glowstone:
         material: GLOWSTONE
         amount: 32
     output:
@@ -850,7 +850,7 @@ recipes:
     name: Grind Bones
     type: PRODUCTION
     input:
-      stone:
+      bone:
         material: BONE
         amount: 32
     output:
@@ -863,8 +863,8 @@ recipes:
     name: Grind Roses
     type: PRODUCTION
     input:
-      stone:
-        material: POPPY
+      poppy:
+        material: RED_ROSE
         amount: 64
     output:
       rosered:
@@ -876,8 +876,8 @@ recipes:
     name: Grind Dandelions
     type: PRODUCTION
     input:
-      stone:
-        material: DANDELION
+      dandelion:
+        material: YELLOW_FLOWER
         amount: 64
     output:
       dandelionyellow:
