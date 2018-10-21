@@ -80,18 +80,18 @@ factories:
         material: LOG
         durability: -1
         amount: 128
-      recipes:
-       - crush_lapis
-       - crush_coal
-       - crush_redstone
-       - crush_stone
-       - crush_cobble
-       - crush_gravel
-       - crush_glowstone
-       - grind_bones
-       - grind_roses
-       - grind_dandelions
-       - repair_grinding_mill
+    recipes:
+     - crush_lapis
+     - crush_coal
+     - crush_redstone
+     - crush_stone
+     - crush_cobble
+     - crush_gravel
+     - crush_glowstone
+     - grind_bones
+     - grind_roses
+     - grind_dandelions
+     - repair_grinding_mill
   textile_factory:
     type: FCC
     name: Textile Factory
@@ -845,7 +845,7 @@ recipes:
         material: BONE
         amount: 32
     output:
-      coal:
+      bonemeal:
         material: BONE_MEAL
         amount: 128
   grind_roses:
@@ -857,10 +857,10 @@ recipes:
         material: POPPY
         amount: 64
     output:
-      coal:
+      rosered:
         material: ROSE_RED
         amount: 128
-  grind_dandelionss:
+  grind_dandelions:
     production_time: 4s
     name: Grind Dandelions
     type: PRODUCTION
@@ -869,7 +869,7 @@ recipes:
         material: DANDELION
         amount: 64
     output:
-      coal:
+      dandelionyellow:
         material: DANDELION_YELLOW
         amount: 128
   make_string:
