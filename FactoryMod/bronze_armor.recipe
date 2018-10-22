@@ -1,0 +1,93 @@
+
+  make_bronze_helm:
+    production_time: 4s
+    name: Make Bronze Helmets
+    type: PRODUCTION
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 25
+    output:
+      bronze_helm:
+        material: GOLD_HELMET
+		    name: "Bronze Helmet"
+		    lore:
+		      - "No Owner"
+		      - "AC: 1.0"
+		      - "Durabilty: .12"
+        amount: 15
+  make_bronze_chest:
+    production_time: 4s
+    name: Make Bronze Chestplates
+    type: PRODUCTION
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 40
+    output:
+      bronze_chest:
+        material: GOLD_CHESTPLATE
+		    name: "Bronze Chestplate"
+		    lore:
+	    	  - "No Owner"
+	    	  - "AC: 1.0"
+	    	  - "Durabilty: .12"
+        amount: 15
+  make_bronze_legs:
+    production_time: 4s
+    name: Make Bronze Leggings
+    type: PRODUCTION
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 35
+    output:
+      bronze_legs:
+        material: GOLD_LEGGINGS
+		    name: "Bronze Leggings"
+		    lore:
+		      - "No Owner"
+		      - "AC: 1.0"
+		      - "Durabilty: .12"
+        amount: 15
+  make_bronze_boots:
+    production_time: 4s
+    name: Make Bronze Boots
+    type: PRODUCTION
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 20
+    output:
+      bronze_boots:
+        material: GOLD_BOOTS
+		    name: "Bronze Boots"
+		    lore:
+		      - "No Owner"
+		      - "AC: 1.0"
+		      - "Durabilty: .12"
+        amount: 15
+  repair_bronze_armor_factory:
+    production_time: 4s
+    name: Repair Bronze Aromr Factory
+    type: REPAIR
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 6
+    health_gained: 10000
