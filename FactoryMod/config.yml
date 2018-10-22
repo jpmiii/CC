@@ -65,6 +65,8 @@ factories:
      - upgrade_to_concrete
      - upgrade_to_mill
      - upgrade_to_kiln
+     - upgrade_to_furnace
+     - upgrade_to_blast_furnace
      - repair_dirt_factory
   kiln:
     type: FCC
@@ -83,8 +85,40 @@ factories:
      - fire_bricks
      - fire_netherrack
      - fire_red_netherrack
-     - smelt_bronze_ingots
-     - repair_kiln
+  furnace:
+    type: FCC
+    name: Furnace
+    citadelBreakReduction: 1.0
+    setupcost:
+      bricks:
+        material: BRICK
+        amount: 640
+    recipes:
+     - sinter_stone2
+     - sinter_sandstone2
+     - sinter_red_sandstone2
+     - make_glass2
+     - fire_terracotta2
+     - fire_bricks2
+     - fire_netherrack2
+     - fire_red_netherrack2
+  blast_furnace:
+    type: FCC
+    name: Blast Furnace
+    citadelBreakReduction: 1.0
+    setupcost:
+      bricks:
+        material: BRICK
+        amount: 1024
+    recipes:
+     - sinter_stone3
+     - sinter_sandstone3
+     - sinter_red_sandstone3
+     - make_glass3
+     - fire_terracotta3
+     - fire_bricks3
+     - fire_netherrack3
+     - fire_red_netherrack3
   grinding_mill:
     type: FCC
     name: Grinding Mill
@@ -1520,6 +1554,36 @@ recipes:
         material: STONE
         amount: 512
     factory: Basic Smelter
+  upgrade_to_kiln:
+    production_time: 4s
+    name: Upgrade to Kiln
+    type: UPGRADE
+    input:
+      stone:
+        material: HARD_CLAY
+        amount: 384
+    factory: Kiln
+  upgrade_to_furnace:
+    production_time: 4s
+    name: Upgrade to Furnace
+    type: UPGRADE
+    input:
+      bricks:
+        material: BRICK
+        amount: 640
+    factory: Furnace
+  upgrade_to_blast_furnace:
+    production_time: 4s
+    name: Upgrade to Blast Furnace
+    type: UPGRADE
+    input:
+      bricks:
+        material: BRICK
+        amount: 1024
+      diamond:
+        material: DIAMOND
+        amount: 128
+    factory: Blast Furnace
   upgrade_to_mill:
     production_time: 4s
     name: Upgrade to Grinding Mill
