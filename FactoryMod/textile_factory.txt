@@ -1,0 +1,18 @@
+  textile_factory:
+    type: FCC
+    name: Textile Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      leather:
+        material: LEATHER
+        amount: 64
+      wool:
+        material: WOOL
+        amount: 256
+    recipes:
+     - make_string
+     - make_wool
+     - make_carpet
+     - make_bed
+     - make_quilted_armor
+     - repair_textile_factory
