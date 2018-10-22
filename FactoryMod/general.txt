@@ -15,3 +15,198 @@ use_recipe_yamlidentifiers: true
 log_inventories: true
 
 
+#FactoryMod configuration file
+
+#FactoryMod is a Spigot plugin, which allows players to setup predefined factories for an item cost. There are various
+#factories with different purposes and pretty much everything about them is configurable. Their configuration is 
+#handled within this file. Take great care to ensure that your configurations follow exactly the documentation provided
+#here, otherwise unwanted effects/crashes and run time exceptions may occur.
+
+#----------------------------------------------------------------------------------------------------------------------
+
+#Specifying items:
+
+#Very often in this config you will have to specify items for a configuration. All item specifications are lists of 
+#configurations, which contain information about the actual item, like this:
+
+#inputmaterials:
+#   inputmat1:
+#       material: STONE
+#   inputmat345FF:
+#       material: DIRT
+
+#Ensure that the identifer (here inputmat1 or inputmat345FF) all have the same intendation and never use duplicate
+#identifers on the same level. Duplicate identifers which belong to a different configuration section are a bad habit,
+#but should still work, while duplicate identifers on the same level will definitely not lead to the result you desire.
+#This applies for every configuration option and not only for items. When you are required to specify a list of items
+#you can also just put the option for it there, but not actually any identifers below it to list items and it will
+#result in no cost/output.
+
+#An example item config utilizing all possiblities could look like this:
+
+#inputmat1:
+#   material: STONE
+#   durability: 3
+#   amount: 456
+#   name: SuperSpecialStone
+#   lore:
+#    - First lore line
+#    - Even more lore
+#   enchants:
+#       enchantidentifier1:
+#           enchant: SILK_TOUCH
+#           level: 1
+#       enchantgharbbl:
+#           enchant: DAMAGE_ALL
+#           level: 5
+
+
+#material requires you to specify the type of the item. Use Spigot's official item identifers here, a full list of those
+#can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+
+#durability allows you to specify the durability of the item. Note that this is not only limited to the durability of tools
+#or armour, but instead the durability is also used to create different variations of the same material. For example orange
+#wool is actually just white wool with a durability of 1. If this option is not specified it will default to 0, which is also
+#minecraft's default durability for items. If you don't want to limit an item to a specific durability, but for example want to
+#require any type of wool as an input, use -1 as durability. Make sure to only use this for inputs though, if you let a factory
+#output an itemstack for players with a durability of -1, the item will be glitched. For a full list of all items and their 
+#durabilities use this site: http://minecraft-ids.grahamedgecombe.com/
+
+#amount allows you to specify the amount of the item, this isn't limited to 64 or whatever the maximum stack size of that
+#item is, it can be any number (assuming it fits into an int). If not specfied this option will default to 1
+
+#name allows you to define a custom name for this item, if this option is not set the item will have its vanilla name
+
+#lore allows you to list lore which is added to the item. There is no limit to the lines of lore here, but after too many the
+#minecraft client will stop display them properly. Defining lore is completly optional.
+
+#Finally enchants allows you to list all the enchants wanted on this item, each enchant requires it's own config identifer.
+
+#The two options requires per enchant are relatively straight forward, first of all you need to specify the enchantment type
+#with it's spigot identifer. https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html provides a
+#full list of those. Second you will need to specify the level you want the desired enchantment to be, this may exceed the
+#possibilites of vanilla without causing problems.
+
+
+#You can also create items with specific meta data, currently supported are anything storing potion data, dyed leather armour
+#and custom nbt tags
+
+#For potion data (so for potions, splash potions, linering potions and tipped arrows) you can specify an additional section 
+#like this:
+
+#examplePot:
+# material: POTION
+# potion_effects:
+#   type: LUCK
+#   upgraded: true
+#   extended: true
+#   custom_effects:
+#     exampleEffect1:
+#       type: SPEED
+#       duration: 1m
+#       amplifier: 1
+
+#Each potion always has one default effect and as many additional custom effects as desired
+
+#type specifies the look of the potion and the base type of effect that will be applied by the potion. Not all possible status
+#effects can be used here, but only the ones that have PotionData, as listed here: 
+#https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionType.html
+#If not specified the type will default to AWKWARD
+
+#upgraded specifies whether the default potion effect on the item is upgraded or not, per default this is false
+
+#extended specifies whether the default potion effect on this item is extended or not, per default this is false
+
+#custom_effects allows you to list other potion effects that are tied to this item, but don't affect it's item model, which is 
+#determined by the primary potion effect
+
+#To make dyed leather armour, two different formats are supported. The first one looks like this:
+
+#exampleItem:
+# material: LEATHER_HELMET
+# color:
+#   red: 255
+#   blue: 0
+#   green: 255
+
+#The additional color section here has an option for each part of an RGB color, which is then applied on the item. All values
+#must be within 0 and 255
+
+#The other way to specify color of a leather item is directly through a hexadecimal number representing the RGB color like this:
+
+#exampleItem2:
+# material: LEATHER_BOOTS
+# color: FF00FF
+
+#Instead of using color as config identifier, you can as well just use it as option to directly specify the color in hex
+
+#----------------------------------------------------------------------------------------------------------------------
+#General
+
+#This section allows you to define global default values and some general stuff. 
+
+#Additionally you can specify default options here, which are applied to all factories which use this option, unless
+#you chose to overwrite the default for a specific factory, in that case the option specified in the factories config 
+#will apply to it.
+
+#The first option here is default_update_time. The update time describes how often a factory is ticked, ergo how often
+#it checks whether it still has enough fuel, enough other resources to run and so on. This is basically the smallest
+#time unit within your factory can possibly react and all other time values your factory works with should be multiples
+#of this value. If they are not a multiple of this value, their de-facto value will be the next higher multiple of the
+#update time, simply because whatever effect they have can only be applied if the factory is actually ticked. Note that
+#this value highly influences the performance of this plugin, if FactoryMod is consuming more server power than you want
+#it to, the first step should be to make this value higher. Recommended value is 1 second
+
+#default_update_time: 1s
+
+
+#With the option default_fuel you can specify the default fuel for all factories which are consuming fuel in a furnace
+#while running. This doesn't have to be a vanilla furnace fuel, but can be any item instead. A factory may chose to over
+#write this option
+
+#default_fuel:
+#    charcoal:
+#        material: COAL
+#        durability: 1
+ 
+
+#default_fuel_consumption_intervall specifies a default for how often factories consume fuel. Basically every time a 
+#factory which consumes fuel has run for the time specified here, one fuel unit will be consumed. This value should
+#always be a multiple of the updatetime and a factory may chose to specify it's own value and not use the default value
+
+#default_fuel_consumption_intervall: 2s
+
+#default_health specifies a default for how much health a factory has. Factories will continuously lose health over time and have
+#to be repaired before they can be used again, once they are at 0 health
+#default_health: 10000
+
+#default_menu_factory allows you to specify the menu for which factory will be opened when a player runs /fm without 
+#specifying a factory. If this is not specified and the player runs "/fm" one will be picked randomly.
+#default_menu_factory:
+
+#As a debug mode or to prevent additional information when tracking down bugs this plugin can log all of its inventory 
+#interactions and the full inventories at that point, if desired. If this option is not specified it will default to true
+
+#log_inventories: true
+
+
+#Additionally this plugin can disable vanilla nether portals. This isn't really part of the plugin's core functionality,
+#but it was picked up from the first implementation of FactoryMod and stayed here after it's rewrite. Deal with it.
+#disable_nether: false
+
+
+#When FCCs are in disrepair they will be removed after a set amount of time, which can be specified here
+#default_break_grace_period: 7d
+
+
+#How often factories are passively decayed
+#decay_intervall: 1h
+
+#How much health is decayed from factories by default each damaging run
+#default_decay_amount: 21
+
+#Whether the yaml identifier or the factory name should be used when assigning recipes to factories, default to false
+#use_recipe_yamlidentifiers: false
+
+#How often factory data is saved automatically. Recommended value and default is 15 minutes. Set to -1 to disable
+#saving_intervall: 15m
