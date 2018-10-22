@@ -1,6 +1,4 @@
 
-#RECIPES
-recipes:
   sinter_stone:
     production_time: 4s
     name: Sinter Cobble Into Stone
