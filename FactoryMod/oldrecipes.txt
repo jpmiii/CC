@@ -71,30 +71,6 @@
       brick:
         material: BRICK
         amount: 128
-  fire_netherrack2:
-    production_time: 4s
-    name: Fire Netherrack Bricks
-    type: PRODUCTION
-    input:
-      netherrack:
-        material: NETHERRACK
-        amount: 64
-    output:
-      brick:
-        material: NETHERRACK_BRICK
-        amount: 16
-  fire_netherrack3:
-    production_time: 4s
-    name: Fire Netherrack Bricks
-    type: PRODUCTION
-    input:
-      netherrack:
-        material: NETHERRACK
-        amount: 64
-    output:
-      brick:
-        material: NETHERRACK_BRICK
-        amount: 24
   fire_red_netherrack2:
     production_time: 4s
     name: Fire Red Netherrack Bricks
