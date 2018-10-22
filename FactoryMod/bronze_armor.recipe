@@ -13,11 +13,11 @@
     output:
       bronze_helm:
         material: GOLD_HELMET
-		    name: "Bronze Helmet"
-		    lore:
-		      - "No Owner"
-		      - "AC: 1.0"
-		      - "Durabilty: .12"
+        name: "Bronze Helmet"
+        lore:
+          - "No Owner"
+          - "AC: 1.0"
+          - "Durabilty: .12"
         amount: 15
   make_bronze_chest:
     production_time: 4s
@@ -33,11 +33,11 @@
     output:
       bronze_chest:
         material: GOLD_CHESTPLATE
-		    name: "Bronze Chestplate"
-		    lore:
-	    	  - "No Owner"
-	    	  - "AC: 1.0"
-	    	  - "Durabilty: .12"
+        name: "Bronze Chestplate"
+        lore:
+          - "No Owner"
+          - "AC: 1.0"
+          - "Durabilty: .12"
         amount: 15
   make_bronze_legs:
     production_time: 4s
@@ -53,11 +53,11 @@
     output:
       bronze_legs:
         material: GOLD_LEGGINGS
-		    name: "Bronze Leggings"
-		    lore:
-		      - "No Owner"
-		      - "AC: 1.0"
-		      - "Durabilty: .12"
+        name: "Bronze Leggings"
+        lore:
+          - "No Owner"
+          - "AC: 1.0"
+          - "Durabilty: .12"
         amount: 15
   make_bronze_boots:
     production_time: 4s
@@ -73,11 +73,11 @@
     output:
       bronze_boots:
         material: GOLD_BOOTS
-		    name: "Bronze Boots"
-		    lore:
-		      - "No Owner"
-		      - "AC: 1.0"
-		      - "Durabilty: .12"
+        name: "Bronze Boots"
+        lore:
+          - "No Owner"
+          - "AC: 1.0"
+          - "Durabilty: .12"
         amount: 15
   repair_bronze_armor_factory:
     production_time: 4s
