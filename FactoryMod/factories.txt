@@ -1,0 +1,789 @@
+
+
+factories:
+  dirt_factory:
+    type: FCC
+    name: Dirt Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      Dirt:
+        material: DIRT
+        amount: 1
+    recipes:
+     - dirt
+     - craft_eyes_of_ender
+     - upgrade_to_textile
+     - upgrade_to_stone_smelter
+     - upgrade_to_ore_smelter
+     - upgrade_to_aesthetics
+     - upgrade_to_bakery
+     - upgrade_to_grill
+     - upgrade_to_chemistry_factory
+     - upgrade_to_iron_armor_smith
+     - upgrade_to_iron_tool_smith
+     - upgrade_to_bronze_tool_smith
+     - upgrade_to_iron_forge
+     - upgrade_to_wool_dye
+     - upgrade_to_glass_dye
+     - upgrade_to_clay_dye
+     - upgrade_to_bio_lab
+     - upgrade_to_carpentry
+     - upgrade_to_rails
+     - upgrade_to_diamond_helm
+     - upgrade_to_diamond_chest
+     - upgrade_to_diamond_legs
+     - upgrade_to_diamond_boots
+     - upgrade_to_diamond_pick
+     - upgrade_to_diamond_shovel
+     - upgrade_to_diamond_axe
+     - upgrade_to_diamond_sword
+     - upgrade_to_diamond_hoe
+     - upgrade_to_husbandry
+     - upgrade_to_redstone
+     - upgrade_to_bastion
+     - upgrade_to_basic_cauldron
+     - upgrade_to_compactor
+     - upgrade_to_printer
+     - upgrade_to_concrete
+     - upgrade_to_mill
+     - upgrade_to_kiln
+     - upgrade_to_furnace
+     - upgrade_to_blast_furnace
+     - repair_dirt_factory
+  kiln:
+    type: FCC
+    name: Kiln
+    citadelBreakReduction: 1.0
+    setupcost:
+      clay:
+        material: HARD_CLAY
+        amount: 384
+    recipes:
+     - sinter_stone
+     - sinter_sandstone
+     - sinter_red_sandstone
+     - make_glass
+     - fire_terracotta
+     - fire_bricks
+     - fire_netherrack
+     - fire_red_netherrack
+  furnace:
+    type: FCC
+    name: Furnace
+    citadelBreakReduction: 1.0
+    setupcost:
+      bricks:
+        material: BRICK
+        amount: 640
+    recipes:
+     - sinter_stone2
+     - sinter_sandstone2
+     - sinter_red_sandstone2
+     - make_glass2
+     - fire_terracotta2
+     - fire_bricks2
+     - fire_netherrack2
+     - fire_red_netherrack2
+  blast_furnace:
+    type: FCC
+    name: Blast Furnace
+    citadelBreakReduction: 1.0
+    setupcost:
+      bricks:
+        material: BRICK
+        amount: 1024
+    recipes:
+     - sinter_stone3
+     - sinter_sandstone3
+     - sinter_red_sandstone3
+     - make_glass3
+     - fire_terracotta3
+     - fire_bricks3
+     - fire_netherrack3
+     - fire_red_netherrack3
+  grinding_mill:
+    type: FCC
+    name: Grinding Mill
+    citadelBreakReduction: 1.0
+    setupcost:
+      leather:
+        material: LEATHER
+        amount: 32
+      stone:
+        material: STONE
+        amount: 128
+      log:
+        material: LOG
+        durability: -1
+        amount: 128
+    recipes:
+     - crush_lapis
+     - crush_coal
+     - crush_redstone
+     - crush_gold_ore
+     - crush_stone
+     - crush_cobble
+     - crush_gravel
+     - crush_glowstone
+     - grind_bones
+     - grind_roses
+     - grind_dandelions
+     - repair_grinding_mill
+  textile_factory:
+    type: FCC
+    name: Textile Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      leather:
+        material: LEATHER
+        amount: 64
+      wool:
+        material: WOOL
+        amount: 256
+    recipes:
+     - make_string
+     - make_wool
+     - make_carpet
+     - make_bed
+     - make_quilted_armor
+     - repair_textile_factory
+  stone_smelter:
+    type: FCC
+    name: Basic Smelter
+    citadelBreakReduction: 1.0
+    setupcost:
+      stone:
+        material: STONE
+        amount: 512
+    recipes:
+     - smelt_stone
+     - smelt_glass
+     - smelt_netherrack
+     - smelt_red_netherbrick
+     - smelt_bricks
+     - smelt_hard_clay
+     - smelt_sandstone
+     - repair_stone_smelter
+  chemistry_factory:
+    type: FCC
+    name: Chemistry Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      charcoal:
+        material: COAL
+        amount: 512
+        durability: 1
+    recipes:
+     - potassium_nitrate
+     - charcoal_from_logs
+     - charcoal_from_logs_2
+     - charcoal_from_coal
+     - repair_chemistry_factory
+  aesthetics:
+    type: FCC
+    name: Aesthetics Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      stone:
+        material: STONE
+        amount: 256
+      dye:
+        material: INK_SACK
+        amount: 32
+        durability: -1
+    recipes:
+     - make_cracked_stone_brick
+     - make_mossy_stone_brick
+     - make_circle_stone_brick
+     - make_mossy_cobble
+     - make_quartz
+     - aggregate_andesite
+     - aggregate_diorite
+     - aggregate_granite
+     - make_red_sand
+     - clean_red_sand
+     - make_purpur
+     - condense_purpur_fruit
+     - make_prismarine
+     - make_prismarine_bricks
+     - make_dark_prismarine
+     - make_sea_lantern
+     - make_redstone_lamp
+     - pack_ice
+     - repair_aesthetics
+  dye_wool:
+    type: FCC
+    name: Wool Dying Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      wool:
+        material: WOOL
+        amount: 32
+        durability: -1
+    recipes:
+     - dye_wool_white
+     - dye_wool_orange
+     - dye_wool_magenta
+     - dye_wool_light_blue
+     - dye_wool_yellow
+     - dye_wool_lime
+     - dye_wool_pink
+     - dye_wool_gray
+     - dye_wool_light_gray
+     - dye_wool_cyan
+     - dye_wool_purple
+     - dye_wool_blue
+     - dye_wool_brown
+     - dye_wool_green
+     - dye_wool_red
+     - dye_wool_black
+     - repair_wool
+  dye_clay:
+    type: FCC
+    name: Clay Dying Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      clay:
+        material: HARD_CLAY
+        amount: 32
+        durability: -1
+    recipes:
+     - dye_clay_white
+     - dye_clay_orange
+     - dye_clay_magenta
+     - dye_clay_light_blue
+     - dye_clay_yellow
+     - dye_clay_lime
+     - dye_clay_pink
+     - dye_clay_gray
+     - dye_clay_light_gray
+     - dye_clay_cyan
+     - dye_clay_purple
+     - dye_clay_blue
+     - dye_clay_brown
+     - dye_clay_green
+     - dye_clay_red
+     - dye_clay_black
+     - repair_clay
+  dye_glass:
+    type: FCC
+    name: Glass Dying Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      glass:
+        material: GLASS
+        amount: 32
+    recipes:
+     - dye_glass_white
+     - dye_glass_orange
+     - dye_glass_magenta
+     - dye_glass_light_blue
+     - dye_glass_yellow
+     - dye_glass_lime
+     - dye_glass_pink
+     - dye_glass_gray
+     - dye_glass_light_gray
+     - dye_glass_cyan
+     - dye_glass_purple
+     - dye_glass_blue
+     - dye_glass_brown
+     - dye_glass_green
+     - dye_glass_red
+     - dye_glass_black
+     - repair_glass
+  grill:
+    type: FCC
+    name: Grill
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 16
+      stone:
+        material: STONE
+        amount: 128
+    recipes:
+     - cook_beef
+     - cook_pork
+     - cook_chicken
+     - cook_mutton
+     - cook_rabbit
+     - cook_fish
+     - cook_salmon
+     - repair_grill
+  bakery:
+    type: FCC
+    name: Bakery
+    citadelBreakReduction: 1.0
+    setupcost:
+      brick:
+        material: CLAY_BRICK
+        amount: 64
+      log:
+        material: LOG
+        durability: -1
+        amount: 12
+    recipes:
+     - bake_bread
+     - bake_potatoes
+     - bake_cookies
+     - bake_pie
+     - repair_bakery
+  ore_smelter:
+    type: FCC
+    name: Ore Smelter
+    citadelBreakReduction: 1.0
+    setupcost:
+      coal:
+        material: COAL
+        amount: 512
+      iron:
+        material: IRON_INGOT
+        amount: 256
+      diamond:
+        material: DIAMOND
+        amount: 64
+    recipes:
+     - smelt_coal_ore
+     - smelt_iron_ore
+     - smelt_diamond_ore
+     - smelt_gold_ore
+     - smelt_redstone_ore
+     - smelt_lapis_ore
+     - make_refractor
+     - crack_fossil
+     - repair_ore_smelter
+  diamond_helm:
+    type: FCC
+    name: Diamond Helmet Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 192
+    recipes:
+     - make_diamond_helm
+     - repair_diamond_helm_factory
+  diamond_chest:
+    type: FCC
+    name: Diamond Chestplate Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 320
+    recipes:
+     - make_diamond_chest
+     - repair_diamond_chest_factory
+  diamond_legs:
+    type: FCC
+    name: Diamond Leggings Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 256
+    recipes:
+     - make_diamond_legs
+     - repair_diamond_legs_factory
+  diamond_boots:
+    type: FCC
+    name: Diamond Boots Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 160
+    recipes:
+     - make_diamond_boots
+     - repair_diamond_boots_factory
+  diamond_pick:
+    type: FCC
+    name: Diamond Pickaxe Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 96
+    recipes:
+     - make_diamond_pick
+     - repair_diamond_pick_factory
+  diamond_sword:
+    type: FCC
+    name: Diamond Sword Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 80
+    recipes:
+     - make_diamond_sword
+     - repair_diamond_sword_factory
+  diamond_shovel:
+    type: FCC
+    name: Diamond Shovel Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 48
+    recipes:
+     - make_diamond_shovel
+     - repair_diamond_shovel_factory
+  diamond_axe:
+    type: FCC
+    name: Diamond Axe Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 64
+    recipes:
+     - make_diamond_axe
+     - repair_diamond_axe_factory
+  diamond_hoe:
+    type: FCC
+    name: Diamond Hoe Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 32
+    recipes:
+     - make_diamond_hoe
+     - repair_diamond_hoe_factory
+  iron_tools:
+    type: FCC
+    name: Iron Tool Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 64
+    recipes:
+     - make_iron_pick
+     - make_iron_sword
+     - make_iron_shovel
+     - make_iron_axe
+     - make_iron_hoe
+     - repair_iron_tools_factory
+  bronze_tools:
+    type: FCC
+    name: Bronze Tool Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 64
+    recipes:
+     - make_bronze_pick
+     - make_bronze_sword
+     - make_bronze_shovel
+     - make_bronze_axe
+     - make_bronze_hoe
+     - repair_bronze_tools_factory
+  iron_armor:
+    type: FCC
+    name: Iron Armor Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 96
+    recipes:
+     - make_iron_helm
+     - make_iron_chest
+     - make_iron_legs
+     - make_iron_boots
+     - repair_iron_armor_factory
+  bio_lab:
+    type: FCC
+    name: Bio Lab
+    citadelBreakReduction: 1.0
+    setupcost:
+      sapling:
+        material: SAPLING
+        amount: 32
+        durability: -1
+      Dirt!:
+        material: DIRT
+        amount: 256
+        name: Dirt!
+    recipes:
+     - dirt_to_grass
+     - dirt_to_podzol
+     - dirt_to_mycelium
+     - sapling_to_oak
+     - sapling_to_spruce
+     - sapling_to_birch
+     - sapling_to_jungle
+     - sapling_to_acacia
+     - sapling_to_dark_oak
+     - make_mushroom_brown
+     - make_mushroom_red
+     - make_mushroom_stem
+     - make_mushroom_pores
+     - repair_bio_lab
+  carpentry:
+    type: FCC
+    name: Carpentry Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      chest:
+        material: CHEST
+        amount: 32
+    recipes:
+     - make_fences
+     - make_signs
+     - make_ladders
+     - make_bookshelves
+     - make_trapdoors
+     - make_wood_doors
+     - make_casing
+     - make_crates
+     - repair_carpentry
+     - make_boat
+  rails:
+    type: FCC
+    name: Rail Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 32
+      gold:
+        material: GOLD_INGOT
+        amount: 8
+    recipes:
+     - make_rail
+     - make_powered_rail
+     - make_detector_rail
+     - make_minecart
+     - repair_rails
+  husbandry:
+    type: FCC
+    name: Animal Husbandry
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron_block:
+        material: IRON_BLOCK
+        amount: 32
+      slime:
+        material: SLIME_BALL
+        amount: 16
+      leather:
+        material: LEATHER
+        amount: 32
+    recipes:
+     - make_saddle
+     - make_lead
+     - make_bio_component
+     - repair_husbandry
+  iron_forge:
+    type: FCC
+    name: Iron Forge
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 128
+      lava_bucket:
+        material: LAVA_BUCKET
+        amount: 1
+    recipes:
+     - make_iron_fence
+     - make_anvil
+     - make_bucket
+     - make_iron_trapdoor
+     - make_iron_door
+     - make_tripwire
+     - make_shears
+     - make_radar
+     - repair_forge
+  redstone_mechanics:
+    type: FCC
+    name: Redstone Mechanics Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 256
+      gold:
+        material: GOLD_INGOT
+        amount: 32
+    recipes:
+     - make_torch
+     - make_hopper
+     - make_comparator
+     - make_repeater
+     - make_gearbox
+     - repair_redstone
+  bastion_factory:
+    type: FCC
+    name: Bastion Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      casing:
+        material: ENDER_CHEST
+        amount: 32
+        name: Casing
+        lore:
+          - Casing for bastion
+      gearbox:
+        material: WATCH
+        amount: 32
+        name: Gearbox
+        lore:
+          - Gear mechanism for bastion
+      radar:
+        material: COMPASS
+        amount: 32
+        name: Radar
+        lore:
+          - Radar for detecting pearls
+      energizer:
+        material: EMERALD
+        amount: 32
+        name: Energizer
+        lore:
+          - Power source for bastion
+      refractor:
+        material: DIAMOND
+        amount: 32
+        name: Refractor
+        lore:
+          - Refractor for bastion
+      bio_compoent:
+        material: MAGMA_CREAM
+        amount: 32
+        name: Bio-Component
+        lore:
+          - Bio-Component for bastion
+    recipes:
+     - make_bastion
+     - make_city_bastion
+     - repair_bastion
+  basic_cauldron:
+    type: FCC
+    name: Basic Cauldron
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 128
+      gold:
+        material: GOLD_INGOT
+        amount: 32
+    recipes:
+     - basic_xp_1
+     - basic_xp_2
+     - basic_xp_3
+     - basic_xp_4
+     - wither_skull
+     - upgrade_to_intermediate_cauldron
+     - repair_basic_cauldron
+  intermediate_cauldron:
+    type: FCCUPGRADE
+    name: Intermediate Cauldron
+    citadelBreakReduction: 1.0
+    recipes:
+     - int_xp_1
+     - int_xp_2
+     - int_xp_3
+     - int_xp_4
+     - wither_skull
+     - make_energizer
+     - upgrade_to_advanced_cauldron
+     - repair_intermediate_cauldron
+  advanced_cauldron:
+    type: FCCUPGRADE
+    name: Advanced Cauldron
+    citadelBreakReduction: 1.0
+    recipes:
+     - adv_xp_1
+     - adv_xp_2
+     - adv_xp_3
+     - adv_xp_4
+     - wither_skull
+     - make_energizer
+     - repair_advanced_cauldron
+  compactor:
+    type: FCC
+    name: Compactor
+    citadelBreakReduction: 0.8
+    setupcost:
+      iron_block:
+        material: IRON_BLOCK
+        amount: 32
+      redstone_block:
+        material: REDSTONE_BLOCK
+        amount: 16
+      piston:
+        material: PISTON_BASE
+        amount: 64
+      crate:
+        material: CHEST
+        amount: 32
+        lore:
+          - Crate
+    recipes:
+      - compact
+      - decompact
+      - repair_compactor
+  printing_press:
+    type: FCC
+    name: Printing Press
+    citadelBreakReduction: 0.1
+    setupcost:
+      ink:
+        material: INK_SACK
+        amount: 32
+      paper:
+        material: PAPER
+        amount: 64
+    recipes:
+      - bind_books
+      - bind_writable_books
+      - craft_printing_plate
+      - print_book
+      - print_note
+      - print_secure_note
+      - repair_printer
+  concrete_mixer:
+    type: FCC
+    name: Concrete Mixer
+    citadelBreakReduction: 1.0
+    setupcost:
+      sand:
+        material: SAND
+        amount: 256
+      gravel:
+        material: GRAVEL
+        amount: 256
+    recipes:
+     - mix_concrete_white
+     - mix_concrete_orange
+     - mix_concrete_magenta
+     - mix_concrete_light_blue
+     - mix_concrete_yellow
+     - mix_concrete_lime
+     - mix_concrete_pink
+     - mix_concrete_gray
+     - mix_concrete_light_gray
+     - mix_concrete_cyan
+     - mix_concrete_purple
+     - mix_concrete_blue
+     - mix_concrete_brown
+     - mix_concrete_green
+     - mix_concrete_red
+     - mix_concrete_black
+     - repair_mixer
