@@ -88,42 +88,6 @@ recipes:
       sandstone:
         material: SANDSTONE
         amount: 64
-  sinter_red_sandstone:
-    production_time: 4s
-    name: Sinter Red Sand Into Sandstone
-    type: PRODUCTION
-    input:
-      sand:
-        material: RED_SAND
-        amount: 64
-    output:
-      sandstone:
-        material: RED_SANDSTONE
-        amount: 32
-  sinter_red_sandstone2:
-    production_time: 4s
-    name: Sinter Red Sand Into Sandstone
-    type: PRODUCTION
-    input:
-      sand:
-        material: RED_SAND
-        amount: 64
-    output:
-      sandstone:
-        material: RED_SANDSTONE
-        amount: 48
-  sinter_red_sandstone3:
-    production_time: 4s
-    name: Sinter Red Sand Into Sandstone
-    type: PRODUCTION
-    input:
-      sand:
-        material: RED_SAND
-        amount: 64
-    output:
-      sandstone:
-        material: RED_SANDSTONE
-        amount: 64
   make_glass:
     production_time: 4s
     name: Make Glass
