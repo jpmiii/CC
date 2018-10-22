@@ -471,20 +471,7 @@
           material: DIRT
           amount: 1
           name: Dirt!
-  make_boat:
-    production_time: 4s
-    name: Make Boat
-    type: PRODUCTION
-    input:
-      log:
-        material: LOG
-        amount: 128
-        lore:
-          - Compacted Item
-    output:
-      boat:
-        material: BOAT
-        amount: 1
+
 
           
           
