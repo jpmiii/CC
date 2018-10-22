@@ -1055,7 +1055,7 @@ recipes:
       netherrack:
         material: NETHERRACK
         amount: 64
-      warts
+      warts:
         material: NETHER_WARTS
         amount: 16
     output:
@@ -1070,7 +1070,7 @@ recipes:
       netherrack:
         material: NETHERRACK
         amount: 64
-      warts
+      warts:
         material: NETHER_WARTS
         amount: 16
     output:
