@@ -2,6 +2,17 @@
 ################################
 ##########      TEST RECIPES
 
+
+  repair_chemistry_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 16
+    health_gained: 10000
   potassium_nitrate:
     production_time: 4s
     name: Potassium Nitrate
