@@ -1,0 +1,21 @@
+###################################
+
+  bronze_armor:
+    type: FCC
+    name: Bronze Armor Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 96
+    recipes:
+     - make_bronze_helm
+     - make_bronze_chest
+     - make_bronze_legs
+     - make_bronze_boots
+     - repair_bronze_armor_factory
+     
+     
