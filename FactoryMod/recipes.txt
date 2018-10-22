@@ -1,3 +1,6 @@
+
+#RECIPES
+recipes:
   make_boat:
     production_time: 4s
     name: Make Boat
