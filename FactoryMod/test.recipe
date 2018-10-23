@@ -3,72 +3,6 @@
 ##########      TEST RECIPES
 
 
-  fire_terracotta:
-    production_time: 4s
-    name: Fire Terracotta Blocks
-    type: PRODUCTION
-    input:
-      clay:
-        material: CLAY
-        amount: 64
-    output:
-      terracotta:
-        material: HARD_CLAY
-        amount: 64
-  fire_terracotta2:
-    production_time: 4s
-    name: Fire Terracotta Blocks
-    type: PRODUCTION
-    input:
-      clay:
-        material: CLAY
-        amount: 64
-    output:
-      terracotta:
-        material: HARD_CLAY
-        amount: 96
-  fire_bricks:
-    production_time: 4s
-    name: Fire Bricks
-    type: PRODUCTION
-    input:
-      clay:
-        material: CLAY_BALL
-        amount: 64
-    output:
-      brick:
-        material: BRICK
-        amount: 64
-  fire_bricks2:
-    production_time: 4s
-    name: Fire Bricks
-    type: PRODUCTION
-    input:
-      clay:
-        material: CLAY_BALL
-        amount: 64
-    output:
-      brick:
-        material: BRICK
-        amount: 96
-  fire_red_netherrack2:
-    production_time: 4s
-    name: Fire Red Netherrack Bricks
-    type: PRODUCTION
-    input:
-      netherrack:
-        material: NETHERRACK
-        amount: 64
-      warts:
-        material: NETHER_WARTS
-        amount: 16
-    output:
-      brick:
-        material: RED_NETHER_BRICK
-        amount: 4
-
-
-
   repair_chemistry_factory:
     production_time: 4s
     name: Repair Factory
@@ -94,40 +28,7 @@
         amount: 16
         lore:
           - "Gunpowder Ingredient"
-  repair_grinding_mill:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      golden_apple:
-        material: GOLDEN_APPLE
-        durability: 1
-        name: Stamina
-        amount: 1
-        lore:
-          - "Prolonged physical"
-          - "or mental effort"
-      stone:
-        material: STONE
-        amount: 128
-      leather:
-        material: LEATHER
-        amount: 16
-    health_gained: 10000
-  repair_textile_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      golden_apple:
-        material: GOLDEN_APPLE
-        durability: 1
-        name: Stamina
-        amount: 1
-        lore:
-          - "Prolonged physical"
-          - "or mental effort"
-    health_gained: 10000
+
    #####################################################
    
    
@@ -148,80 +49,6 @@
         material: BOAT
         amount: 1
 
-  sinter_stone:
-    production_time: 4s
-    name: Sinter Cobble Into Stone
-    type: PRODUCTION
-    input:
-      cobble:
-        material: COBBLESTONE
-        amount: 64
-    output:
-      stone:
-        material: STONE
-        amount: 64
-  sinter_stone2:
-    production_time: 4s
-    name: Sinter Cobble Into Stone
-    type: PRODUCTION
-    input:
-      cobble:
-        material: COBBLESTONE
-        amount: 64
-    output:
-      stone:
-        material: STONE
-        amount: 96
-
-  sinter_sandstone:
-    production_time: 4s
-    name: Sinter Sand Into Sandstone
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 64
-    output:
-      sandstone:
-        material: SANDSTONE
-        amount: 32
-  sinter_sandstone2:
-    production_time: 4s
-    name: Sinter Sand Into Sandstone
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 64
-    output:
-      sandstone:
-        material: SANDSTONE
-        amount: 48
-
-  make_glass:
-    production_time: 4s
-    name: Make Glass
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 64
-    output:
-      glass:
-        material: GLASS
-        amount: 64
-  make_glass2:
-    production_time: 4s
-    name: Make Glass
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 64
-    output:
-      glass:
-        material: GLASS
-        amount: 96
 #####################################################################
 
 
