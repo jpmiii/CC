@@ -3,6 +3,72 @@
 ##########      TEST RECIPES
 
 
+  fire_terracotta:
+    production_time: 4s
+    name: Fire Terracotta Blocks
+    type: PRODUCTION
+    input:
+      clay:
+        material: CLAY
+        amount: 64
+    output:
+      terracotta:
+        material: HARD_CLAY
+        amount: 64
+  fire_terracotta2:
+    production_time: 4s
+    name: Fire Terracotta Blocks
+    type: PRODUCTION
+    input:
+      clay:
+        material: CLAY
+        amount: 64
+    output:
+      terracotta:
+        material: HARD_CLAY
+        amount: 96
+  fire_bricks:
+    production_time: 4s
+    name: Fire Bricks
+    type: PRODUCTION
+    input:
+      clay:
+        material: CLAY_BALL
+        amount: 64
+    output:
+      brick:
+        material: BRICK
+        amount: 64
+  fire_bricks2:
+    production_time: 4s
+    name: Fire Bricks
+    type: PRODUCTION
+    input:
+      clay:
+        material: CLAY_BALL
+        amount: 64
+    output:
+      brick:
+        material: BRICK
+        amount: 96
+  fire_red_netherrack2:
+    production_time: 4s
+    name: Fire Red Netherrack Bricks
+    type: PRODUCTION
+    input:
+      netherrack:
+        material: NETHERRACK
+        amount: 64
+      warts:
+        material: NETHER_WARTS
+        amount: 16
+    output:
+      brick:
+        material: RED_NETHER_BRICK
+        amount: 4
+
+
+
   repair_chemistry_factory:
     production_time: 4s
     name: Repair Factory
