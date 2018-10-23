@@ -1,0 +1,18 @@
+
+  kiln:
+    type: FCC
+    name: Kiln
+    citadelBreakReduction: 1.0
+    setupcost:
+      clay:
+        material: HARD_CLAY
+        amount: 384
+    recipes:
+     - sinter_stone
+     - sinter_sandstone
+     - sinter_red_sandstone
+     - make_glass
+     - fire_terracotta
+     - fire_bricks
+     - fire_netherrack
+     - fire_red_netherrack
