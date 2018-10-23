@@ -106,18 +106,7 @@
       stone:
         material: STONE
         amount: 96
-  sinter_stone3:
-    production_time: 4s
-    name: Sinter Cobble Into Stone
-    type: PRODUCTION
-    input:
-      cobble:
-        material: COBBLESTONE
-        amount: 64
-    output:
-      stone:
-        material: STONE
-        amount: 128
+
   sinter_sandstone:
     production_time: 4s
     name: Sinter Sand Into Sandstone
@@ -142,18 +131,7 @@
       sandstone:
         material: SANDSTONE
         amount: 48
-  sinter_sandstone3:
-    production_time: 4s
-    name: Sinter Sand Into Sandstone
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 64
-    output:
-      sandstone:
-        material: SANDSTONE
-        amount: 64
+
   make_glass:
     production_time: 4s
     name: Make Glass
@@ -178,18 +156,6 @@
       glass:
         material: GLASS
         amount: 96
-  make_glass3:
-    production_time: 4s
-    name: Make Glass
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 64
-    output:
-      glass:
-        material: GLASS
-        amount: 128
 #####################################################################
 
 
