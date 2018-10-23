@@ -1,0 +1,86 @@
+
+  make_string:
+    production_time: 4s
+    name: Make String
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 10
+    output:
+      string:
+        material: STRING
+        amount: 64
+  make_wool:
+    production_time: 4s
+    name: Make Wool
+    type: PRODUCTION
+    input:
+      string:
+        material: STRING
+        amount: 64
+    output:
+      wool:
+        material: WOOL
+        amount: 8
+  make_carpet:
+    production_time: 4s
+    name: Make Carpet
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 10
+    output:
+      carpet:
+        material: CARPET
+        amount: 15
+  make_bed:
+    production_time: 4s
+    name: Make Bed
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 12
+      wood:
+        material: WOOD
+        amount: 12
+    output:
+      string:
+        material: BED
+        amount: 4
+  make_quilted_armor:
+    production_time: 4s
+    name: Make Quilted Armor
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 64
+      leather:
+        material: LEATHER
+        amount: 3
+    output:
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 1
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 1
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 1
+        
