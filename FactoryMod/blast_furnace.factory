@@ -9,9 +9,9 @@
     recipes:
      - sinter_stone3
      - sinter_sandstone3
-     - sinter_red_sandstone3
+     #- sinter_red_sandstone3
      - make_glass3
      - fire_terracotta3
      - fire_bricks3
-     - fire_netherrack3
+     #- fire_netherrack3
      - fire_red_netherrack3
