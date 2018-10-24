@@ -377,12 +377,27 @@
         amount: 64
       water:
         material: WATER_BUCKET
-        amount: 1
+        amount: 2
     output:
       obsidian:
         material: OBSIDIAN
         amount: 64
       cobble:
         material: BUCKET
-        amount: 1
+        amount: 2
+  fire_bucket:
+    production_time: 4s
+    name: Smelt Diamond
+    type: PRODUCTION
+    input:
+      diamond_ore:
+        material: DIAMOND_ORE
+        amount: 32
+    output:
+      diamond:
+        material: DIAMOND
+        amount: 64
+      cobble:
+        material: COBBLESTONE
+        amount: 10
 #####################################################################  
