@@ -33,7 +33,6 @@
      - fire_bricks2
      #- fire_netherrack2
      - fire_red_netherrack2
-
   blast_furnace:
     type: FCC
     name: Blast Furnace
@@ -42,6 +41,9 @@
       bricks:
         material: BRICK
         amount: 1024
+      diamonds:
+        material: DIAMOND
+        amount: 128
     recipes:
      - sinter_stone3
      - sinter_sandstone3
