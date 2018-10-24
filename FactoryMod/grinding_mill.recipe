@@ -56,8 +56,8 @@
         amount: 32
     output:
       gold:
-        material: GOLD_INGOT
-        amount: 48
+        material: GOLD_NUGGET
+        amount: 432
       cobblestone:
         material: COBBLESTONE
         amount: 20
