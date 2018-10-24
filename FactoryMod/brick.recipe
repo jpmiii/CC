@@ -37,7 +37,6 @@
       glass:
         material: GLASS
         amount: 64
-
   fire_terracotta:
     production_time: 4s
     name: Fire Terracotta Blocks
@@ -236,6 +235,9 @@
         lore:
           - "An alloy of tin and copper"
         amount: 48
+      cobble:
+        material: COBBLESTONE
+        amount: 50
   smelt_bronze2:
     production_time: 4s
     name: Smelt Bronze
@@ -260,6 +262,9 @@
         lore:
           - "An alloy of tin and copper"
         amount: 64
+      cobble:
+        material: COBBLESTONE
+        amount: 40
   smelt_bronze3:
     production_time: 4s
     name: Smelt Bronze
@@ -284,6 +289,9 @@
         lore:
           - "An alloy of tin and copper"
         amount: 80
+      cobble:
+        material: COBBLESTONE
+        amount: 30
   smelt_steel2:
     production_time: 4s
     name: Smelt Steel
@@ -302,6 +310,9 @@
         lore:
           - "An alloy of carbon and iron"
         amount: 64
+      cobble:
+        material: COBBLESTONE
+        amount: 40
   smelt_steel3:
     production_time: 4s
     name: Smelt Steel
@@ -320,4 +331,7 @@
         lore:
           - "An alloy of carbon and iron"
         amount: 80
+      cobble:
+        material: COBBLESTONE
+        amount: 30
 #####################################################################  
