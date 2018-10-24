@@ -5,7 +5,7 @@
     citadelBreakReduction: 1.0
     setupcost:
       clay:
-        material: HARD_CLAY
+        material: STONE
         amount: 384
     recipes:
      - sinter_stone
