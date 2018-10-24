@@ -9,7 +9,7 @@
         material: GOLD_INGOT
         name: "Bronze Ingot"
         lore:
-          - "An alloy of carbon and copper"
+          - "An alloy of tin and copper"
         amount: 96
     recipes:
      - make_bronze_helm
