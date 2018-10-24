@@ -18,7 +18,7 @@
         amount: 20
   crush_coal:
     production_time: 4s
-    name: Crush Coal Ore
+    name: Crush and Combine Coal Ore
     type: PRODUCTION
     input:
       coal_ore:
@@ -26,14 +26,14 @@
         amount: 32
     output:
       coal:
-        material: COAL
-        amount: 64
+        material: COAL_BLOCK
+        amount: 7
       cobblestone:
         material: COBBLESTONE
         amount: 20
   crush_redstone:
     production_time: 4s
-    name: Crush Redstone Ore
+    name: Crush and Combine Redstone Ore
     type: PRODUCTION
     input:
       redstone_ore:
@@ -41,14 +41,14 @@
         amount: 32
     output:
       redstone:
-        material: REDSTONE
-        amount: 96
+        material: REDSTONE_BLOCK
+        amount: 11
       cobblestone:
         material: COBBLESTONE
         amount: 20
   crush_gold_ore:
     production_time: 4s
-    name: Crush Gold Ore
+    name: Crush and Combine Gold Ore
     type: PRODUCTION
     input:
       gold_ore:
@@ -56,8 +56,8 @@
         amount: 32
     output:
       gold:
-        material: GOLD_NUGGET
-        amount: 432
+        material: GOLD_BLOCK
+        amount: 5
       cobblestone:
         material: COBBLESTONE
         amount: 20
@@ -109,6 +109,7 @@
       glowdust:
         material: GLOWSTONE_DUST
         amount: 128
+        name: Sulfur
   grind_bones:
     production_time: 4s
     name: Grind Bones
