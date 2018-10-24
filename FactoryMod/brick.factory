@@ -17,6 +17,7 @@
      #- fire_netherrack
      #- fire_red_netherrack
      - smelt_bronze
+     - fire_bucket
   furnace:
     type: FCC
     name: Furnace
@@ -37,6 +38,7 @@
      - smelt_bronze2
      - smelt_steel2
      - smelt_diamond2
+     - fire_bucket
   blast_furnace:
     type: FCC
     name: Blast Furnace
@@ -61,3 +63,4 @@
      - smelt_steel3
      - smelt_diamond3
      - cast_obsidian
+     - fire_bucket
