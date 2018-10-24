@@ -393,6 +393,10 @@
       clay:
         material: CLAY
         amount: 16
+      bonemeal:
+        material: INK_SACK
+        amount: 6
+        durability: 15
     output:
       bucket:
         material: BUCKET
