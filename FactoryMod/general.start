@@ -4,7 +4,7 @@ default_fuel:
     material: COAL
     durability: 1
 default_fuel_consumption_intervall: 1s
-default_menu_factory: Dirt Factory
+default_menu_factory: Factories
 default_return_rate: 0.5
 default_break_grace_period: 1000d
 decay_intervall: 1h
