@@ -15,7 +15,7 @@
         amount: 12
       cobblestone:
         material: COBBLESTONE
-        amount: 20
+        amount: 42
   crush_coal:
     production_time: 4s
     name: Crush and Combine Coal Ore
@@ -30,7 +30,7 @@
         amount: 7
       cobblestone:
         material: COBBLESTONE
-        amount: 20
+        amount: 57
   crush_redstone:
     production_time: 4s
     name: Crush and Combine Redstone Ore
@@ -45,7 +45,7 @@
         amount: 11
       cobblestone:
         material: COBBLESTONE
-        amount: 20
+        amount: 53
   crush_gold_ore:
     production_time: 4s
     name: Crush and Combine Gold Ore
@@ -60,7 +60,7 @@
         amount: 5
       cobblestone:
         material: COBBLESTONE
-        amount: 20
+        amount: 59
   crush_stone:
     production_time: 4s
     name: Crush Stone
