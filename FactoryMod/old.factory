@@ -78,6 +78,7 @@
      - charcoal_from_logs
      - charcoal_from_logs_2
      - charcoal_from_coal
+     - craft_eyes_of_ender
      - repair_chemistry_factory
   aesthetics:
     type: FCC
