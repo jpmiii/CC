@@ -368,7 +368,7 @@
         amount: 10
   cast_obsidian:
     production_time: 6s
-    fuel_consumption_intervall: 0.1s
+    fuel_consumption_intervall: 1s
     name: Cast Obsidian
     type: PRODUCTION
     input:
