@@ -367,8 +367,7 @@
         material: COBBLESTONE
         amount: 10
   cast_obsidian:
-    production_time: 6.4s
-    fuel_consumption_intervall: 0.1s
+    production_time: 64s
     name: Cast Obsidian
     type: PRODUCTION
     input:
