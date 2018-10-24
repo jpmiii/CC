@@ -387,17 +387,14 @@
         amount: 2
   fire_bucket:
     production_time: 4s
-    name: Smelt Diamond
+    name: Fire Glazed, Ceramic Bucket
     type: PRODUCTION
     input:
-      diamond_ore:
-        material: DIAMOND_ORE
-        amount: 32
+      clay:
+        material: CLAY
+        amount: 16
     output:
-      diamond:
-        material: DIAMOND
-        amount: 64
-      cobble:
-        material: COBBLESTONE
-        amount: 10
+      bucket:
+        material: BUCKET
+        amount: 3
 #####################################################################  
