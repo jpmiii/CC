@@ -4,9 +4,13 @@
     name: Kiln
     citadelBreakReduction: 1.0
     setupcost:
-      clay:
+      stone:
         material: STONE
         amount: 384
+      clay:
+        material: HARD_CLAY
+        durability: -1
+        amount: 64
     recipes:
      - sinter_stone
      - sinter_sandstone
