@@ -3,7 +3,7 @@
 
   crush_lapis:
     production_time: 4s
-    name: Crush Lapis Ore
+    name: Crush and Combine Lapis Ore
     type: PRODUCTION
     input:
       lapis_ore:
