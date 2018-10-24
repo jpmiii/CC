@@ -197,7 +197,7 @@
         amount: 48
   upgrade_to_ore_smelter:
     production_time: 30s
-    name: Upgrade to Ore Smelter
+    name: Recipe for Ore Smelter
     type: UPGRADE
     input:
       coal:
@@ -227,7 +227,7 @@
         amount: 1
   upgrade_to_stone_smelter:
     production_time: 4s
-    name: Upgrade to Basic Smelter
+    name: Recipe for Basic Smelter
     type: UPGRADE
     input:
       stone:
@@ -236,7 +236,7 @@
     factory: Basic Smelter
   upgrade_to_kiln:
     production_time: 4s
-    name: Upgrade to Kiln
+    name: Recipe for Kiln
     type: UPGRADE
     input:
       stone:
@@ -245,7 +245,7 @@
     factory: Kiln
   upgrade_to_furnace:
     production_time: 4s
-    name: Upgrade to Furnace
+    name: Recipe for Furnace
     type: UPGRADE
     input:
       bricks:
@@ -254,7 +254,7 @@
     factory: Furnace
   upgrade_to_blast_furnace:
     production_time: 4s
-    name: Upgrade to Blast Furnace
+    name: Recipe for Blast Furnace
     type: UPGRADE
     input:
       bricks:
@@ -266,7 +266,7 @@
     factory: Blast Furnace
   upgrade_to_mill:
     production_time: 4s
-    name: Upgrade to Grinding Mill
+    name: Recipe for Grinding Mill
     type: UPGRADE
     input:
       stone:
@@ -282,7 +282,7 @@
     factory: Grinding Mill
   upgrade_to_textile:
     production_time: 30s
-    name: Upgrade to Textile Factory
+    name: Recipe for Textile Factory
     type: UPGRADE
     input:
       leather:
@@ -294,7 +294,7 @@
     factory: Textile Factory
   upgrade_to_aesthetics:
     production_time: 4s
-    name: Upgrade to Aesthetics Factory
+    name: Recipe for Aesthetics Factory
     type: UPGRADE
     input:
       stone:
@@ -307,7 +307,7 @@
     factory: Aesthetics Factory
   upgrade_to_chemistry_factory:
     production_time: 4s
-    name: Upgrade to Chemistry Factory
+    name: Recipe for Chemistry Factory
     type: UPGRADE
     input:
       charcoal:
@@ -317,7 +317,7 @@
     factory: Chemistry Factory
   upgrade_to_bakery:
     production_time: 4s
-    name: Upgrade to Bakery
+    name: Recipe for Bakery
     type: UPGRADE
     input:
       brick:
@@ -330,7 +330,7 @@
     factory: Bakery
   upgrade_to_grill:
     production_time: 4s
-    name: Upgrade to Grill
+    name: Recipe for Grill
     type: UPGRADE
     input:
       iron:
@@ -342,7 +342,7 @@
     factory: Grill
   upgrade_to_diamond_helm:
     production_time: 4s
-    name: Upgrade to Diamond Helmet Smith
+    name: Recipe for Diamond Helmet Smith
     type: UPGRADE
     input:
       diamond:
@@ -351,7 +351,7 @@
     factory: Diamond Helmet Smith
   upgrade_to_diamond_chest:
     production_time: 4s
-    name: Upgrade to Diamond Chestplate Smith
+    name: Recipe for Diamond Chestplate Smith
     type: UPGRADE
     input:
       diamond:
@@ -360,7 +360,7 @@
     factory: Diamond Chestplate Smith
   upgrade_to_diamond_legs:
     production_time: 4s
-    name: Upgrade to Diamond Leggings Smith
+    name: Recipe for Diamond Leggings Smith
     type: UPGRADE
     input:
       diamond:
@@ -369,7 +369,7 @@
     factory: Diamond Leggings Smith
   upgrade_to_diamond_boots:
     production_time: 4s
-    name: Upgrade to Diamond Boots Smith
+    name: Recipe for Diamond Boots Smith
     type: UPGRADE
     input:
       diamond:
@@ -378,7 +378,7 @@
     factory: Diamond Boots Smith
   upgrade_to_diamond_pick:
     production_time: 4s
-    name: Upgrade to Diamond Pickaxe Smith
+    name: Recipe for Diamond Pickaxe Smith
     type: UPGRADE
     input:
       diamond:
@@ -387,7 +387,7 @@
     factory: Diamond Pickaxe Smith
   upgrade_to_diamond_axe:
     production_time: 4s
-    name: Upgrade to Diamond Axe Smith
+    name: Recipe for Diamond Axe Smith
     type: UPGRADE
     input:
       diamond:
@@ -396,7 +396,7 @@
     factory: Diamond Axe Smith
   upgrade_to_diamond_shovel:
     production_time: 4s
-    name: Upgrade to Diamond Shovel Smith
+    name: Recipe for Diamond Shovel Smith
     type: UPGRADE
     input:
       diamond:
@@ -405,7 +405,7 @@
     factory: Diamond Shovel Smith
   upgrade_to_diamond_hoe:
     production_time: 4s
-    name: Upgrade to Diamond Hoe Smith
+    name: Recipe for Diamond Hoe Smith
     type: UPGRADE
     input:
       diamond:
@@ -414,7 +414,7 @@
     factory: Diamond Hoe Smith
   upgrade_to_diamond_sword:
     production_time: 4s
-    name: Upgrade to Diamond Sword Smith
+    name: Recipe for Diamond Sword Smith
     type: UPGRADE
     input:
       diamond:
@@ -423,7 +423,7 @@
     factory: Diamond Sword Smith
   upgrade_to_iron_armor_smith:
     production_time: 4s
-    name: Upgrade to Iron Armor Smith
+    name: Recipe for Iron Armor Smith
     type: UPGRADE
     input:
       iron:
@@ -432,7 +432,7 @@
     factory: Iron Armor Smith
   upgrade_to_iron_tool_smith:
     production_time: 4s
-    name: Upgrade to Iron Tool Smith
+    name: Recipe for Iron Tool Smith
     type: UPGRADE
     input:
       iron:
@@ -441,7 +441,7 @@
     factory: Iron Tool Smith
   upgrade_to_bronze_tool_smith:
     production_time: 4s
-    name: Upgrade to Bronze Tool Smith
+    name: Recipe for Bronze Tool Smith
     type: UPGRADE
     input:
       bronze:
@@ -453,7 +453,7 @@
     factory: Bronze Tool Smith
   upgrade_to_clay_dye:
     production_time: 4s
-    name: Upgrade to Clay Dying Factory
+    name: Recipe for Clay Dying Factory
     type: UPGRADE
     input:
       clay:
@@ -463,7 +463,7 @@
     factory: Clay Dying Factory
   upgrade_to_wool_dye:
     production_time: 4s
-    name: Upgrade to Wool Dying Factory
+    name: Recipe for Wool Dying Factory
     type: UPGRADE
     input:
       wool:
@@ -473,7 +473,7 @@
     factory: Wool Dying Factory
   upgrade_to_glass_dye:
     production_time: 4s
-    name: Upgrade to Glass Dying Factory
+    name: Recipe for Glass Dying Factory
     type: UPGRADE
     input:
       glass:
@@ -483,7 +483,7 @@
   upgrade_to_concrete:
     forceInclude: true
     production_time: 4s
-    name: Upgrade to Concrete Mixer
+    name: Recipe for Concrete Mixer
     type: UPGRADE
     input:
       sand:
@@ -1067,7 +1067,7 @@
         amount: 4
   upgrade_to_bio_lab:
     production_time: 4s
-    name: Upgrade to Bio Lab
+    name: Recipe for Bio Lab
     type: UPGRADE
     input:
       sapling:
@@ -2471,7 +2471,7 @@
     health_gained: 10000
   upgrade_to_carpentry:
     production_time: 4s
-    name: Upgrade to Carpentry Factory
+    name: Recipe for Carpentry Factory
     type: UPGRADE
     input:
       chest:
@@ -2564,7 +2564,7 @@
     health_gained: 10000
   upgrade_to_rails:
     production_time: 4s
-    name: Upgrade to Rail Factory
+    name: Recipe for Rail Factory
     type: UPGRADE
     input:
       iron:
@@ -2645,7 +2645,7 @@
     health_gained: 10000
   upgrade_to_husbandry:
     production_time: 4s
-    name: Upgrade to Animal Husbandry
+    name: Recipe for Animal Husbandry
     type: UPGRADE
     input:
       iron_block:
@@ -2660,7 +2660,7 @@
     factory: Animal Husbandry
   upgrade_to_iron_forge:
     production_time: 4s
-    name: Upgrade to Iron Forge
+    name: Recipe for Iron Forge
     type: UPGRADE
     input:
       iron:
@@ -2672,7 +2672,7 @@
     factory: Iron Forge
   upgrade_to_redstone:
     production_time: 4s
-    name: Upgrade to Redstone Mechanics Factory
+    name: Recipe for Redstone Mechanics Factory
     type: UPGRADE
     input:
       iron:
@@ -2687,7 +2687,7 @@
     factory: Redstone Mechanics Factory
   upgrade_to_bastion:
     production_time: 4s
-    name: Upgrade to Bastion Factory
+    name: Recipe for Bastion Factory
     type: UPGRADE
     input:
       casing:
@@ -2729,7 +2729,7 @@
     factory: Bastion Factory
   upgrade_to_basic_cauldron:
     production_time: 4s
-    name: Upgrade to Basic Cauldron
+    name: Recipe for Basic Cauldron
     type: UPGRADE
     input:
       iron:
@@ -3774,7 +3774,7 @@
         amount: 128
   upgrade_to_intermediate_cauldron:
     production_time: 4s
-    name: Upgrade to Intermediate Cauldron
+    name: Recipe for Intermediate Cauldron
     type: UPGRADE
     input:
       diamond:
@@ -4041,7 +4041,7 @@
           - Compacted Item
   upgrade_to_advanced_cauldron:
     production_time: 4s
-    name: Upgrade to Advanced Cauldron
+    name: Recipe for Advanced Cauldron
     type: UPGRADE
     input:
       emerald_block:
@@ -4063,7 +4063,7 @@
     health_gained: 10000
   upgrade_to_compactor:
     production_time: 4s
-    name: Upgrade to Compactor
+    name: Recipe for Compactor
     type: UPGRADE
     input:
       iron_block:
@@ -4236,7 +4236,7 @@
     forceInclude: true
     production_time: 4s
     type: UPGRADE
-    name: Upgrade to Printing Press
+    name: Recipe for Printing Press
     input:
       ink:
         material: INK_SACK
