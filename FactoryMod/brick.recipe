@@ -212,4 +212,112 @@
       brick:
         material: RED_NETHER_BRICK
         amount: 6
+  smelt_bronze:
+    production_time: 4s
+    name: Smelt Bronze
+    type: PRODUCTION
+    input:
+      tin ore:
+        material: COAL_ORE
+        name: "Tin Ore"
+        lore:
+          - "Combine with copper ore to make bronze"
+        amount: 16
+      copper ore:
+        material: IRON_ORE
+        name: "Copper Ore"
+        lore:
+          - "Combine with tin ore to make bronze"
+        amount: 48
+    output:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of tin and copper"
+        amount: 48
+  smelt_bronze2:
+    production_time: 4s
+    name: Smelt Bronze
+    type: PRODUCTION
+    input:
+      tin ore:
+        material: COAL_ORE
+        name: "Tin Ore"
+        lore:
+          - "Combine with copper ore to make bronze"
+        amount: 16
+      copper ore:
+        material: IRON_ORE
+        name: "Copper Ore"
+        lore:
+          - "Combine with tin ore to make bronze"
+        amount: 48
+    output:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of tin and copper"
+        amount: 64
+  smelt_bronze3:
+    production_time: 4s
+    name: Smelt Bronze
+    type: PRODUCTION
+    input:
+      tin ore:
+        material: COAL_ORE
+        name: "Tin Ore"
+        lore:
+          - "Combine with copper ore to make bronze"
+        amount: 16
+      copper ore:
+        material: IRON_ORE
+        name: "Copper Ore"
+        lore:
+          - "Combine with tin ore to make bronze"
+        amount: 48
+    output:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of tin and copper"
+        amount: 80
+  smelt_steel2:
+    production_time: 4s
+    name: Smelt Steel
+    type: PRODUCTION
+    input:
+      charcoal:
+        material: CHARCOAL
+        amount: 16
+      iron ore:
+        material: IRON_ORE
+        amount: 48
+    output:
+      steel:
+        material: IRON_INGOT
+        name: "Steel Ingot"
+        lore:
+          - "An alloy of carbon and iron"
+        amount: 64
+  smelt_steel3:
+    production_time: 4s
+    name: Smelt Steel
+    type: PRODUCTION
+    input:
+      charcoal:
+        material: CHARCOAL
+        amount: 16
+      iron ore:
+        material: IRON_ORE
+        amount: 48
+    output:
+      steel:
+        material: IRON_INGOT
+        name: "Steel Ingot"
+        lore:
+          - "An alloy of carbon and iron"
+        amount: 80
 #####################################################################  
