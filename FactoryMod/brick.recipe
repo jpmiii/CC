@@ -298,7 +298,8 @@
     type: PRODUCTION
     input:
       charcoal:
-        material: CHARCOAL
+        material: COAL
+        durability: 1
         amount: 16
       iron ore:
         material: IRON_ORE
@@ -319,7 +320,8 @@
     type: PRODUCTION
     input:
       charcoal:
-        material: CHARCOAL
+        material: COAL
+        durability: 1
         amount: 16
       iron ore:
         material: IRON_ORE
@@ -334,4 +336,34 @@
       cobble:
         material: COBBLESTONE
         amount: 30
+  smelt_diamond2:
+    production_time: 4s
+    name: Smelt Diamond
+    type: PRODUCTION
+    input:
+      diamond_ore:
+        material: DIAMOND ORE
+        amount: 32
+    output:
+      diamond:
+        material: DIAMOND
+        amount: 32
+      cobble:
+        material: COBBLESTONE
+        amount: 20
+  smelt_diamond3:
+    production_time: 4s
+    name: Smelt Diamond
+    type: PRODUCTION
+    input:
+      diamond_ore:
+        material: DIAMOND ORE
+        amount: 32
+    output:
+      diamond:
+        material: DIAMOND
+        amount: 64
+      cobble:
+        material: COBBLESTONE
+        amount: 10
 #####################################################################  
