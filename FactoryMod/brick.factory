@@ -36,6 +36,7 @@
      #- fire_red_netherrack2
      - smelt_bronze2
      - smelt_steel2
+     - smelt_diamond
   blast_furnace:
     type: FCC
     name: Blast Furnace
@@ -58,3 +59,4 @@
      #- fire_red_netherrack3
      - smelt_bronze3
      - smelt_steel3
+     - smelt_diamond2
