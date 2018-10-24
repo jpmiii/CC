@@ -99,7 +99,7 @@
         amount: 32
   crush_glowstone:
     production_time: 4s
-    name: Crush Glowstone
+    name: Crush Glowstone into Sulfur
     type: PRODUCTION
     input:
       glowstone:
