@@ -111,7 +111,7 @@
     output:
       stone:
         material: STONE
-        amount: 96
+        amount: 80
   sinter_sandstone2:
     production_time: 4s
     name: Sinter Sand Into Sandstone
@@ -147,7 +147,7 @@
     output:
       stone:
         material: STONE
-        amount: 128
+        amount: 96
   sinter_sandstone3:
     production_time: 4s
     name: Sinter Sand Into Sandstone
