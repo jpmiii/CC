@@ -366,4 +366,23 @@
       cobble:
         material: COBBLESTONE
         amount: 10
+  cast_obsidian:
+    production_time: 6.4s
+    fuel_consumption_intervall: 0.1s
+    name: Cast Obsidian
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      water:
+        material: WATER_BUCKET
+        amount: 1
+    output:
+      obsidian:
+        material: OBSIDIAN
+        amount: 64
+      cobble:
+        material: BUCKET
+        amount: 1
 #####################################################################  
