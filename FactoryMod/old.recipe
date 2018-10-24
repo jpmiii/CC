@@ -210,19 +210,6 @@
         material: DIAMOND
         amount: 64
     factory: Ore Smelter
-  dirt:
-    production_time: 2s
-    name: Dirt!
-    type: PRODUCTION
-    input:
-      dirt:
-        material: DIRT
-        amount: 1
-    output:
-      dirt:
-        material: DIRT
-        amount: 1
-        name: Dirt!
   craft_eyes_of_ender:
     production_time: 2s
     name: Craft Eyes of Ender
@@ -2380,16 +2367,6 @@
         material: CONCRETE_POWDER
         durability: 15
         amount: 64
-  repair_dirt_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      Dirt!:
-        material: DIRT
-        name: Dirt!
-        amount: 1
-    health_gained: 10000
   repair_stone_smelter:
     production_time: 4s
     name: Repair Factory
