@@ -1,0 +1,14 @@
+charcoal_factory:
+    type: FCC
+    name: Charcoal Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 512
+    recipes:
+      - charcoal_from_logs
+      - charcoal_from_logs_2
+      - charcoal_from_coal
+      - repair_charcoal_factory
