@@ -1,0 +1,99 @@
+  diamond_helm:
+    type: FCC
+    name: Diamond Helmet Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 192
+    recipes:
+     - make_diamond_helm
+     - repair_diamond_helm_factory
+  diamond_chest:
+    type: FCC
+    name: Diamond Chestplate Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 320
+    recipes:
+     - make_diamond_chest
+     - repair_diamond_chest_factory
+  diamond_legs:
+    type: FCC
+    name: Diamond Leggings Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 256
+    recipes:
+     - make_diamond_legs
+     - repair_diamond_legs_factory
+  diamond_boots:
+    type: FCC
+    name: Diamond Boots Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 160
+    recipes:
+     - make_diamond_boots
+     - repair_diamond_boots_factory
+  diamond_pick:
+    type: FCC
+    name: Diamond Pickaxe Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 96
+    recipes:
+     - make_diamond_pick
+     - repair_diamond_pick_factory
+  diamond_sword:
+    type: FCC
+    name: Diamond Sword Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 80
+    recipes:
+     - make_diamond_sword
+     - repair_diamond_sword_factory
+  diamond_shovel:
+    type: FCC
+    name: Diamond Shovel Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 48
+    recipes:
+     - make_diamond_shovel
+     - repair_diamond_shovel_factory
+  diamond_axe:
+    type: FCC
+    name: Diamond Axe Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 64
+    recipes:
+     - make_diamond_axe
+     - repair_diamond_axe_factory
+  diamond_hoe:
+    type: FCC
+    name: Diamond Hoe Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      diamond:
+        material: DIAMOND
+        amount: 32
+    recipes:
+     - make_diamond_hoe
+     - repair_diamond_hoe_factory
