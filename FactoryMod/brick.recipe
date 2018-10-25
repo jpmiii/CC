@@ -94,7 +94,7 @@
         material: NETHERRACK
         amount: 64
       warts:
-        material: NETHER_WARTS
+        material: NETHER_STALK
         amount: 16
     output:
       brick:
@@ -205,7 +205,7 @@
         material: NETHERRACK
         amount: 64
       warts:
-        material: NETHER_WARTS
+        material: NETHER_STALK
         amount: 16
     output:
       brick:
