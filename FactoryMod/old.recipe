@@ -1,18 +1,6 @@
 ###################################################################################################################
 ########################################### old recipes
 
-  smelt_stone:
-    production_time: 4s
-    name: Smelt Stone
-    type: PRODUCTION
-    input:
-      cobblestone:
-        material: COBBLESTONE
-        amount: 64
-    output:
-      stone:
-        material: STONE
-        amount: 96
   cook_beef:
     production_time: 4s
     name: Cook Beef
@@ -123,78 +111,6 @@
       baked_potato:
         material: BAKED_POTATO
         amount: 48
-  smelt_coal_ore:
-    production_time: 4s
-    name: Smelt Coal Ore
-    type: PRODUCTION
-    input:
-      coal_ore:
-        material: COAL_ORE
-        amount: 64
-    output:
-      coal:
-        material: COAL
-        amount: 256
-  smelt_iron_ore:
-    production_time: 4s
-    name: Smelt Iron Ore
-    type: PRODUCTION
-    input:
-      iron_ore:
-        material: IRON_ORE
-        amount: 64
-    output:
-      iron:
-        material: IRON_INGOT
-        amount: 96
-  smelt_diamond_ore:
-    production_time: 4s
-    name: Smelt Diamond Ore
-    type: PRODUCTION
-    input:
-      diamond_ore:
-        material: DIAMOND_ORE
-        amount: 16
-    output:
-      diamond:
-        material: DIAMOND
-        amount: 48
-  smelt_gold_ore:
-    production_time: 4s
-    name: Smelt Gold Ore
-    type: PRODUCTION
-    input:
-      gold_ore:
-        material: GOLD_ORE
-        amount: 32
-    output:
-      gold:
-        material: GOLD_INGOT
-        amount: 48
-  smelt_redstone_ore:
-    production_time: 4s
-    name: Smelt Redstone Ore
-    type: PRODUCTION
-    input:
-      redstone_ore:
-        material: REDSTONE_ORE
-        amount: 64
-    output:
-      redstone:
-        material: REDSTONE_BLOCK
-        amount: 48
-  smelt_lapis_ore:
-    production_time: 4s
-    name: Smelt Lapis Ore
-    type: PRODUCTION
-    input:
-      lapis_ore:
-        material: LAPIS_ORE
-        amount: 64
-    output:
-      lapis:
-        material: LAPIS_BLOCK
-        amount: 48
   upgrade_to_ore_smelter:
     production_time: 30s
     name: Recipe for Ore Smelter
@@ -235,15 +151,6 @@
         durability: 1
         amount: 512
     factory: Charcoal Factory
-  upgrade_to_stone_smelter:
-    production_time: 4s
-    name: Recipe for Basic Smelter
-    type: UPGRADE
-    input:
-      stone:
-        material: STONE
-        amount: 512
-    factory: Basic Smelter
   upgrade_to_kiln:
     production_time: 4s
     name: Recipe for Kiln
@@ -503,47 +410,6 @@
         material: GRAVEL
         amount: 64
     factory: Concrete Mixer
-  smelt_glass:
-    type: PRODUCTION
-    production_time: 4s
-    name: Smelt Glass
-    input:
-      sand:
-        material: SAND
-        durability: -1
-        amount: 64
-    output:
-      glass:
-        material: GLASS
-        amount: 128
-  smelt_netherrack:
-    production_time: 4s
-    name: Smelt Netherrack
-    type: PRODUCTION
-    input:
-      netherrack:
-        material: NETHERRACK
-        amount: 64
-    output:
-      netherbrick:
-        material: NETHER_BRICK
-        amount: 64
-  smelt_red_netherbrick:
-    forceInclude: true
-    production_time: 4s
-    name: Smelt Red Netherbrick
-    type: PRODUCTION
-    input:
-      netherrack:
-        material: NETHERRACK
-        amount: 64
-      nether_wart:
-        material: NETHER_STALK
-        amount: 64
-    output:
-      red_netherbrick:
-        material: RED_NETHER_BRICK
-        amount: 32
   make_cracked_stone_brick:
     production_time: 4s
     name: Make Cracked Stone Brick
@@ -2336,16 +2202,6 @@
         material: CONCRETE_POWDER
         durability: 15
         amount: 64
-  repair_stone_smelter:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      stone:
-        material: STONE
-        amount: 24
-    health_gained: 10000
-
   repair_aesthetics:
     production_time: 4s
     name: Repair Factory
@@ -3248,43 +3104,6 @@
         material: LEATHER
         amount: 3
     health_gained: 10000
-  smelt_bricks:
-    production_time: 4s
-    name: Bake Bricks
-    type: PRODUCTION
-    input:
-      clay:
-        material: CLAY_BALL
-        amount: 128
-    output:
-      bricks:
-        material: CLAY_BRICK
-        amount: 256
-  smelt_hard_clay:
-    production_time: 4s
-    name: Make Hard Clay
-    type: PRODUCTION
-    input:
-      clay_block:
-        material: CLAY
-        amount: 128
-    output:
-      hard_clay:
-        material: HARD_CLAY
-        amount: 256
-  smelt_sandstone:
-    forceInclude: true
-    production_time: 4s
-    name: Make Sandstone
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 128
-    output:
-      sandstone:
-        material: SANDSTONE
-        amount: 128
   repair_iron_tools_factory:
     production_time: 4s
     name: Repair Factory
