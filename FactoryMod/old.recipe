@@ -1199,35 +1199,6 @@
         material: STONE
         amount: 16
     health_gained: 10000
-  repair_wool:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      wool:
-        material: WOOL
-        durability: -1
-        amount: 16
-    health_gained: 10000
-  repair_clay:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      clay:
-        material: HARD_CLAY
-        durability: -1
-        amount: 16
-    health_gained: 10000
-  repair_glass:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      glass:
-        material: GLASS
-        amount: 16
-    health_gained: 10000
   repair_mixer:
     production_time: 4s
     name: Repair Factory
