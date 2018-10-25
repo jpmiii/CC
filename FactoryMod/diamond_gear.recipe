@@ -79,3 +79,192 @@
         material: DIAMOND
         amount: 80
     factory: Diamond Sword Smith
+  make_diamond_helm:
+    production_time: 4s
+    name: Make Diamond Helmets
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 25
+    output:
+      diamond_helm:
+        material: DIAMOND_HELMET
+        amount: 15
+  make_diamond_chest:
+    production_time: 4s
+    name: Make Diamond Chestplates
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 40
+    output:
+      diamond_chest:
+        material: DIAMOND_CHESTPLATE
+        amount: 15
+  make_diamond_legs:
+    production_time: 4s
+    name: Make Diamond Leggings
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 35
+    output:
+      diamond_legs:
+        material: DIAMOND_LEGGINGS
+        amount: 15
+  make_diamond_boots:
+    production_time: 4s
+    name: Make Diamond Boots
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 20
+    output:
+      diamond_boots:
+        material: DIAMOND_BOOTS
+        amount: 15
+  make_diamond_axe:
+    production_time: 4s
+    name: Make Diamond Axe
+    type: PRODUCTION
+    input:
+      diamond: 
+        material: DIAMOND
+        amount: 15
+    output:
+      diamond_axe:
+        material: DIAMOND_AXE
+        amount: 30
+  make_diamond_sword:
+    production_time: 4s
+    name: Make Diamond Sword
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 10
+    output:
+      diamond_sword:
+        material: DIAMOND_SWORD
+        amount: 15
+  make_diamond_pick:
+    production_time: 4s
+    name: Make Diamond Pick
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 15
+    output:
+      diamond_pick:
+        material: DIAMOND_PICKAXE
+        amount: 15
+  make_diamond_hoe:
+    production_time: 4s
+    name: Make Diamond Hoe
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 10
+    output:
+      diamond_hoe:
+        material: DIAMOND_HOE
+        amount: 30
+  make_diamond_shovel:
+    production_time: 4s
+    name: Make Diamond Shovel
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 5
+    output:
+      diamond_shovel:
+        material: DIAMOND_SPADE
+        amount: 15
+  repair_diamond_helm_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 19
+    health_gained: 10000
+  repair_diamond_chest_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 32
+    health_gained: 10000
+  repair_diamond_legs_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 25
+    health_gained: 10000
+  repair_diamond_boots_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 16
+    health_gained: 10000
+  repair_diamond_pick_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 9
+    health_gained: 10000
+  repair_diamond_sword_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 8
+    health_gained: 10000
+  repair_diamond_shovel_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 5
+    health_gained: 10000
+  repair_diamond_axe_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 6
+    health_gained: 10000
+  repair_diamond_hoe_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 3
+    health_gained: 10000
