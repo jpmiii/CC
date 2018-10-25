@@ -1,0 +1,81 @@
+  upgrade_to_diamond_helm:
+    production_time: 4s
+    name: Recipe for Diamond Helmet Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 192
+    factory: Diamond Helmet Smith
+  upgrade_to_diamond_chest:
+    production_time: 4s
+    name: Recipe for Diamond Chestplate Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 320
+    factory: Diamond Chestplate Smith
+  upgrade_to_diamond_legs:
+    production_time: 4s
+    name: Recipe for Diamond Leggings Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 256
+    factory: Diamond Leggings Smith
+  upgrade_to_diamond_boots:
+    production_time: 4s
+    name: Recipe for Diamond Boots Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 160
+    factory: Diamond Boots Smith
+  upgrade_to_diamond_pick:
+    production_time: 4s
+    name: Recipe for Diamond Pickaxe Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 96
+    factory: Diamond Pickaxe Smith
+  upgrade_to_diamond_axe:
+    production_time: 4s
+    name: Recipe for Diamond Axe Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 64
+    factory: Diamond Axe Smith
+  upgrade_to_diamond_shovel:
+    production_time: 4s
+    name: Recipe for Diamond Shovel Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 48
+    factory: Diamond Shovel Smith
+  upgrade_to_diamond_hoe:
+    production_time: 4s
+    name: Recipe for Diamond Hoe Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 32
+    factory: Diamond Hoe Smith
+  upgrade_to_diamond_sword:
+    production_time: 4s
+    name: Recipe for Diamond Sword Smith
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 80
+    factory: Diamond Sword Smith
