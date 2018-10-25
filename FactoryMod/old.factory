@@ -47,6 +47,7 @@
      - upgrade_to_kiln
      - upgrade_to_furnace
      - upgrade_to_blast_furnace
+     - upgrade_to_charcoal_factory
   stone_smelter:
     type: FCC
     name: Basic Smelter
