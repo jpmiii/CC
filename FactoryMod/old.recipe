@@ -225,6 +225,16 @@
       craft:
         material: EYE_OF_ENDER
         amount: 1
+  upgrade_to_charcoal_factory:
+    production_time: 4s
+    name: Recipe for Charcoal Factory
+    type: UPGRADE
+    input:
+      stone:
+        material: COAL
+        durability: 1
+        amount: 512
+    factory: Charcoal Factory
   upgrade_to_stone_smelter:
     production_time: 4s
     name: Recipe for Basic Smelter
