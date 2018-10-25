@@ -1,0 +1,51 @@
+  charcoal_from_logs:
+    production_time: 4s
+    name: Make Charcoal from Logs
+    type: PRODUCTION
+    input:
+      log:
+        material: LOG
+        durability: -1
+        amount: 64
+    output:
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 128
+  charcoal_from_logs_2:
+    production_time: 4s
+    name: Make Charcoal from Logs 2
+    type: PRODUCTION
+    input:
+      log:
+        material: LOG_2
+        durability: -1
+        amount: 64
+    output:
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 128
+  charcoal_from_coal:
+    production_time: 4s
+    name: Make Charcoal from Coal
+    type: PRODUCTION
+    input:
+      coal:
+        material: COAL
+        amount: 64
+    output:
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 64
+  repair_charcoal_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 64
+    health_gained: 10000
