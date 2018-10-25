@@ -1,0 +1,189 @@
+  repair_grill:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 8
+    health_gained: 10000
+  repair_bakery:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      brick:
+        material: CLAY_BRICK
+        amount: 16
+    health_gained: 10000
+  cook_beef:
+    production_time: 4s
+    name: Cook Beef
+    type: PRODUCTION
+    input:
+      raw_beef:
+        material: RAW_BEEF
+        amount: 32
+    output:
+      cooked_beef:
+        material: COOKED_BEEF
+        amount: 48
+  cook_chicken:
+    production_time: 4s
+    name: Cook Chicken
+    type: PRODUCTION
+    input:
+      raw_chicken:
+        material: RAW_CHICKEN
+        amount: 32
+    output:
+      cooked_chicken:
+        material: COOKED_CHICKEN
+        amount: 48
+  cook_fish:
+    production_time: 4s
+    name: Cook Fish
+    type: PRODUCTION
+    input:
+      raw_fish:
+        material: RAW_FISH
+        amount: 32
+    output:
+      cooked_fish:
+        material: COOKED_FISH
+        amount: 48
+  cook_mutton:
+    production_time: 4s
+    name: Cook Mutton
+    type: PRODUCTION
+    input:
+      raw_mutton:
+        material: MUTTON
+        amount: 32
+    output:
+      cooked_mutton:
+        material: COOKED_MUTTON
+        amount: 48
+  cook_pork:
+    production_time: 4s
+    name: Cook Pork
+    type: PRODUCTION
+    input:
+      raw_pork:
+        material: PORK
+        amount: 32
+    output:
+      cooked_pork:
+        material: GRILLED_PORK
+        amount: 48
+  cook_rabbit:
+    production_time: 4s
+    name: Cook Rabbit
+    type: PRODUCTION
+    input:
+      raw_rabbit:
+        material: RABBIT
+        amount: 32
+    output:
+      cooked_rabbit:
+        material: COOKED_RABBIT
+        amount: 48
+  cook_salmon:
+    production_time: 4s
+    name: Cook Salmon
+    type: PRODUCTION
+    input:
+      raw_salmon:
+        material: RAW_FISH
+        amount: 32
+        durability: 1
+    output:
+      cooked_salmon:
+        material: COOKED_FISH
+        amount: 48
+        durability: 1
+  bake_bread:
+    production_time: 4s
+    name: Bake Bread
+    type: PRODUCTION
+    input:
+      wheat:
+        material: WHEAT
+        amount: 64
+    output:
+      bread:
+        material: BREAD
+        amount: 48
+  bake_potatoes:
+    production_time: 4s
+    name: Bake Potatoes
+    type: PRODUCTION
+    input:
+      potato:
+        material: POTATO_ITEM
+        amount: 32
+    output:
+      baked_potato:
+        material: BAKED_POTATO
+        amount: 48
+  upgrade_to_bakery:
+    production_time: 4s
+    name: Recipe for Bakery
+    type: UPGRADE
+    input:
+      brick:
+        material: CLAY_BRICK
+        amount: 64
+      log:
+        material: LOG
+        durability: -1
+        amount: 12
+    factory: Bakery
+  upgrade_to_grill:
+    production_time: 4s
+    name: Recipe for Grill
+    type: UPGRADE
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 16
+      stone:
+        material: STONE
+        amount: 128
+    factory: Grill
+  bake_cookies:
+    forceInclude: true
+    type: PRODUCTION
+    name: Bake Cookies
+    production_time: 4s
+    input:
+      wheat:
+        material: WHEAT
+        amount: 256
+      cocoa:
+        material: INK_SACK
+        amount: 128
+        durability: 3
+    output:
+      cookie:
+        material: COOKIE
+        amount: 2048
+  bake_pie:
+    forceInclude: true
+    type: PRODUCTION
+    name: Bake Pumpkin Pie
+    production_time: 4s
+    input:
+      sugar:
+        material: SUGAR
+        amount: 192
+      egg:
+        material: EGG
+        amount: 192
+      pumpkin:
+        material: PUMPKIN
+        amount: 192
+    output:
+      pie:
+        material: PUMPKIN_PIE
+        amount: 256
