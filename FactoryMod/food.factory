@@ -1,0 +1,38 @@
+  grill:
+    type: FCC
+    name: Grill
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 16
+      stone:
+        material: STONE
+        amount: 128
+    recipes:
+     - cook_beef
+     - cook_pork
+     - cook_chicken
+     - cook_mutton
+     - cook_rabbit
+     - cook_fish
+     - cook_salmon
+     - repair_grill
+  bakery:
+    type: FCC
+    name: Bakery
+    citadelBreakReduction: 1.0
+    setupcost:
+      brick:
+        material: CLAY_BRICK
+        amount: 64
+      log:
+        material: LOG
+        durability: -1
+        amount: 12
+    recipes:
+     - bake_bread
+     - bake_potatoes
+     - bake_cookies
+     - bake_pie
+     - repair_bakery
