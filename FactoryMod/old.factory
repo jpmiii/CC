@@ -257,10 +257,10 @@
      - make_tripwire
      - make_shears
      - make_radar
-     - forge_bronze_block
-     - break_down_bronze_blocks
-     - forge_steel_block
-     - break_down_steel_blocks
+     - forge_gold_block
+     - forge_gold_ingots
+     - forge_iron_block
+     - break_iron_ingots
      - repair_forge
   redstone_mechanics:
     type: FCC
