@@ -427,8 +427,7 @@
     type: REPAIR
     input:
       terracotta:
-        material: HARD_CLAY
-        durability: -1
+        material: STONE
         amount: 64
     health_gained: 10000
   repair_furnace:
