@@ -257,7 +257,7 @@
         amount: 48
       cobble:
         material: COBBLESTONE
-        amount: 50
+        amount: 40
   smelt_bronze2:
     production_time: 4s
     name: Smelt Bronze
@@ -284,7 +284,7 @@
         amount: 64
       cobble:
         material: COBBLESTONE
-        amount: 40
+        amount: 32
   smelt_bronze3:
     production_time: 4s
     name: Smelt Bronze
@@ -311,7 +311,7 @@
         amount: 80
       cobble:
         material: COBBLESTONE
-        amount: 30
+        amount: 24
   smelt_steel2:
     production_time: 4s
     name: Smelt Steel
