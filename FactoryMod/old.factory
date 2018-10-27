@@ -7,7 +7,7 @@
     citadelBreakReduction: 1.0
     setupcost:
       stick:
-        material: STICK
+        material: DIRT
         amount: 1
     recipes:
      - upgrade_to_textile
