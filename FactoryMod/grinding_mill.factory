@@ -25,4 +25,8 @@
      - grind_bones
      - grind_roses
      - grind_dandelions
+     - grind_gold_blocks
+     - grind_gold_ingots
+     - grind_iron_blocks
+     - grind_iron_ingots
      - repair_grinding_mill
