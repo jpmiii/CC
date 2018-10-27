@@ -1,6 +1,26 @@
 
 
-
+  make_refractor:
+    production_time: 4s
+    name: Make Refractor
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 6
+      glass:
+        material: GLASS
+        amount: 64
+      lapis_block:
+        material: LAPIS_BLOCK
+        amount: 32
+    output:
+      refractor:
+        material: DIAMOND
+        amount: 2
+        name: Refractor
+        lore:
+          - Refractor for bastion
   sinter_stone:
     production_time: 4s
     name: Sinter Cobble Into Stone
