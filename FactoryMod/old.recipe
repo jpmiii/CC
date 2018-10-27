@@ -118,7 +118,7 @@
         lore:
           - An alloy of carbon and iron
     factory: Steel Armor Smith
-  upgrade_to_steeln_tool_smith:
+  upgrade_to_steel_tool_smith:
     production_time: 4s
     name: Recipe for Steel Tool Smith
     type: UPGRADE
