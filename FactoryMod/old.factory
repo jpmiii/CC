@@ -15,10 +15,10 @@
      - upgrade_to_bakery
      - upgrade_to_grill
      - upgrade_to_chemistry_factory
-     - upgrade_to_iron_armor_smith
-     - upgrade_to_iron_tool_smith
+     - upgrade_to_steel_armor_smith
+     - upgrade_to_steel_tool_smith
      - upgrade_to_bronze_tool_smith
-     - upgrade_to_iron_forge
+     - upgrade_to_steel_forge
      - upgrade_to_wool_dye
      - upgrade_to_glass_dye
      - upgrade_to_clay_dye
@@ -91,21 +91,24 @@
      - make_redstone_lamp
      - pack_ice
      - repair_aesthetics
-  iron_tools:
+  steel_tools:
     type: FCC
-    name: Iron Tool Smith
+    name: Steel Tool Smith
     citadelBreakReduction: 1.0
     setupcost:
-      iron:
+      steel:
         material: IRON_INGOT
         amount: 64
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
     recipes:
-     - make_iron_pick
-     - make_iron_sword
-     - make_iron_shovel
-     - make_iron_axe
-     - make_iron_hoe
-     - repair_iron_tools_factory
+     - make_steel_pick
+     - make_steel_sword
+     - make_steel_shovel
+     - make_steel_axe
+     - make_steel_hoe
+     - repair_steel_tools_factory
   bronze_tools:
     type: FCC
     name: Bronze Tool Smith
@@ -124,20 +127,23 @@
      - make_bronze_axe
      - make_bronze_hoe
      - repair_bronze_tools_factory
-  iron_armor:
+  steel_armor:
     type: FCC
-    name: Iron Armor Smith
+    name: Steel Armor Smith
     citadelBreakReduction: 1.0
     setupcost:
-      iron:
+      steel:
         material: IRON_INGOT
         amount: 96
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
     recipes:
-     - make_iron_helm
-     - make_iron_chest
-     - make_iron_legs
-     - make_iron_boots
-     - repair_iron_armor_factory
+     - make_steel_helm
+     - make_steel_chest
+     - make_steel_legs
+     - make_steel_boots
+     - repair_steel_armor_factory
   bio_lab:
     type: FCC
     name: Bio Lab
@@ -190,9 +196,12 @@
     name: Rail Factory
     citadelBreakReduction: 1.0
     setupcost:
-      iron:
+      steel:
         material: IRON_INGOT
         amount: 64
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 32
@@ -210,9 +219,12 @@
     name: Animal Husbandry
     citadelBreakReduction: 1.0
     setupcost:
-      iron_block:
+      steel_block:
         material: IRON_BLOCK
         amount: 32
+        name: Steel Block
+        lore:
+          - An alloy of carbon and iron
       slime:
         material: SLIME_BALL
         amount: 16
@@ -224,23 +236,26 @@
      - make_lead
      - make_bio_component
      - repair_husbandry
-  iron_forge:
+  steel_forge:
     type: FCC
-    name: Iron Forge
+    name: Steel Forge
     citadelBreakReduction: 1.0
     setupcost:
-      iron:
+      steel:
         material: IRON_INGOT
         amount: 128
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       lava_bucket:
         material: LAVA_BUCKET
         amount: 1
     recipes:
-     - make_iron_fence
+     - make_steel_fence
      - make_anvil
      - make_bucket
-     - make_iron_trapdoor
-     - make_iron_door
+     - make_steel_trapdoor
+     - make_steel_door
      - make_tripwire
      - make_shears
      - make_radar
@@ -250,9 +265,12 @@
     name: Redstone Mechanics Factory
     citadelBreakReduction: 1.0
     setupcost:
-      iron:
+      steel:
         material: IRON_INGOT
         amount: 64
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 256
@@ -316,9 +334,12 @@
     name: Compactor
     citadelBreakReduction: 0.8
     setupcost:
-      iron_block:
+      steel_block:
         material: IRON_BLOCK
         amount: 32
+        name: Steel Block
+        lore:
+          - An alloy of carbon and iron
       redstone_block:
         material: REDSTONE_BLOCK
         amount: 16
