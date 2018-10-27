@@ -1804,78 +1804,54 @@
       shears:
         material: SHEARS
         amount: 16
-  forge_bronze_block:
+  forge_gold_block:
     production_time: 1s
-    name: Forge Bronze Block
+    name: Forge Gold Block
     type: PRODUCTION
     input:
-      steel:
+      gold:
         material: GOLD_INGOT
         amount: 9
-        name: Bronze Ingot
-        lore:
-          - An alloy of tin and copper
     output:
-      bronze_block:
+      gold_block:
         material: GOLD_BLOCK
         amount: 1
-        name: Bronze Block
-        lore:
-         - An alloy of tin and copper
-  break_down_bronze_blocks:
+  forge_iron_block:
     production_time: 1s
-    name: Break Down Bronze Blocks
+    name: Forge Iron Block
     type: PRODUCTION
     input:
-      steel:
-        material: GOLD_BLOCK
-        amount: 4
-        name: Bronze Block
-        lore:
-          - An alloy of tin and copper
-    output:
-      bronze_block:
-        material: GOLD_INGOT
-        amount: 36
-        name: Bronze Ingot
-        lore:
-         - An alloy of tin and copper
-  forge_steel_block:
-    production_time: 1s
-    name: Forge Steel Block
-    type: PRODUCTION
-    input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 9
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
-      steel_block:
+      iron_block:
         material: IRON_BLOCK
         amount: 1
-        name: Steel Block
-        lore:
-         - An alloy of carbon and iron
-  break_down_steel_blocks:
+  forge_gold_ingot:
     production_time: 1s
-    name: Break Down Steel Blocks
+    name: Forge Gold Ingot
     type: PRODUCTION
     input:
-      steel:
-        material: IRON_BLOCK
-        amount: 4
-        name: Steel Block
-        lore:
-          - An alloy of carbon and iron
+      gold_nugget:
+        material: GOLD_NUGGET
+        amount: 9
     output:
-      steel_block:
+      gold:
+        material: GOLD_INGOT
+        amount: 1
+  forge_iron_ingot:
+    production_time: 1s
+    name: Forge Iron Ingot
+    type: PRODUCTION
+    input:
+      iron_nugget:
+        material: IRON_NUGGET
+        amount: 9
+    output:
+      iron:
         material: IRON_INGOT
-        amount: 36
-        name: Steel Ingot
-        lore:
-         - An alloy of carbon and iron
+        amount: 1
   repair_forge:
     production_time: 4s
     name: Repair Factory
