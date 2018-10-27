@@ -1,4 +1,4 @@
-basic_xp_1:
+  basic_xp_1:
     production_time: 4s
     name: Make Exp 1
     type: PRODUCTION
@@ -224,7 +224,7 @@ basic_xp_1:
       exp:
         material: EMERALD_BLOCK
         amount: 2
-   int_xp_3:
+  int_xp_3:
     production_time: 4s
     name: Make Exp 3
     type: PRODUCTION
