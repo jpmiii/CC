@@ -22,7 +22,7 @@ bastions:
       durability: 0
       name: City Bastion 
       lore: 
-        - City Bastions will keep exiled players out and prevent reinforcements
+        - City Bastions will keep exiled players out and prevent block reinforcements
     shortName: City
     squarefield: true
     effectRadius: 100
