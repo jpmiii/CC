@@ -1276,7 +1276,7 @@
     factory: Bastion Factory
   upgrade_to_basic_cauldron:
     production_time: 4s
-    name: Recipe for Basic Cauldron
+    name: Recipe for Basic Experience Factory
     type: UPGRADE
     input:
       iron:
@@ -1285,7 +1285,7 @@
       gold:
         material: GOLD_INGOT
         amount: 32
-    factory: Basic Cauldron
+    factory: Basic Experience Factory
   make_saddle:
     production_time: 4s
     name: Make Saddles
