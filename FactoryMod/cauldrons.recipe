@@ -1,0 +1,349 @@
+basic_xp_1:
+    production_time: 4s
+    name: Make Exp 1
+    type: PRODUCTION
+    input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 81
+      wart:
+        material: NETHER_STALK
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+      wheat:
+        material: WHEAT
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 1
+  basic_xp_2:
+    production_time: 4s
+    name: Make Exp 2
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 81
+      beets:
+        material: BEETROOT
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+      wheat:
+        material: WHEAT
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 1
+  basic_xp_3:
+    production_time: 4s
+    name: Make Exp 3
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 81
+      potato:
+        material: POTATO_ITEM
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+      cocoa:
+        material: INK_SACK
+        amount: 960
+        durability: 3
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 1
+  basic_xp_4:
+    production_time: 4s
+    name: Make Exp 4
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 81
+      carrot:
+        material: CARROT_ITEM
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+      cocoa:
+        material: INK_SACK
+        amount: 960
+        durability: 3
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 1
+  basic_xp_5:
+    production_time: 4s
+    name: Make Exp 5
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 81
+      beet:
+        material: BEETROOT
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+      potato:
+        material: POTATO_ITEM
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 1
+  basic_xp_6:
+    production_time: 4s
+    name: Make Exp 6
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 81
+      wart:
+        material: NETHER_STALK
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+      carrot:
+        material: CARROT_ITEM
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 1
+  wither_skull:
+    forceInclude: true
+    production_time: 2s
+    name: Forge Nether Star
+    type: PRODUCTION
+    input:
+      wither_skull:
+        material: SKULL_ITEM
+        durability: 1
+        amount: 3
+    output:
+      nether_star:
+        material: NETHER_STAR
+        amount: 1
+  repair_basic_cauldron:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 12
+      gold:
+        material: GOLD_INGOT
+        amount: 3
+    health_gained: 10000
+  int_xp_1:
+    production_time: 4s
+    name: Make Exp 1
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 162
+      wart:
+        material: NETHER_STALK
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+      carrot:
+        material: CARROT_ITEM
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+      cocoa:
+        material: INK_SACK
+        amount: 640
+        durability: 3
+        lore:
+          - Ripe, Hand-Picked
+      beets:
+        material: BEETROOT
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 2
+  int_xp_2:
+    production_time: 4s
+    name: Make Exp 2
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 162
+      wart:
+        material: NETHER_STALK
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+      carrot:
+        material: CARROT_ITEM
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+      potato:
+        material: POTATO_ITEM
+        amount: 960
+        durability: 3
+        lore:
+          - Ripe, Hand-Picked
+      wheat:
+        material: WHEAT
+        amount: 960
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 2
+   int_xp_3:
+    production_time: 4s
+    name: Make Exp 3
+    type: PRODUCTION
+     input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 162
+      wart:
+        material: BEETROOT
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+      potato:
+        material: CARROT_ITEM
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+      cocoa:
+        material: INK_SACK
+        amount: 640
+        durability: 3
+        lore:
+          - Ripe, Hand-Picked
+      beets:
+        material: WHEAT
+        amount: 640
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 2
+  upgrade_to_intermediate_cauldron:
+    production_time: 4s
+    name: Recipe for Intermediate Cauldron
+    type: UPGRADE
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 64
+    factory: Intermediate Cauldron
+  repair_intermediate_cauldron:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 6
+    health_gained: 10000
+  adv_xp_1:
+    production_time: 4s
+    name: Make Exp 3
+    type: PRODUCTION
+    input:
+      glass_bottle:
+        material: GLASS_BOTTLE
+        amount: 243
+      carrot:
+        material: CARROT_ITEM
+        amount: 448
+        lore:
+          - Ripe, Hand-Picked
+      melon:
+        material: BEETROOT
+        amount: 448
+        lore:
+          - Ripe, Hand-Picked
+      cactus:
+        material: WHEAT
+        amount: 448
+        lore:
+          - Ripe, Hand-Picked
+      rose:
+        material: INK_SACK
+        amount: 448
+        durability: 3
+        lore:
+          - Ripe, Hand-Picked
+      rotten_flesh:
+        material: POTATO_ITEM
+        amount: 448
+        lore:
+          - Ripe, Hand-Picked
+      red_mushroom:
+        material: WHEAT
+        amount: 448
+        lore:
+          - Ripe, Hand-Picked
+      vine:
+        material: NETHER_STALK
+        amount: 448
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      exp:
+        material: EMERALD_BLOCK
+        amount: 3
+        lore:
+          - Compacted Item
+  upgrade_to_advanced_cauldron:
+    production_time: 4s
+    name: Recipe for Advanced Cauldron
+    type: UPGRADE
+    input:
+      emerald_block:
+        material: EMERALD_BLOCK
+        amount: 128
+      wither_skull:
+        material: SKULL_ITEM
+        amount: 1
+        durability: 1
+    factory: Advanced Cauldron
+  repair_advanced_cauldron:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      emerald_block:
+        material: EMERALD_BLOCK
+        amount: 16
+    health_gained: 10000
