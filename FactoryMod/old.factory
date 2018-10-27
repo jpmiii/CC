@@ -258,9 +258,9 @@
      - make_shears
      - make_radar
      - forge_bronze_block
-     - break_down_bronze_block
+     - break_down_bronze_blocks
      - forge_steel_block
-     - break_down_steel_block
+     - break_down_steel_blocks
      - repair_forge
   redstone_mechanics:
     type: FCC
