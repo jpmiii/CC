@@ -73,11 +73,11 @@
         amount: 32
         durability: -1
     recipes:
+     - make_quartz
      - make_cracked_stone_brick
      - make_mossy_stone_brick
      - make_circle_stone_brick
      - make_mossy_cobble
-     - make_quartz
      - aggregate_andesite
      - aggregate_diorite
      - aggregate_granite
