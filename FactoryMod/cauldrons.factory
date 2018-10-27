@@ -1,6 +1,6 @@
   basic_cauldron:
     type: FCC
-    name: Basic Cauldron
+    name: Basic Experience Factory
     citadelBreakReduction: 1.0
     setupcost:
       iron:
@@ -21,7 +21,7 @@
      - repair_basic_cauldron
   intermediate_cauldron:
     type: FCCUPGRADE
-    name: Intermediate Cauldron
+    name: Intermediate Experience Factory
     citadelBreakReduction: 1.0
     recipes:
      - int_xp_1
@@ -33,7 +33,7 @@
      - repair_intermediate_cauldron
   advanced_cauldron:
     type: FCCUPGRADE
-    name: Advanced Cauldron
+    name: Advanced Experience Factory
     citadelBreakReduction: 1.0
     recipes:
      - adv_xp_1
