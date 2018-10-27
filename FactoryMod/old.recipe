@@ -1804,6 +1804,78 @@
       shears:
         material: SHEARS
         amount: 16
+  forge_bronze_block:
+    production_time: 1s
+    name: Forge Bronze Block
+    type: PRODUCTION
+    input:
+      steel:
+        material: GOLD_INGOT
+        amount: 9
+        name: Bronze Ingot
+        lore:
+          - An alloy of tin and copper
+    output:
+      bronze_block:
+        material: GOLD_BLOCK
+        amount: 1
+        name: Bronze Block
+        lore:
+         - An alloy of tin and copper
+  break_down_bronze_blocks:
+    production_time: 1s
+    name: Break Down Bronze Blocks
+    type: PRODUCTION
+    input:
+      steel:
+        material: GOLD_BLOCK
+        amount: 4
+        name: Bronze Block
+        lore:
+          - An alloy of tin and copper
+    output:
+      bronze_block:
+        material: GOLD_INGOT
+        amount: 36
+        name: Bronze Ingot
+        lore:
+         - An alloy of tin and copper
+  forge_steel_block:
+    production_time: 1s
+    name: Forge Steel Block
+    type: PRODUCTION
+    input:
+      steel:
+        material: IRON_INGOT
+        amount: 9
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_block:
+        material: IRON_BLOCK
+        amount: 1
+        name: Steel Block
+        lore:
+         - An alloy of carbon and iron
+  break_down_steel_blocks:
+    production_time: 1s
+    name: Break Down Steel Blocks
+    type: PRODUCTION
+    input:
+      steel:
+        material: IRON_BLOCK
+        amount: 4
+        name: Steel Block
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_block:
+        material: IRON_INGOT
+        amount: 36
+        name: Steel Ingot
+        lore:
+         - An alloy of carbon and iron
   repair_forge:
     production_time: 4s
     name: Repair Factory
