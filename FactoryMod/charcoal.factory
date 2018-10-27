@@ -1,4 +1,4 @@
-charcoal_factory:
+  charcoal_factory:
     type: FCC
     name: Charcoal Factory
     citadelBreakReduction: 1.0
