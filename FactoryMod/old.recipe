@@ -1553,7 +1553,7 @@
         name: Steel Hoe
   make_steel_shovel:
     production_time: 4s
-    name: Make Steeln Shovel
+    name: Make Steel Shovel
     type: PRODUCTION
     input:
       steel:
