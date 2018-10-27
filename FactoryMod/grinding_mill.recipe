@@ -149,6 +149,54 @@
         material: INK_SACK
         amount: 128
         durability: 11 
+  grind_gold_blocks:
+    production_time: 4s
+    name: Grind Gold Blocks
+    type: PRODUCTION
+    input:
+      gold_block:
+        material: GOLD_BLOCK
+        amount: 16
+    output:
+      gold:
+        material: GOLD_INGOT
+        amount: 144
+  grind_iron_blocks:
+    production_time: 4s
+    name: Grind Iron Blocks
+    type: PRODUCTION
+    input:
+      gold_block:
+        material: IRON_BLOCK
+        amount: 16
+    output:
+      gold:
+        material: IRON_INGOT
+        amount: 144
+  grind_gold_ingots:
+    production_time: 4s
+    name: Grind Gold Ingots
+    type: PRODUCTION
+    input:
+      gold_block:
+        material: GOLD_INGOT
+        amount: 16
+    output:
+      gold:
+        material: GOLD_NUGGET
+        amount: 144
+  grind_iron_ingots:
+    production_time: 4s
+    name: Grind Iron Ingots
+    type: PRODUCTION
+    input:
+      gold_block:
+        material: IRON_INGOT
+        amount: 16
+    output:
+      gold:
+        material: IRON_NUGGET
+        amount: 144
   repair_grinding_mill:
     production_time: 4s
     name: Repair Factory
