@@ -37,7 +37,7 @@
     factory: Kiln
   upgrade_to_furnace:
     production_time: 4s
-    name: Recipe for Furnace
+    name: Upgrade to Furnace
     type: UPGRADE
     input:
       bricks:
@@ -46,7 +46,7 @@
     factory: Furnace
   upgrade_to_blast_furnace:
     production_time: 4s
-    name: Recipe for Blast Furnace
+    name: Upgrade to Blast Furnace
     type: UPGRADE
     input:
       bricks:
