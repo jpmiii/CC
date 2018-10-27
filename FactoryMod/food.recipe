@@ -110,6 +110,8 @@
       wheat:
         material: WHEAT
         amount: 64
+        lore:
+          - Ripe, Hand-Picked
     output:
       bread:
         material: BREAD
@@ -122,6 +124,8 @@
       potato:
         material: POTATO_ITEM
         amount: 32
+        lore:
+          - Ripe, Hand-Picked
     output:
       baked_potato:
         material: BAKED_POTATO
@@ -160,10 +164,14 @@
       wheat:
         material: WHEAT
         amount: 256
+        lore:
+          - Ripe, Hand-Picked
       cocoa:
         material: INK_SACK
         amount: 128
         durability: 3
+        lore:
+          - Ripe, Hand-Picked
     output:
       cookie:
         material: COOKIE
@@ -187,3 +195,24 @@
       pie:
         material: PUMPKIN_PIE
         amount: 256
+  bake_cake:
+    forceInclude: true
+    type: PRODUCTION
+    name: Bake Cake
+    production_time: 4s
+    input:
+      sugar:
+        material: SUGAR
+        amount: 24
+      egg:
+        material: EGG
+        amount: 8
+      pumpkin:
+        material: WHEAT
+        amount: 16
+        lore:
+          - Ripe, Hand-Picked
+    output:
+      pie:
+        material: CAKE
+        amount: 16
