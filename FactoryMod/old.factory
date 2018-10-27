@@ -6,7 +6,9 @@
     name: Factories
     citadelBreakReduction: 1.0
     setupcost:
-      nothing:
+      stick:
+        material: STICK
+        amount: 1
     recipes:
      - upgrade_to_textile
      - upgrade_to_aesthetics
