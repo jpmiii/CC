@@ -6,9 +6,6 @@
     name: Factories
     citadelBreakReduction: 1.0
     setupcost:
-      Dirt:
-        material: BEDROCK
-        amount: 1
     recipes:
      - upgrade_to_textile
      - upgrade_to_aesthetics
