@@ -259,7 +259,7 @@
         amount: 2
   upgrade_to_intermediate_cauldron:
     production_time: 4s
-    name: Recipe for Intermediate Experience Factory
+    name: Upgrade to Intermediate Experience Factory
     type: UPGRADE
     input:
       diamond:
@@ -327,7 +327,7 @@
           - Compacted Item
   upgrade_to_advanced_cauldron:
     production_time: 4s
-    name: Recipe for Advanced Experience Factory
+    name: Upgrade to Advanced Experience Factory
     type: UPGRADE
     input:
       emerald_block:
