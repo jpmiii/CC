@@ -43,8 +43,6 @@
      - upgrade_to_concrete
      - upgrade_to_mill
      - upgrade_to_kiln
-     - upgrade_to_furnace
-     - upgrade_to_blast_furnace
      - upgrade_to_charcoal_factory
   chemistry_factory:
     type: FCC
