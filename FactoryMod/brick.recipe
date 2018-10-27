@@ -421,4 +421,32 @@
       bucket:
         material: BUCKET
         amount: 3
+  repair_kiln:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      terracotta:
+        material: HARD_CLAY
+        durability: -1
+        amount: 64
+    health_gained: 10000
+  repair_furnace:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      brick:
+        material: BRICK
+        amount: 64
+    health_gained: 10000
+  repair_blast_furnace:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      brick:
+        material: BRICK
+        amount: 64
+    health_gained: 10000
 #####################################################################  
