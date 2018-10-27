@@ -258,9 +258,9 @@
      - make_shears
      - make_radar
      - forge_gold_block
-     - forge_gold_ingots
+     - forge_gold_ingot
      - forge_iron_block
-     - break_iron_ingots
+     - forge_iron_ingot
      - repair_forge
   redstone_mechanics:
     type: FCC
