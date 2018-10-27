@@ -18,7 +18,7 @@
      - upgrade_to_steel_armor_smith
      - upgrade_to_steel_tool_smith
      - upgrade_to_bronze_tool_smith
-     - upgrade_to_steel_forge
+     - upgrade_to_forge
      - upgrade_to_wool_dye
      - upgrade_to_glass_dye
      - upgrade_to_clay_dye
@@ -234,9 +234,9 @@
      - make_lead
      - make_bio_component
      - repair_husbandry
-  steel_forge:
+  forge:
     type: FCC
-    name: Steel Forge
+    name: Forge
     citadelBreakReduction: 1.0
     setupcost:
       steel:
