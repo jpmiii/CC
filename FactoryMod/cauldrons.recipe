@@ -259,13 +259,13 @@
         amount: 2
   upgrade_to_intermediate_cauldron:
     production_time: 4s
-    name: Recipe for Intermediate Cauldron
+    name: Recipe for Intermediate Experience Factory
     type: UPGRADE
     input:
       diamond:
         material: DIAMOND
         amount: 64
-    factory: Intermediate Cauldron
+    factory: Intermediate Experience Factory
   repair_intermediate_cauldron:
     production_time: 4s
     name: Repair Factory
@@ -327,7 +327,7 @@
           - Compacted Item
   upgrade_to_advanced_cauldron:
     production_time: 4s
-    name: Recipe for Advanced Cauldron
+    name: Recipe for Advanced Experience Factory
     type: UPGRADE
     input:
       emerald_block:
@@ -337,7 +337,7 @@
         material: SKULL_ITEM
         amount: 1
         durability: 1
-    factory: Advanced Cauldron
+    factory: Advanced Experience Factory
   repair_advanced_cauldron:
     production_time: 4s
     name: Repair Factory
