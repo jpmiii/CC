@@ -232,12 +232,12 @@
       glass_bottle:
         material: GLASS_BOTTLE
         amount: 162
-      wart:
+      beets:
         material: BEETROOT
         amount: 640
         lore:
           - Ripe, Hand-Picked
-      potato:
+      carrot:
         material: CARROT_ITEM
         amount: 640
         lore:
@@ -248,7 +248,7 @@
         durability: 3
         lore:
           - Ripe, Hand-Picked
-      beets:
+      wheat:
         material: WHEAT
         amount: 640
         lore:
@@ -288,33 +288,33 @@
         amount: 448
         lore:
           - Ripe, Hand-Picked
-      melon:
+      beets:
         material: BEETROOT
         amount: 448
         lore:
           - Ripe, Hand-Picked
-      cactus:
+      wheat:
         material: WHEAT
         amount: 448
         lore:
           - Ripe, Hand-Picked
-      rose:
+      cocoa:
         material: INK_SACK
         amount: 448
         durability: 3
         lore:
           - Ripe, Hand-Picked
-      rotten_flesh:
+      potato:
         material: POTATO_ITEM
         amount: 448
         lore:
           - Ripe, Hand-Picked
-      red_mushroom:
+      wheat:
         material: WHEAT
         amount: 448
         lore:
           - Ripe, Hand-Picked
-      vine:
+      wart:
         material: NETHER_STALK
         amount: 448
         lore:
