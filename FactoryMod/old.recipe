@@ -32,7 +32,7 @@
     type: UPGRADE
     input:
       stone:
-        material: HARD_CLAY
+        material: STONE
         amount: 384
     factory: Kiln
   upgrade_to_furnace:
