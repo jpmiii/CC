@@ -8,6 +8,7 @@
         material: STONE
         amount: 384
     recipes:
+     - smelt_bronze
      - sinter_stone
      - sinter_sandstone
      #- sinter_red_sandstone
@@ -16,7 +17,6 @@
      - fire_bricks
      #- fire_netherrack
      #- fire_red_netherrack
-     - smelt_bronze
      - fire_bucket
   furnace:
     type: FCC
@@ -27,6 +27,7 @@
         material: BRICK
         amount: 640
     recipes:
+     - smelt_steel2
      - sinter_stone2
      - sinter_sandstone2
      #- sinter_red_sandstone2
@@ -36,7 +37,6 @@
      #- fire_netherrack2
      #- fire_red_netherrack2
      - smelt_bronze2
-     - smelt_steel2
      - smelt_diamond2
      - fire_bucket
   blast_furnace:
@@ -51,6 +51,7 @@
         material: DIAMOND
         amount: 128
     recipes:
+     - smelt_diamond3
      - sinter_stone3
      - sinter_sandstone3
      #- sinter_red_sandstone3
@@ -61,6 +62,5 @@
      #- fire_red_netherrack3
      - smelt_bronze3
      - smelt_steel3
-     - smelt_diamond3
      - cast_obsidian
      - fire_bucket
