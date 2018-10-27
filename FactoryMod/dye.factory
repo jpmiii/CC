@@ -61,7 +61,7 @@
         material: GLASS
         amount: 32
     recipes:
-     - dye_glass_pink
+     - dye_glass_blue
      - dye_glass_orange
      - dye_glass_magenta
      - dye_glass_light_blue
@@ -72,7 +72,7 @@
      - dye_glass_light_gray
      - dye_glass_cyan
      - dye_glass_purple
-     - dye_glass_blue
+     - dye_glass_pink
      - dye_glass_brown
      - dye_glass_green
      - dye_glass_red
