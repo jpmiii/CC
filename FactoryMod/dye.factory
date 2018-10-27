@@ -8,8 +8,8 @@
         amount: 32
         durability: -1
     recipes:
-     - dye_wool_white
      - dye_wool_orange
+     - dye_wool_white
      - dye_wool_magenta
      - dye_wool_light_blue
      - dye_wool_yellow
@@ -35,7 +35,7 @@
         amount: 32
         durability: -1
     recipes:
-     - dye_clay_white
+     - dye_clay_blue
      - dye_clay_orange
      - dye_clay_magenta
      - dye_clay_light_blue
@@ -46,7 +46,7 @@
      - dye_clay_light_gray
      - dye_clay_cyan
      - dye_clay_purple
-     - dye_clay_blue
+     - dye_clay_white
      - dye_clay_brown
      - dye_clay_green
      - dye_clay_red
@@ -61,13 +61,13 @@
         material: GLASS
         amount: 32
     recipes:
-     - dye_glass_white
+     - dye_glass_pink
      - dye_glass_orange
      - dye_glass_magenta
      - dye_glass_light_blue
      - dye_glass_yellow
      - dye_glass_lime
-     - dye_glass_pink
+     - dye_glass_white
      - dye_glass_gray
      - dye_glass_light_gray
      - dye_glass_cyan
