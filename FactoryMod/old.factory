@@ -251,11 +251,11 @@
         material: LAVA_BUCKET
         amount: 1
     recipes:
-     - make_steel_fence
+     - make_iron_fence
      - make_anvil
      - make_bucket
-     - make_steel_trapdoor
-     - make_steel_door
+     - make_iron_trapdoor
+     - make_iron_door
      - make_tripwire
      - make_shears
      - make_radar
