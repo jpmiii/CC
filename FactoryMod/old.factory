@@ -6,6 +6,7 @@
     name: Factories
     citadelBreakReduction: 1.0
     setupcost:
+      nothing:
     recipes:
      - upgrade_to_textile
      - upgrade_to_aesthetics
