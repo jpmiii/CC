@@ -9,6 +9,14 @@
       gold:
         material: GOLD_INGOT
         amount: 32
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     recipes:
      - basic_xp_1
      - basic_xp_2
