@@ -256,6 +256,7 @@
      - make_iron_door
      - make_tripwire
      - make_shears
+     - make_cauldrons
      - make_radar
      - forge_gold_block
      - forge_gold_ingot
