@@ -63,7 +63,7 @@ reinforcements:
    speed: 0.5
    particleCount: 50
  bronze_tier:
-  material: IRON_INGOT
+  material: GOLD_INGOT
   requirements: 1
   return: 1
   percent_chance: 100
