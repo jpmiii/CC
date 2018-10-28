@@ -13,9 +13,16 @@
         material: LOG
         durability: -1
         amount: 128
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     recipes:
       - make_TNT
-      - make_fuses
       - make_gunpowder
       - make_fire_charges
       - repair_explosives_factory
