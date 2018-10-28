@@ -3,6 +3,7 @@
     type: FCC
     name: Kiln
     citadelBreakReduction: 1.0
+    decay_amount: 104
     setupcost:
       stone:
         material: STONE
@@ -24,6 +25,7 @@
     type: FCCUPGRADE
     name: Furnace
     citadelBreakReduction: 1.0
+    decay_amount: 104
     setupcost:
       bricks:
         material: BRICK
@@ -47,6 +49,7 @@
     type: FCCUPGRADE
     name: Blast Furnace
     citadelBreakReduction: 1.0
+    decay_amount: 104
     setupcost:
       bricks:
         material: BRICK
