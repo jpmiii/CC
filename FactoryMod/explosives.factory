@@ -1,0 +1,21 @@
+  explosives_factory:
+    type: FCC
+    name: Explosives Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      equipment:
+        material: CAULDRON
+        amount: 8
+      glassware:
+        material: GLASS_BOTTLE
+        amount: 64
+      logs:
+        material: LOG
+        durability: -1
+        amount: 128
+    recipes:
+      - make_TNT
+      - make_fuses
+      - make_gunpowder
+      - make_fire_charges
+      - repair_explosives_factory
