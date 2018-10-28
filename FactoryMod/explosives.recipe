@@ -4,7 +4,7 @@
     type: PRODUCTION
     input:
       gunpowder:
-        material: GUNPOWDER
+        material: SULPHUR
         amount: 32
       fuse:
         material: STRING
@@ -37,7 +37,7 @@
         amount: 16
     output:
       gunpowder:
-        material: GUNPOWDER
+        material: SULPHUR
         amount: 64
   make_fire_charge:
     production_time: 4s
@@ -45,7 +45,7 @@
     type: PRODUCTION
     input:
       gunpowder:
-        material: GUNPOWDER
+        material: SULPHUR
         amount: 32
       fuse:
         material: STRING
