@@ -112,23 +112,18 @@
     name: Recipe for Steel Armor Smith
     type: UPGRADE
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 96
-        lore:
-          - An alloy of carbon and iron
     factory: Steel Armor Smith
   upgrade_to_steel_tool_smith:
     production_time: 4s
     name: Recipe for Steel Tool Smith
     type: UPGRADE
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 64
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     factory: Steel Tool Smith
   upgrade_to_bronze_tool_smith:
     production_time: 4s
@@ -1119,12 +1114,9 @@
     name: Recipe for Rail Factory
     type: UPGRADE
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 64
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 32
@@ -1137,12 +1129,9 @@
     name: Make Rails
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 128
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       stick:
         material: STICK
         amount: 16
@@ -1173,9 +1162,6 @@
       iron:
         material: IRON_INGOT
         amount: 18
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 2
@@ -1191,9 +1177,6 @@
       iron:
         material: IRON_INGOT
         amount: 64
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       minecart:
         material: MINECART
@@ -1206,9 +1189,6 @@
       iron:
         material: IRON_INGOT
         amount: 4
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     health_gained: 10000
   upgrade_to_husbandry:
     production_time: 4s
@@ -1218,9 +1198,6 @@
       iron_block:
         material: IRON_BLOCK
         amount: 32
-        name: Steel Block
-        lore:
-          - An alloy of carbon and iron
       slime:
         material: SLIME_BALL
         amount: 16
@@ -1233,12 +1210,9 @@
     name: Recipe for Forge
     type: UPGRADE
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 128
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       lava_bucket:
         material: LAVA_BUCKET
         amount: 1
@@ -1248,12 +1222,9 @@
     name: Recipe for Redstone Mechanics Factory
     type: UPGRADE
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 64
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 256
@@ -1308,12 +1279,9 @@
     name: Recipe for Basic Experience Factory
     type: UPGRADE
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 128
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       gold:
         material: GOLD_INGOT
         amount: 32
@@ -1330,12 +1298,9 @@
         material: WOOL
         amount: 16
         durability: -1
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 16
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       saddle:
         material: SADDLE
@@ -1363,12 +1328,9 @@
       chests:
         material: CHEST
         amount: 32
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 192
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       hopper:
         material: HOPPER
@@ -1410,12 +1372,9 @@
     name: Repair Factory
     type: REPAIR
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 6
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 25
@@ -1428,12 +1387,13 @@
     name: Make Steel Helmets
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 25
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 12
     output:
       steel_helm:
         material: IRON_HELMET
@@ -1444,12 +1404,13 @@
     name: Make Steel Chestplates
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
         amount: 40
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 20
     output:
       steel_chest:
         material: IRON_CHESTPLATE
@@ -1460,12 +1421,13 @@
     name: Make Steel Leggings
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 35
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 18
     output:
       steel_legs:
         material: IRON_LEGGINGS
@@ -1476,12 +1438,13 @@
     name: Make Steel Boots
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 20
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 10
     output:
       steel_boots:
         material: IRON_BOOTS
@@ -1492,12 +1455,13 @@
     name: Make Steel Axe
     type: PRODUCTION
     input:
-      steel: 
+      iron: 
         material: IRON_INGOT
         amount: 15
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 8
     output:
       steel_axe:
         material: IRON_AXE
@@ -1508,12 +1472,13 @@
     name: Make Steel Sword
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 10
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 5
     output:
       steel_sword:
         material: IRON_SWORD
@@ -1524,12 +1489,13 @@
     name: Make Steel Pick
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 15
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 8
     output:
       steel_pick:
         material: IRON_PICKAXE
@@ -1540,12 +1506,13 @@
     name: Make Steel Hoe
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 10
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 5
     output:
       steel_hoe:
         material: IRON_HOE
@@ -1556,12 +1523,13 @@
     name: Make Steel Shovel
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 5
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 3
     output:
       steel_shovel:
         material: IRON_SPADE
@@ -1704,12 +1672,9 @@
     name: Make Iron Bars
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 24
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       iron_bars:
         material: IRON_FENCE
@@ -1722,9 +1687,6 @@
       iron:
         material: IRON_INGOT
         amount: 256
-        name: Steel Ingot
-        steel:
-          - An alloy of carbon and iron
     output:
       anvil:
         material: ANVIL
@@ -1734,12 +1696,9 @@
     name: Make Buckets
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 96
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       bucket:
         material: BUCKET
@@ -1749,12 +1708,9 @@
     name: Make Iron Trapdoors
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 48
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       iron_trapdoor:
         material: IRON_TRAPDOOR
@@ -1764,12 +1720,9 @@
     name: Make Iron Doors
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 24
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       iron_door:
         material: IRON_DOOR
@@ -1779,12 +1732,9 @@
     name: Make Tripwire Hooks
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 16
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       tripwire_hook:
         material: TRIPWIRE_HOOK
@@ -1794,12 +1744,9 @@
     name: Make Shears
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 16
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       shears:
         material: SHEARS
@@ -1857,12 +1804,9 @@
     name: Repair Factory
     type: REPAIR
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 12
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     health_gained: 10000
   make_lead:
     production_time: 4s
@@ -1884,12 +1828,9 @@
     name: Repair Factory
     type: REPAIR
     input:
-      steel:
+      iron:
         material: IRON_BLOCK
         amount: 3
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       slime:
         material: SLIME_BALL
         amount: 2
@@ -1902,12 +1843,9 @@
     name: Repair Factory
     type: REPAIR
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 6
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     health_gained: 10000
   repair_bronze_tools_factory:
     production_time: 4s
@@ -1928,24 +1866,18 @@
     name: Repair Factory
     type: REPAIR
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 9
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     health_gained: 10000
   make_radar:
     production_time: 4s
     name: Make Radar
     type: PRODUCTION
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 32
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 16
@@ -1967,12 +1899,9 @@
       chest:
         material: CHEST
         amount: 64
-      steel_block:
+      iron_block:
         material: IRON_BLOCK
         amount: 4
-        name: Steel Block
-        lore:
-          - An alloy of carbon and iron
       obsidian:
         material: OBSIDIAN
         amount: 64
@@ -1991,12 +1920,9 @@
       gold:
         material: GOLD_INGOT
         amount: 16
-      steel_block:
+      iron_block:
         material: IRON_BLOCK
         amount: 4
-        name: Steel Block
-        lore:
-          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 32
@@ -2061,12 +1987,9 @@
     name: Recipe for Compactor
     type: UPGRADE
     input:
-      steel_block:
+      iron_block:
         material: IRON_BLOCK
         amount: 32
-        name: Steel Block
-        lore:
-          - An alloy of carbon and iron
       redstone_block:
         material: REDSTONE_BLOCK
         amount: 16
@@ -2121,12 +2044,9 @@
       chest: 
         material: CHEST
         amount: 128
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 3
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       crate:
         material: CHEST
@@ -2248,12 +2168,9 @@
     name: Craft Printing Plate
     production_time: 4s
     input:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 1
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
     output:
       plate:
         material: TRAP_DOOR
