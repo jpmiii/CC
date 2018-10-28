@@ -1,0 +1,76 @@
+  make_tnt:
+    production_time: 4s
+    name: Make TNT
+    type: PRODUCTION
+    input:
+      gunpowder:
+        material: GUNPOWDER
+        amount: 64
+      fuse:
+        material: STRING
+        amount: 16
+      clay:
+        material: CLAY
+        amount: 8
+    output:
+      tnt:
+        material: TNT
+        amount: 8
+  make_gunpowder:
+    production_time: 4s
+    name: Make Gunpowder
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 8
+        name: Sulfur
+      potassium_nitrate:
+        material: SUGAR
+        amount: 64
+        name: Potassium Nitrate
+        lore:
+          - Gunpowder Ingredient
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 16
+    output:
+      gunpowder:
+        material: GUNPOWDER
+        amount: 64
+  make_fire_charge:
+    production_time: 4s
+    name: Make Fire Charge
+    type: PRODUCTION
+    input:
+      gunpowder:
+        material: GUNPOWDER
+        amount: 64
+      fuse:
+        material: STRING
+        amount: 32
+      clay:
+        material: CLAY
+        amount: 4
+    output:
+      tnt:
+        material: TNT
+        amount: 16
+  repair_explosives_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+      cauldron:
+        material: CAULDRON
+        amount: 1
+    health_gained: 10000
