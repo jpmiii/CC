@@ -44,6 +44,7 @@
      - upgrade_to_mill
      - upgrade_to_kiln
      - upgrade_to_charcoal_factory
+     - upgrade_to_explosives_factory
   chemistry_factory:
     type: FCC
     name: Chemistry Factory
