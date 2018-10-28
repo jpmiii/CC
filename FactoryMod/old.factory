@@ -3,10 +3,10 @@
 # old factories:
   dirt_factory:
     type: FCC
-    name: Factories
+    name: Main Menu
     citadelBreakReduction: 1.0
     setupcost:
-      stick:
+      dirt:
         material: DIRT
         amount: 1
     recipes:
