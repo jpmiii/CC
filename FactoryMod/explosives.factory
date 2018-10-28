@@ -22,7 +22,7 @@
           - "Prolonged physical"
           - "or mental effort"
     recipes:
-      - make_TNT
+      - make_tnt
       - make_gunpowder
       - make_fire_charges
       - repair_explosives_factory
