@@ -5,7 +5,7 @@
     input:
       gunpowder:
         material: GUNPOWDER
-        amount: 64
+        amount: 32
       fuse:
         material: STRING
         amount: 16
@@ -46,7 +46,7 @@
     input:
       gunpowder:
         material: GUNPOWDER
-        amount: 64
+        amount: 32
       fuse:
         material: STRING
         amount: 32
