@@ -29,7 +29,7 @@
         material: BRICK
         amount: 640
     recipes:
-     - smelt_steel2
+     - smelt_iron2
      - sinter_stone2
      - sinter_sandstone2
      #- sinter_red_sandstone2
@@ -65,7 +65,7 @@
      #- fire_netherrack3
      #- fire_red_netherrack3
      - smelt_bronze3
-     - smelt_steel3
+     - smelt_iron3
      - cast_obsidian
      - fire_bucket
      - repair_blast_furnace
