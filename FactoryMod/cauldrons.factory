@@ -2,6 +2,7 @@
     type: FCC
     name: Basic Experience Factory
     citadelBreakReduction: 1.0
+    decay_amount: 104
     setupcost:
       iron:
         material: IRON_INGOT
@@ -31,6 +32,7 @@
     type: FCCUPGRADE
     name: Intermediate Experience Factory
     citadelBreakReduction: 1.0
+    decay_amount: 104
     recipes:
      - int_xp_1
      - int_xp_2
@@ -43,6 +45,7 @@
     type: FCCUPGRADE
     name: Advanced Experience Factory
     citadelBreakReduction: 1.0
+    decay_amount: 104
     recipes:
      - adv_xp_1
      - wither_skull
