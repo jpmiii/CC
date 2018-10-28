@@ -62,6 +62,23 @@ reinforcements:
    type: ENCHANTMENT_TABLE
    speed: 0.5
    particleCount: 50
+ bronze_tier:
+  material: IRON_INGOT
+  requirements: 1
+  return: 1
+  percent_chance: 100
+  hit_points: 250
+# mature time is in minutes
+  mature_time: 5
+  acid_time: 30
+  scale_amount: 1
+# grace period is in minutes, forced 100% return within that time if undamaged. Set to 0 to disable (default)
+  grace_period: 1
+  lore: An alloy of tin and copper
+  effect:
+   type: ENCHANTMENT_TABLE
+   speed: 0.5
+   particleCount: 50
  diamond_tier:
   material: DIAMOND
   requirements: 1
