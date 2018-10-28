@@ -1783,6 +1783,18 @@
       shears:
         material: SHEARS
         amount: 16
+  make_cauldrons:
+    production_time: 4s
+    name: Make Cauldrons
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 14
+    output:
+      cauldron:
+        material: CAULDRON_ITEM
+        amount: 4
   forge_gold_block:
     production_time: 1s
     name: Forge Gold Block
