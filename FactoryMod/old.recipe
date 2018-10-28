@@ -1523,6 +1523,8 @@
         material: IRON_AXE
         amount: 30
         name: Steel Axe
+        lore: 
+          - For cutting wood
   make_steel_sword:
     production_time: 4s
     name: Make Steel Sword
@@ -1535,6 +1537,8 @@
         material: COAL
         durability: 1
         amount: 5
+        lore: 
+          - For smiting foes
     output:
       steel_sword:
         material: IRON_SWORD
@@ -1557,6 +1561,8 @@
         material: IRON_PICKAXE
         amount: 15
         name: Steel Pick
+        lore: 
+          - For breaking hard and rocky surfaces
   make_steel_hoe:
     production_time: 4s
     name: Make Steel Hoe
@@ -1574,6 +1580,8 @@
         material: IRON_HOE
         amount: 30
         name: Steel Hoe
+        lore: 
+          - An agricultural tool
   make_steel_shovel:
     production_time: 4s
     name: Make Steel Shovel
@@ -1591,6 +1599,8 @@
         material: IRON_SPADE
         amount: 15
         name: Steel Shovel
+        lore: 
+          - For moving loose, bulk materials
   make_bronze_axe:
     production_time: 4s
     name: Make Bronze Axe
