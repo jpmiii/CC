@@ -151,12 +151,14 @@
     name: Repair Factory
     type: REPAIR
     input:
-      iron:
-        material: IRON_INGOT
-        amount: 12
-      gold:
-        material: GOLD_INGOT
-        amount: 3
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     health_gained: 10000
   int_xp_1:
     production_time: 4s
@@ -271,9 +273,14 @@
     name: Repair Factory
     type: REPAIR
     input:
-      diamond:
-        material: DIAMOND
-        amount: 6
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 16
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     health_gained: 10000
   adv_xp_1:
     production_time: 4s
@@ -343,7 +350,12 @@
     name: Repair Factory
     type: REPAIR
     input:
-      emerald_block:
-        material: EMERALD_BLOCK
-        amount: 16
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 24
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     health_gained: 10000
