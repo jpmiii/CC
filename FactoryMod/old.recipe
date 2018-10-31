@@ -150,10 +150,19 @@
     name: Recipe for Chemistry Factory
     type: UPGRADE
     input:
+      equipment:
+        material: BREWING_STAND_ITEM
+        amount: 8
+      glassware:
+        material: GLASS_BOTTLE
+        amount: 64
       charcoal:
         material: COAL
-        amount: 512
+        amount: 64
         durability: 1
+      cauldrons:
+        material: CAULDRON_ITEM
+        amount: 4
     factory: Chemistry Factory
   upgrade_to_steel_armor_smith:
     production_time: 4s
