@@ -55,7 +55,7 @@
         amount: 4
     output:
       tnt:
-        material: TNT
+        material: FIREWORK_CHARGE
         amount: 16
   repair_explosives_factory:
     production_time: 4s
