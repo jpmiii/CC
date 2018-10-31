@@ -4,7 +4,7 @@
     citadelBreakReduction: 1.0
     setupcost:
       equipment:
-        material: CAULDRON
+        material: CAULDRON_ITEM
         amount: 8
       glassware:
         material: GLASS_BOTTLE
