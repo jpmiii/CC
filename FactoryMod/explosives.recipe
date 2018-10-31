@@ -39,7 +39,7 @@
       gunpowder:
         material: SULPHUR
         amount: 64
-  make_fire_charge:
+  make_fire_charges:
     production_time: 4s
     name: Make Fire Charge
     type: PRODUCTION
