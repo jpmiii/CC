@@ -86,7 +86,7 @@
     type: UPGRADE
     input:
       equipment:
-        material: CAULDRON
+        material: CAULDRON_ITEM
         amount: 8
       glassware:
         material: GLASS_BOTTLE
