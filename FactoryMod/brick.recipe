@@ -2,11 +2,12 @@
 
   sinter_red_sandstone:
     production_time: 4s
-    name: Sinter Sand Into Sandstone
+    name: Sinter Sand Into Red Sandstone
     type: PRODUCTION
     input:
       sand:
-        material: RED_SAND
+        material: SAND
+        durability: 1
         amount: 64
     output:
       sandstone:
@@ -14,11 +15,12 @@
         amount: 32
   sinter_red_sandstone2:
     production_time: 4s
-    name: Sinter Sand Into Sandstone
+    name: Sinter Sand Into Red Sandstone
     type: PRODUCTION
     input:
       sand:
-        material: RED_SAND
+        material: SAND
+        durability: 1
         amount: 64
     output:
       sandstone:
@@ -26,11 +28,12 @@
         amount: 32
   sinter_red_sandstone3:
     production_time: 4s
-    name: Sinter Sand Into Sandstone
+    name: Sinter Sand Into Red Sandstone
     type: PRODUCTION
     input:
       sand:
-        material: RED_SAND
+        material: SAND
+        durability: 1
         amount: 64
     output:
       sandstone:
@@ -38,7 +41,7 @@
         amount: 32
   fire_netherrack:
     production_time: 4s
-    name: Fire Red Netherrack Bricks
+    name: Fire Netherbricks
     type: PRODUCTION
     input:
       netherrack:
@@ -50,7 +53,7 @@
         amount: 16
   fire_netherrack2:
     production_time: 4s
-    name: Fire Red Netherrack Bricks
+    name: Fire Netherbricks
     type: PRODUCTION
     input:
       netherrack:
@@ -62,7 +65,7 @@
         amount: 24
   fire_netherrack3:
     production_time: 4s
-    name: Fire Red Netherrack Bricks
+    name: Fire Netherbricks
     type: PRODUCTION
     input:
       netherrack:
