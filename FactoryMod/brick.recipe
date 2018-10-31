@@ -1,5 +1,77 @@
 
 
+  sinter_red_sandstone:
+    production_time: 4s
+    name: Sinter Sand Into Sandstone
+    type: PRODUCTION
+    input:
+      sand:
+        material: RED_SAND
+        amount: 64
+    output:
+      sandstone:
+        material: RED_SANDSTONE
+        amount: 32
+  sinter_red_sandstone2:
+    production_time: 4s
+    name: Sinter Sand Into Sandstone
+    type: PRODUCTION
+    input:
+      sand:
+        material: RED_SAND
+        amount: 64
+    output:
+      sandstone:
+        material: RED_SANDSTONE
+        amount: 32
+  sinter_red_sandstone3:
+    production_time: 4s
+    name: Sinter Sand Into Sandstone
+    type: PRODUCTION
+    input:
+      sand:
+        material: RED_SAND
+        amount: 64
+    output:
+      sandstone:
+        material: RED_SANDSTONE
+        amount: 32
+  fire_netherrack:
+    production_time: 4s
+    name: Fire Red Netherrack Bricks
+    type: PRODUCTION
+    input:
+      netherrack:
+        material: NETHERRACK
+        amount: 64
+    output:
+      brick:
+        material: NETHER_BRICK
+        amount: 16
+  fire_netherrack2:
+    production_time: 4s
+    name: Fire Red Netherrack Bricks
+    type: PRODUCTION
+    input:
+      netherrack:
+        material: NETHERRACK
+        amount: 64
+    output:
+      brick:
+        material: NETHER_BRICK
+        amount: 24
+  fire_netherrack3:
+    production_time: 4s
+    name: Fire Red Netherrack Bricks
+    type: PRODUCTION
+    input:
+      netherrack:
+        material: NETHERRACK
+        amount: 64
+    output:
+      brick:
+        material: NETHER_BRICK
+        amount: 32
   make_refractor:
     production_time: 4s
     name: Make Refractor
@@ -81,6 +153,21 @@
       brick:
         material: BRICK
         amount: 64
+  fire_red_netherrack:
+    production_time: 4s
+    name: Fire Red Netherrack Bricks
+    type: PRODUCTION
+    input:
+      netherrack:
+        material: NETHERRACK
+        amount: 64
+      warts:
+        material: NETHER_STALK
+        amount: 2
+    output:
+      brick:
+        material: RED_NETHER_BRICK
+        amount: 4
   fire_terracotta2:
     production_time: 4s
     name: Fire Terracotta Blocks
