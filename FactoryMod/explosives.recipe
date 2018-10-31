@@ -64,7 +64,7 @@
     input:
       golden_apple:
         material: GOLDEN_APPLE
-        durability: 8
+        durability: 1
         name: Stamina
         amount: 8
         lore:
@@ -74,3 +74,27 @@
         material: CAULDRON
         amount: 1
     health_gained: 10000
+  upgrade_to_explosives_factory:
+    production_time: 4s
+    name: Recipe for Bakery
+    type: UPGRADE
+    input:
+      equipment:
+        material: CAULDRON
+        amount: 8
+      glassware:
+        material: GLASS_BOTTLE
+        amount: 64
+      logs:
+        material: LOG
+        durability: -1
+        amount: 128
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+    factory: Explosives Factory
