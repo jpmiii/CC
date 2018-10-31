@@ -430,9 +430,9 @@
         amount: 64
       golden_apple:
         material: GOLDEN_APPLE
-        durability: 24
+        durability: 1
         name: Stamina
-        amount: 8
+        amount: 24
         lore:
           - "Prolonged physical"
           - "or mental effort"
