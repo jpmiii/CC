@@ -61,7 +61,7 @@
         amount: 64
         durability: 1
       cauldrons:
-        material: CAULDRON
+        material: CAULDRON_ITEM
         amount: 4
     recipes:
      - potassium_nitrate
