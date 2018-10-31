@@ -71,6 +71,6 @@
           - "Prolonged physical"
           - "or mental effort"
       cauldron:
-        material: CAULDRON
+        material: CAULDRON_ITEM
         amount: 1
     health_gained: 10000
