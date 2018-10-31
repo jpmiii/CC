@@ -166,11 +166,11 @@
         amount: 64
       warts:
         material: NETHER_STALK
-        amount: 2
+        amount: 16
     output:
       brick:
         material: RED_NETHER_BRICK
-        amount: 4
+        amount: 2
   fire_terracotta2:
     production_time: 4s
     name: Fire Terracotta Blocks
