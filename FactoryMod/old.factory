@@ -197,6 +197,7 @@
      - make_wood_doors
      - make_casing
      - make_crates
+     - make_sports_balls
      - repair_carpentry
      - make_boat
   rails:
