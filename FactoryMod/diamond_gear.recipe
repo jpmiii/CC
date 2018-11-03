@@ -163,6 +163,8 @@
       diamond_pick:
         material: DIAMOND_PICKAXE
         amount: 15
+        lore:
+          - Mining Mode (/chisel to toggle)
   make_diamond_hoe:
     production_time: 4s
     name: Make Diamond Hoe
