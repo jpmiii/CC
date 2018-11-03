@@ -1157,6 +1157,23 @@
       door:
         material: WOOD_DOOR
         amount: 32
+  make_sports_balls:
+    production_time: 4s
+    name: Make Sports Balls
+    type: PRODUCTION
+    input:
+      wood:
+        material: LOG
+        amount: 16
+        durability: -1
+      wool:
+        material: WOOL
+        amount: 8
+        durability: -1
+    output:
+      door:
+        material: SPONGE
+        amount: 4
   repair_carpentry:
     production_time: 4s
     name: Repair Factory
