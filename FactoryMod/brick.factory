@@ -27,7 +27,6 @@
      - fire_netherrack
      - fire_red_netherrack
      - fire_bucket
-     - refine_coal
      - upgrade_to_furnace
      - repair_kiln
   furnace:
@@ -60,7 +59,6 @@
      - smelt_bronze2
      - smelt_diamond2
      - fire_bucket
-     - refine_coal
      - upgrade_to_blast_furnace
      - repair_furnace
   blast_furnace:
@@ -97,6 +95,5 @@
      - smelt_iron3
      - cast_obsidian
      - fire_bucket
-     - refine_coal
      - repair_blast_furnace
      - make_refractor
