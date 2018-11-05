@@ -1,19 +1,5 @@
 
 
-  refine_coal
-    production_time: 4s
-    name: Refine Coal
-    type: PRODUCTION
-    input:
-      sand:
-        material: COAL
-        durability: 0
-        amount: 64
-    output:
-      sandstone:
-        material: COAL
-        durability: 1
-        amount: 32
   sinter_red_sandstone:
     production_time: 4s
     name: Sinter Sand Into Red Sandstone
