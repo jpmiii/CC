@@ -16,21 +16,6 @@
       cobblestone:
         material: COBBLESTONE
         amount: 42
-  crush_coal:
-    production_time: 4s
-    name: Crush and Combine Coal Ore
-    type: PRODUCTION
-    input:
-      coal_ore:
-        material: COAL_ORE
-        amount: 32
-    output:
-      coal:
-        material: COAL_BLOCK
-        amount: 7
-      cobblestone:
-        material: COBBLESTONE
-        amount: 57
   crush_redstone:
     production_time: 4s
     name: Crush and Combine Redstone Ore
