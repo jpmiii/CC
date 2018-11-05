@@ -33,7 +33,6 @@
     input:
       coal:
         material: COAL
-        durability: 0
         amount: 64
     output:
       charcoal:
