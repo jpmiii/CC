@@ -28,17 +28,18 @@
         amount: 128
   charcoal_from_coal:
     production_time: 4s
-    name: Make Charcoal from Coal
+    name: Refine Coal
     type: PRODUCTION
     input:
       coal:
         material: COAL
+        durability: 0
         amount: 64
     output:
       charcoal:
         material: COAL
         durability: 1
-        amount: 64
+        amount: 32
   repair_charcoal_factory:
     production_time: 4s
     name: Repair Factory
