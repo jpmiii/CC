@@ -326,13 +326,13 @@
     name: Smelt Bronze
     type: PRODUCTION
     input:
-      tin ore:
+      tin_ore:
         material: COAL_ORE
         name: "Tin Ore"
         lore:
           - "Combine with copper ore to make bronze"
         amount: 16
-      copper ore:
+      copper_ore:
         material: EMERALD_ORE
         name: "Copper Ore"
         lore:
@@ -350,13 +350,13 @@
     name: Smelt Bronze
     type: PRODUCTION
     input:
-      tin ore:
+      tin_ore:
         material: COAL_ORE
         name: "Tin Ore"
         lore:
           - "Combine with copper ore to make bronze"
         amount: 16
-      copper ore:
+      copper_ore:
         material: EMERALD_ORE
         name: "Copper Ore"
         lore:
@@ -374,13 +374,13 @@
     name: Smelt Bronze
     type: PRODUCTION
     input:
-      tin ore:
+      tin_ore:
         material: COAL_ORE
         name: "Tin Ore"
         lore:
           - "Combine with copper ore to make bronze"
         amount: 16
-      copper ore:
+      copper_ore:
         material: EMERALD_ORE
         name: "Copper Ore"
         lore:
