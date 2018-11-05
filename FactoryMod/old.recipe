@@ -191,7 +191,7 @@
         material: GOLD_INGOT
         name: "Bronze Ingot"
         lore:
-          - "An alloy of carbon and copper"
+          - "An alloy of tin and copper"
         amount: 64
     factory: Bronze Tool Smith
   upgrade_to_concrete:
@@ -1636,7 +1636,7 @@
         material: GOLD_INGOT
         name: "Bronze Ingot"
         lore:
-          - "An alloy of carbon and copper"
+          - "An alloy of tin and copper"
         amount: 15
     output:
       bronze_axe:
@@ -1654,7 +1654,7 @@
         material: GOLD_INGOT
         name: "Bronze Ingot"
         lore:
-          - "An alloy of carbon and copper"
+          - "An alloy of tin and copper"
         amount: 10
     output:
       bronze_sword:
@@ -1672,7 +1672,7 @@
         material: GOLD_INGOT
         name: "Bronze Ingot"
         lore:
-          - "An alloy of carbon and copper"
+          - "An alloy of tin and copper"
         amount: 15
     output:
       bronze_pick:
@@ -1690,7 +1690,7 @@
         material: GOLD_INGOT
         name: "Bronze Ingot"
         lore:
-          - "An alloy of carbon and copper"
+          - "An alloy of tin and copper"
         amount: 10
     output:
       bronze_hoe:
@@ -1708,7 +1708,7 @@
         material: GOLD_INGOT
         name: "Bronze Ingot"
         lore:
-          - "An alloy of carbon and copper"
+          - "An alloy of tin and copper"
         amount: 5
     output:
       bronze_shovel:
