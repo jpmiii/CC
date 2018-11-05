@@ -333,7 +333,7 @@
           - "Combine with copper ore to make bronze"
         amount: 16
       copper ore:
-        material: IRON_ORE
+        material: EMERALD_ORE
         name: "Copper Ore"
         lore:
           - "Combine with tin ore to make bronze"
@@ -357,7 +357,7 @@
           - "Combine with copper ore to make bronze"
         amount: 16
       copper ore:
-        material: IRON_ORE
+        material: EMERALD_ORE
         name: "Copper Ore"
         lore:
           - "Combine with tin ore to make bronze"
@@ -381,7 +381,7 @@
           - "Combine with copper ore to make bronze"
         amount: 16
       copper ore:
-        material: IRON_ORE
+        material: EMERALD_ORE
         name: "Copper Ore"
         lore:
           - "Combine with tin ore to make bronze"
