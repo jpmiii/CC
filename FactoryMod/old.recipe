@@ -1157,6 +1157,21 @@
       door:
         material: WOOD_DOOR
         amount: 32
+  make_primitive bed:
+    production_time: 4s
+    name: Make Primitive Bed
+    type: PRODUCTION
+    input:
+      wood:
+        material: WOOD
+        amount: 3
+      skins:
+        material: LEATHER
+        amount: 4
+    output:
+      bed:
+        material: BED
+        amount: 1
   make_sports_balls:
     production_time: 4s
     name: Make Sports Balls
