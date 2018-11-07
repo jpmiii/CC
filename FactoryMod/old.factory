@@ -195,6 +195,7 @@
      - make_bookshelves
      - make_trapdoors
      - make_wood_doors
+     - make_primitive bed
      - make_casing
      - make_crates
      - make_sports_balls
