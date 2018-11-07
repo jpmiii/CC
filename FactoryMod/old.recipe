@@ -1171,6 +1171,7 @@
     output:
       bed:
         material: BED
+        durability: 12
         amount: 1
   make_sports_balls:
     production_time: 4s
