@@ -214,7 +214,6 @@
       potato:
         material: POTATO_ITEM
         amount: 960
-        durability: 3
         lore:
           - Ripe, Hand-Picked
       wheat:
