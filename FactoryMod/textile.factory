@@ -21,4 +21,5 @@
      - make_carpet
      - make_bed
      - make_quilted_armor
+     - make_boots
      - repair_textile_factory
