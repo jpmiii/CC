@@ -1895,6 +1895,30 @@
       iron:
         material: IRON_INGOT
         amount: 1
+  split_iron_blocks:
+    production_time: 4s
+    name: Split Iron Blocks
+    type: PRODUCTION
+    input:
+      gold_block:
+        material: IRON_BLOCK
+        amount: 16
+    output:
+      gold:
+        material: IRON_INGOT
+        amount: 144
+  split_iron_ingots:
+    production_time: 4s
+    name: Split Iron Ingots
+    type: PRODUCTION
+    input:
+      gold_block:
+        material: IRON_INGOT
+        amount: 16
+    output:
+      gold:
+        material: IRON_NUGGET
+        amount: 144
   repair_forge:
     production_time: 4s
     name: Repair Factory
