@@ -41,9 +41,16 @@
     input:
       log:
         material: LOG
+        amount: 1152
+      cloth:
+        material: PAPER
         amount: 128
+        name: Woven Cloth
         lore:
-          - Compacted Item
+          - "Suitable for use as sailcloth"
+      iron:
+        material: IRON_INGOT
+        amount: 32
     output:
       boat:
         material: BOAT
