@@ -272,6 +272,8 @@
      - make_radar
      - forge_iron_block
      - forge_iron_ingot
+     - split_iron_blocks
+     - split_iron_ingots
      - repair_forge
   redstone_mechanics:
     type: FCC
