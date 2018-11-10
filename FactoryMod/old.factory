@@ -270,8 +270,6 @@
      - make_shears
      - make_cauldrons
      - make_radar
-     - forge_gold_block
-     - forge_gold_ingot
      - forge_iron_block
      - forge_iron_ingot
      - repair_forge
