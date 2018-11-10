@@ -1871,18 +1871,6 @@
       cauldron:
         material: CAULDRON_ITEM
         amount: 4
-  forge_gold_block:
-    production_time: 1s
-    name: Forge Gold Block
-    type: PRODUCTION
-    input:
-      gold:
-        material: GOLD_INGOT
-        amount: 9
-    output:
-      gold_block:
-        material: GOLD_BLOCK
-        amount: 1
   forge_iron_block:
     production_time: 1s
     name: Forge Iron Block
@@ -1894,18 +1882,6 @@
     output:
       iron_block:
         material: IRON_BLOCK
-        amount: 1
-  forge_gold_ingot:
-    production_time: 1s
-    name: Forge Gold Ingot
-    type: PRODUCTION
-    input:
-      gold_nugget:
-        material: GOLD_NUGGET
-        amount: 9
-    output:
-      gold:
-        material: GOLD_INGOT
         amount: 1
   forge_iron_ingot:
     production_time: 1s
