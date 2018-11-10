@@ -22,4 +22,5 @@
      - make_bed
      - make_quilted_armor
      - make_boots
+     - make_woven_cloth
      - repair_textile_factory
