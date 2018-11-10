@@ -63,6 +63,21 @@
       leather_boots:
         material: LEATHER_BOOTS
         amount: 5
+  make_woven_cloth:
+    production_time: 4s
+    name: Weave Sailcloth
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 64
+    output:
+      cloth:
+        material: PAPER
+        amount: 4
+        name: Woven Cloth
+        lore:
+          - "Suitable for use as sailcloth"
   make_quilted_armor:
     production_time: 4s
     name: Make Quilted Armor
