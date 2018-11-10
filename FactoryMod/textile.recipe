@@ -51,6 +51,18 @@
       string:
         material: BED
         amount: 4
+  make_boots:
+    production_time: 4s
+    name: Make Leather Boots
+    type: PRODUCTION
+    input:
+      leather:
+        material: LEATHER
+        amount: 10
+    output:
+      leather_boots:
+        material: LEATHER_BOOTS
+        amount: 5
   make_quilted_armor:
     production_time: 4s
     name: Make Quilted Armor
