@@ -15,9 +15,14 @@
      - upgrade_to_bakery
      - upgrade_to_grill
      - upgrade_to_chemistry_factory
+     - upgrade_to_iron_armor_smith
+     - upgrade_to_iron_tool_smith
      - upgrade_to_steel_armor_smith
      - upgrade_to_steel_tool_smith
+     - upgrade_to_bronze_armor_smith
      - upgrade_to_bronze_tool_smith
+     - upgrade_to_mithril_armor_factory
+     - upgrade_to_mithril_tool_factory
      - upgrade_to_forge
      - upgrade_to_wool_dye
      - upgrade_to_glass_dye
@@ -25,15 +30,6 @@
      - upgrade_to_bio_lab
      - upgrade_to_carpentry
      - upgrade_to_rails
-     - upgrade_to_diamond_helm
-     - upgrade_to_diamond_chest
-     - upgrade_to_diamond_legs
-     - upgrade_to_diamond_boots
-     - upgrade_to_diamond_pick
-     - upgrade_to_diamond_shovel
-     - upgrade_to_diamond_axe
-     - upgrade_to_diamond_sword
-     - upgrade_to_diamond_hoe
      - upgrade_to_husbandry
      - upgrade_to_redstone
      - upgrade_to_bastion
