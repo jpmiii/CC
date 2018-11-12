@@ -183,14 +183,14 @@
         amount: 16
         name: Steel Ingot
         lore:
-          - Mining Mode (/chisel to toggle)
           - An alloy of carbon and iron
     output:
       steel_pick:
         material: IRON_PICKAXE
         amount: 16
         name: Steel Pick
-        lore: 
+        lore:
+          - Mining Mode (/chisel to toggle)
           - Made of hardened tool steel
         enchants:
           eff2:
