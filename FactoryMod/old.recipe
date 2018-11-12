@@ -719,40 +719,6 @@
           - "Prolonged physical"
           - "or mental effort"
     factory: Basic Experience Factory
-  make_saddle:
-    production_time: 4s
-    name: Make Saddles
-    type: PRODUCTION
-    input:
-      leather:
-        material: LEATHER
-        amount: 32
-      wool:
-        material: WOOL
-        amount: 16
-        durability: -1
-      iron:
-        material: IRON_INGOT
-        amount: 16
-    output:
-      saddle:
-        material: SADDLE
-        amount: 8
-  make_lead:
-    production_time: 4s
-    name: Make Leads
-    type: PRODUCTION
-    input:
-      string:
-        material: STRING
-        amount: 16
-      slime:
-        material: SLIME_BALL
-        amount: 4
-    output:
-      leads:
-        material: LEASH
-        amount: 12
   upgrade_to_compactor:
     production_time: 4s
     name: Recipe for Compactor
@@ -781,23 +747,6 @@
           - "Prolonged physical"
           - "or mental effort"
     factory: Compactor
-  make_crates:
-    production_time: 4s
-    name: Make Crates
-    type: PRODUCTION
-    input:
-      chest: 
-        material: CHEST
-        amount: 128
-      iron:
-        material: IRON_INGOT
-        amount: 3
-    output:
-      crate:
-        material: CHEST
-        amount: 128
-        lore:
-          - Crate
   upgrade_to_printer:
     forceInclude: true
     production_time: 4s
