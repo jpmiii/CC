@@ -27,6 +27,10 @@
         lore: 
           - No Owner
           - Made with steel plate
+        enchant:
+          dur:
+            enchant: DURABILITY
+            level: 1
   make_steel_chest:
     production_time: 4s
     name: Make Steel Chestplates
@@ -56,6 +60,10 @@
         lore: 
           - No Owner
           - Steel plate chest armor
+      enchant:
+          dur:
+            enchant: DURABILITY
+            level: 1
   make_steel_legs:
     production_time: 4s
     name: Make Steel Leggings
@@ -85,6 +93,10 @@
         lore: 
           - No Owner
           - Steel plate greaves and cuisses
+        enchant:
+          dur:
+            enchant: DURABILITY
+            level: 1
   make_steel_boots:
     production_time: 4s
     name: Make Steel Boots
@@ -110,6 +122,10 @@
         lore: 
           - No Owner
           - Steel plated leather boots
+        enchant:
+          dur:
+            enchant: DURABILITY
+            level: 1
   make_steel_axe:
     production_time: 4s
     name: Make Steel Axe
@@ -132,6 +148,9 @@
           eff2:
             enchant: DIG_SPEED
             level: 2
+          dur:
+            enchant: DURABILITY
+            level: 1
   make_steel_sword:
     production_time: 4s
     name: Make Steel Sword
@@ -151,7 +170,7 @@
         lore: 
           - It has a razor-sharp, steel cutting edge
         enchants:
-          eff2:
+          dur:
             enchant: DURABILITY
             level: 1
   make_steel_pick:
@@ -176,6 +195,9 @@
           eff2:
             enchant: DIG_SPEED
             level: 2
+          dur:
+            enchant: DURABILITY
+            level: 1
   make_steel_shovel:
     production_time: 4s
     name: Make Steel Shovel
@@ -198,6 +220,34 @@
           eff2:
             enchant: DIG_SPEED
             level: 2
+          dur:
+            enchant: DURABILITY
+            level: 1
+  make_steel_hoe:
+    production_time: 4s
+    name: Make Steel Hoe
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 16
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_hoe:
+        material: IRON_HOE
+        amount: 16
+        name: Steel Hoe
+        lore: 
+          - Made of hardened tool steel
+        enchants:
+          eff2:
+            enchant: DIG_SPEED
+            level: 
+          dur:
+            enchant: DURABILITY
+            level: 1
   repair_steel_tools_factory:
     production_time: 4s
     name: Repair Factory
