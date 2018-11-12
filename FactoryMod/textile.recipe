@@ -111,7 +111,7 @@
         lore:
           - "Made from layers of thick wool"
         amount: 1
-  weave_mithril_wafer
+  weave_mithril_wafer:
     production_time: 4s
     name: Weave Mithril Wafer
     type: PRODUCTION
