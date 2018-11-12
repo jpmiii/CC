@@ -1,0 +1,23 @@
+  music:
+    type: FCC
+    name: Record Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      doxxer_tears:
+        material: WATER_BUCKET
+        amount: 4
+        lore:
+          - Doxxer Tears
+    recipes:
+     - 13
+     - cat
+     - blocks
+     - chirp
+     - far
+     - mall
+     - mellohi
+     - stal
+     - strad
+     - ward
+     - 11
+     - wait
