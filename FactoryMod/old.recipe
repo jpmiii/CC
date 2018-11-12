@@ -1219,6 +1219,12 @@
       iron:
         material: IRON_INGOT
         amount: 64
+      steel:
+        material: IRON_INGOT
+        amount: 8
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 32
