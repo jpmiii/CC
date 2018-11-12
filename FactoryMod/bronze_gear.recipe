@@ -1,4 +1,32 @@
-
+  make_bronze_horse_armor:
+    production_time: 4s
+    name: Make Bronze Horse Armor
+    type: PRODUCTION
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of tin and copper"
+        amount: 24
+      sand:
+        material: SAND
+        amount: 32
+      qhorse:
+        material: LEATHER_BARDING
+        name: "Quilted Horse Armor"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 1
+      leather:
+        material: LEATHER
+        amount: 2
+    output:
+      mithril_horse:
+        material: GOLD_BARDING
+        amount: 1
+        name: Bronze Horse Armor
   make_bronze_helm:
     production_time: 4s
     name: Make Bronze Helmets
