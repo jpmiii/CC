@@ -47,6 +47,7 @@
      - make_hopper
      - make_iron_pressure
      - make_gold_pressure
+     - make_nametags
      - refine_steel
      - forge_iron_block
      - forge_iron_ingot
