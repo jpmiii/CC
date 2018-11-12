@@ -44,7 +44,6 @@
      - make_tripwire
      - make_shears
      - make_cauldrons
-     - make_radar
      - make_hopper
      - refine_steel
      - forge_iron_block
