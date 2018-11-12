@@ -38,7 +38,7 @@
         name: Mithril Strands
         lore:
           - "A spool of fibers spun from chemically altered diamonds"
-    make_cracked_stone_brick:
+  make_cracked_stone_brick:
     production_time: 4s
     name: Make Cracked Stone Brick
     type: PRODUCTION
@@ -46,9 +46,6 @@
       stone_brick:
         material: SMOOTH_BRICK
         amount: 64
-      gravel:
-        material: GRAVEL
-        amount: 8
     output:
       cracked_stone_brick:
         material: SMOOTH_BRICK
@@ -60,11 +57,8 @@
     type: PRODUCTION
     input:
       stone_brick:
-        material: SMOOTH_BRICK
+        material: STONE
         amount: 64
-      flint:
-        material: FLINT
-        amount: 8
     output:
       circle_stone_brick:
         material: SMOOTH_BRICK
@@ -107,12 +101,12 @@
     type: PRODUCTION
     input:
       stone:
-        material: STONE
+        material: SAND
         amount: 64
-        durability: -1
       dye:
         material: INK_SACK
         durability: 15
+        amount: 8
     output:
       quartz:
         material: QUARTZ_BLOCK
@@ -133,7 +127,7 @@
     output:
       andesite:
         material: STONE
-        amount: 64
+        amount: 128
         durability: 5
   aggregate_diorite:
     forceInclude: true
@@ -150,7 +144,7 @@
     output:
       diorite:
         material: STONE
-        amount: 64
+        amount: 128
         durability: 3
   aggregate_granite:
     forceInclude: true
@@ -160,15 +154,19 @@
     input:
       diorite:
         material: STONE
-        amount: 64
+        amount: 96
         durability: 3
-      quartz:
-        material: QUARTZ
+      cobble:
+        material: COBBLESTONE
         amount: 64
+      quartz:
+        material: SAND
+        durability: 1
+        amount: 32
     output:
       granite:
         material: STONE
-        amount: 64
+        amount: 128
         durability: 1
   make_red_sand:
     production_time: 4s
@@ -177,10 +175,11 @@
     input:
       sand:
         material: SAND
-        amount: 64
+        amount: 48
       flesh:
-        material: ROTTEN_FLESH
-        amount: 8
+        material: STONE
+        amount: 16
+        durability: 1
     output:
       red_sand:
         material: SAND
@@ -202,27 +201,14 @@
     output:
       sand:
         material: SAND
-        amount: 64
+        amount: 48
+      granite:
+        material: STONE
+        amount: 16
+        durability: 1
       bucket:
         material: BUCKET
         amount: 1
-  make_purpur:
-    production_time: 4s
-    name: Make Purpur
-    type: PRODUCTION
-    input:
-      stone:
-        material: STONE
-        amount: 64
-        durability: -1
-      dye:
-        material: INK_SACK
-        amount: 8
-        durability: 5
-    output:
-      purpur:
-        material: PURPUR_BLOCK
-        amount: 64
   condense_purpur_fruit:
     forceInclude: true
     production_time: 4s
@@ -247,7 +233,7 @@
       lapis:
         material: INK_SACK
         durability: 4
-        amount: 4
+        amount: 16
     output:
       prismarine:
         material: PRISMARINE
@@ -263,7 +249,7 @@
       lapis:
         material: INK_SACK
         durability: 4
-        amount: 4
+        amount: 16
     output:
       prismarine_bricks:
         material: PRISMARINE
@@ -280,7 +266,7 @@
       lapis:
         material: INK_SACK
         durability: 4
-        amount: 4
+        amount: 16
       ink:
         material: INK_SACK
         amount: 4
@@ -300,7 +286,7 @@
       lapis:
         material: INK_SACK
         durability: 4
-        amount: 4
+        amount: 8
     output:
       sea_lantern:
         material: SEA_LANTERN
@@ -315,8 +301,8 @@
         material: GLOWSTONE
         amount: 32
       redstone:
-        material: BLAZE_POWDER
-        amount: 8
+        material: REDSTONE
+        amount: 16
     output:
       redstone_lamp:
         material: REDSTONE_LAMP_OFF
@@ -447,15 +433,15 @@
     type: REPAIR
     input:
       stone:
-        material: STONE
-        amount: 16
+        material: SANDSTONE
+        amount: 32
     health_gained: 10000
   repair_bio_lab:
     production_time: 4s
     name: Repair Factory
     type: REPAIR
     input:
-      Dirt!:
+      Dirt:
         material: DIRT
-        amount: 8
+        amount: 16
     health_gained: 10000
