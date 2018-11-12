@@ -12,7 +12,7 @@
      - make_iron_shovel
      - make_iron_axe
      - make_iron_hoe
-     - repair_steel_tools_factory
+     - repair_iron_tools_factory
   iron_armor:
     type: FCC
     name: Iron Armor Smith
@@ -26,4 +26,4 @@
      - make_mail_hauberks
      - make_mail_leggings
      - make_mail_boots
-     - repair_steel_armor_factory
+     - repair_iron_armor_factory
