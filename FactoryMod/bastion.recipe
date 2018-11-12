@@ -1,0 +1,129 @@
+  make_bastion:
+    production_time: 4s
+    name: Make Bastion
+    type: PRODUCTION
+    input:
+      redstone:
+        material: REDSTONE_BLOCK
+        amount: 64
+      iron:
+        material: IRON_BLOCK
+        amount: 64
+      gold:
+        material: GOLD_BLOCK
+        amount: 32
+      diamonds:
+        material: DIAMOND
+        amount: 32
+      xp:
+        material: EMERALD_BLOCK
+        amount: 10
+      slime:
+        material: SLIME_BALL
+        amount: 16
+      pearls:
+        material: ENDER_PEARL
+        name: Exile Pearl
+        lore:
+          - Used to exile other players
+        amount: 16
+      stamina:
+        golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+    output:
+      bastion:
+        material: ENDER_CHEST
+        name: Vault Bastion
+        lore: 
+          - Vault Bastions prevent block placement
+        amount: 16
+  make_city_bastion:
+    production_time: 4s
+    name: Make Bastion
+    type: PRODUCTION
+    input:
+      redstone:
+        material: REDSTONE_BLOCK
+        amount: 16
+      iron:
+        material: IRON_BLOCK
+        amount: 16
+      gold:
+        material: GOLD_BLOCK
+        amount: 8
+      diamonds:
+        material: DIAMOND
+        amount: 8
+      xp:
+        material: EMERALD_BLOCK
+        amount: 2
+      slime:
+        material: SLIME_BALL
+        amount: 4
+      pearls:
+        material: ENDER_PEARL
+        name: Exile Pearl
+        lore:
+          - Used to exile other players
+        amount: 4
+      stamina:
+        golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 2
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+    output:
+      bastion:
+        material: ENDER_CHEST
+        name: City Bastion 
+        lore: 
+          - City Bastions will keep exiled players out and prevent block reinforcements
+        amount: 16
+  repair_bastion:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      redstone:
+        material: REDSTONE_BLOCK
+        amount: 16
+      iron:
+        material: IRON_BLOCK
+        amount: 16
+      gold:
+        material: GOLD_BLOCK
+        amount: 8
+      diamonds:
+        material: DIAMOND
+        amount: 8
+      xp:
+        material: EMERALD_BLOCK
+        amount: 2
+      slime:
+        material: SLIME_BALL
+        amount: 4
+      pearls:
+        material: ENDER_PEARL
+        name: Exile Pearl
+        lore:
+          - Used to exile other players
+        amount: 4
+      stamina:
+        golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 2
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+    health_gained: 10000
