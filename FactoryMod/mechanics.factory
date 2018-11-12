@@ -21,6 +21,7 @@
      - make_jukes
      - make_sensors
      - make_pistons
+     - make_clocks
      - make_comparator
      - make_repeater
      - make_gearbox
