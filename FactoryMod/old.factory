@@ -41,25 +41,6 @@
      - upgrade_to_kiln
      - upgrade_to_charcoal_factory
      - upgrade_to_explosives_factory
-  husbandry:
-    type: FCC
-    name: Animal Husbandry
-    citadelBreakReduction: 1.0
-    setupcost:
-      steel_block:
-        material: IRON_BLOCK
-        amount: 32
-      slime:
-        material: SLIME_BALL
-        amount: 16
-      leather:
-        material: LEATHER
-        amount: 32
-    recipes:
-     - make_saddle
-     - make_lead
-     - make_bio_component
-     - repair_husbandry
   bastion_factory:
     type: FCC
     name: Bastion Factory
