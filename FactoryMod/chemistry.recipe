@@ -1,0 +1,95 @@
+  fermented_eye:
+    production_time: 2s
+    name: Make Fermented Eyes
+    type: PRODUCTION
+    input:
+      eyes:
+        material: EYE_OF_ENDER
+        amount: 8
+      sugar:
+        material: SUGAR
+        amount: 16
+    output:
+      fermented:
+        material: FERMENTED_SPIDER_EYE
+        amount: 16
+  magma_cream:
+    production_time: 2s
+    name: Make Magma Cream
+    type: PRODUCTION
+    input:
+      slime:
+        material: SLIME_BALL
+        amount: 64
+      blaze:
+        material: BLAZE_POWDER
+        amount: 8
+    output:
+      craft:
+        material: MAGMA_CREAM
+        amount: 32
+  craft_eyes_of_ender:
+    production_time: 2s
+    name: Craft Eyes of Ender
+    type: PRODUCTION
+    input:
+      Blaze_Powder:
+        material: BLAZE_POWDER
+        amount: 1
+      Ender_Pearl:
+        material: ENDER_PEARL
+        amount: 1
+    output:
+      craft:
+        material: EYE_OF_ENDER
+        amount: 1
+  extract_mithril_strands:
+    production_time: 4s
+    name: Extract Mithril Strands
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 16
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 8
+        name: Sulfur
+      slime:
+        material: SLIME_BALL
+        amount: 16
+      blaze_Powder:
+        material: BLAZE_POWDER
+        amount: 2
+    output:
+      mithril_strands:
+        material: STRING
+        amount: 16
+        name: Mithril Strands
+        lore:
+          - "A spool of fibers spun from chemically altered diamonds"
+    repair_chemistry_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 16
+    health_gained: 10000
+  potassium_nitrate:
+    production_time: 4s
+    name: Potassium Nitrate
+    type: PRODUCTION
+    input:
+      sand:
+        material: SOUL_SAND
+        amount: 16
+    output:
+      potassium_nitrate:
+        material: SUGAR
+        name: Potassium Nitrate
+        amount: 16
+        lore:
+          - "Gunpowder Ingredient"
