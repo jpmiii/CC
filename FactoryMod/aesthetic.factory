@@ -15,6 +15,7 @@
         amount: 64
         durability: 1
     recipes:
+     - condense_purpur_fruit
      - make_quartz
      - make_cracked_stone_brick
      - make_mossy_stone_brick
@@ -25,7 +26,6 @@
      - aggregate_granite
      - make_red_sand
      - clean_red_sand
-     - condense_purpur_fruit
      - make_prismarine
      - make_prismarine_bricks
      - make_dark_prismarine
