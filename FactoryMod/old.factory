@@ -41,29 +41,6 @@
      - upgrade_to_kiln
      - upgrade_to_charcoal_factory
      - upgrade_to_explosives_factory
-  chemistry_factory:
-    type: FCC
-    name: Chemistry Factory
-    citadelBreakReduction: 1.0
-    setupcost:
-      equipment:
-        material: BREWING_STAND_ITEM
-        amount: 8
-      glassware:
-        material: GLASS_BOTTLE
-        amount: 64
-      charcoal:
-        material: COAL
-        amount: 64
-        durability: 1
-      cauldrons:
-        material: CAULDRON_ITEM
-        amount: 4
-    recipes:
-     - potassium_nitrate
-     - craft_eyes_of_ender
-     - extract_mithril_strands
-     - repair_chemistry_factory
   carpentry:
     type: FCC
     name: Carpentry Factory
