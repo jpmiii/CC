@@ -1,3 +1,18 @@
+  make_hopper:
+    production_time: 4s
+    name: Make Hoppers
+    type: PRODUCTION
+    input:
+      chests:
+        material: CHEST
+        amount: 32
+      iron:
+        material: IRON_INGOT
+        amount: 192
+    output:
+      hopper:
+        material: HOPPER
+        amount: 64
   make_rail:
     production_time: 4s
     name: Make Rails
