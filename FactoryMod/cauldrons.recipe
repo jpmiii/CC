@@ -132,16 +132,18 @@
       exp:
         material: EMERALD_BLOCK
         amount: 1
-  wither_skull:
+  nether_star:
     forceInclude: true
     production_time: 2s
-    name: Forge Nether Star
+    name: Make Nether Star
     type: PRODUCTION
     input:
-      wither_skull:
-        material: SKULL_ITEM
-        durability: 1
-        amount: 3
+      exp:
+        material: EMERALD_BLOCK
+        amount: 64
+      diamonds:
+        material: DIAMOND
+        amount: 64
     output:
       nether_star:
         material: NETHER_STAR
