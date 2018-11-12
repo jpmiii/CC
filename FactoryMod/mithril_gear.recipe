@@ -9,16 +9,12 @@
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
-      qhorse:
-        material: LEATHER_BARDING
-        name: "Quilted Horse Armor"
-        color: A89987
-        lore:
-          - "Made from layers of thick wool"
-        amount: 1
+      wool:
+        material: WOOL
+        amount: 32
       leather:
         material: LEATHER
-        amount: 2
+        amount: 4
       golden_apple:
         material: GOLDEN_APPLE
         durability: 1
