@@ -15,6 +15,9 @@
       diamonds:
         material: DIAMOND
         amount: 32
+      lapis:
+        material: LAPIS_BLOCK
+        amount: 120
       xp:
         material: EMERALD_BLOCK
         amount: 10
@@ -60,6 +63,9 @@
       diamonds:
         material: DIAMOND
         amount: 8
+      lapis:
+        material: LAPIS_BLOCK
+        amount: 30
       xp:
         material: EMERALD_BLOCK
         amount: 2
