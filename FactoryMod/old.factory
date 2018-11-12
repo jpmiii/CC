@@ -62,6 +62,7 @@
     recipes:
      - potassium_nitrate
      - craft_eyes_of_ender
+     - extract_mithril_strands
      - repair_chemistry_factory
   aesthetics:
     type: FCC
