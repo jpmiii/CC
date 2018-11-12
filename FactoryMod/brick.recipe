@@ -101,12 +101,32 @@
         amount: 32
   make_glass:
     production_time: 4s
-    name: Make Glass
+    name: Make Green Glass
     type: PRODUCTION
     input:
       sand:
         material: SAND
         amount: 64
+    output:
+      glass:
+        material: GLASS
+        amount: 64
+        durability: 13
+  make_clear_glass:
+    production_time: 16s
+    name: Make Clear Glass
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      white_dye:
+        material: INK_SACK
+        durability: 15
+        amount: 16
+      mineral:
+        material: FLINT
+        amount: 8
     output:
       glass:
         material: GLASS
