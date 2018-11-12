@@ -1,4 +1,16 @@
   
+  make_nametags:
+    production_time: 4s
+    name: Make Nametags
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 16
+    output:
+      plate:
+        material: NAME_TAG
+        amount: 8
   make_iron_pressure:
     production_time: 4s
     name: Make Iron Pressure Plates
