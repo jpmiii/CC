@@ -22,6 +22,7 @@
      - make_sensors
      - make_pistons
      - make_clocks
+     - make_compass
      - make_comparator
      - make_repeater
      - repair_redstone
