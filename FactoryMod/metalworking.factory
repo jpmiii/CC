@@ -22,6 +22,7 @@
      - make_rail
      - make_powered_rail
      - make_detector_rail
+     - make_activator_rail
      - make_minecart
      - repair_rails
   forge:
