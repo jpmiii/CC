@@ -17,5 +17,5 @@
      - make_primitive bed
      - make_crates
      - make_sports_balls
-     - repair_carpentry
      - make_boat
+     - repair_carpentry
