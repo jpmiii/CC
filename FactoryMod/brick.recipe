@@ -112,25 +112,6 @@
         material: GLASS
         amount: 64
         durability: 13
-  make_clear_glass:
-    production_time: 16s
-    name: Make Clear Glass
-    type: PRODUCTION
-    input:
-      sand:
-        material: SAND
-        amount: 64
-      white_dye:
-        material: INK_SACK
-        durability: 15
-        amount: 16
-      mineral:
-        material: FLINT
-        amount: 8
-    output:
-      glass:
-        material: GLASS
-        amount: 64
   fire_terracotta:
     production_time: 4s
     name: Fire Terracotta Blocks
@@ -245,6 +226,25 @@
       glass:
         material: GLASS
         amount: 96
+  make_clear_glass2:
+    production_time: 16s
+    name: Make Clear Glass
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      white_dye:
+        material: INK_SACK
+        durability: 15
+        amount: 16
+      mineral:
+        material: FLINT
+        amount: 8
+    output:
+      glass:
+        material: GLASS
+        amount: 64
   sinter_stone3:
     production_time: 4s
     name: Sinter Cobble Into Stone
@@ -281,6 +281,25 @@
       glass:
         material: GLASS
         amount: 128
+  make_clear_glass3:
+    production_time: 16s
+    name: Make Clear Glass
+    type: PRODUCTION
+    input:
+      sand:
+        material: SAND
+        amount: 64
+      white_dye:
+        material: INK_SACK
+        durability: 15
+        amount: 16
+      mineral:
+        material: FLINT
+        amount: 8
+    output:
+      glass:
+        material: GLASS
+        amount: 96
   fire_terracotta3:
     production_time: 4s
     name: Fire Terracotta Blocks
