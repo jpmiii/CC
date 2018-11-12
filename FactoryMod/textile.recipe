@@ -12,6 +12,18 @@
       string:
         material: STRING
         amount: 64
+  make_cobweb:
+    production_time: 4s
+    name: Make Cobwebs
+    type: PRODUCTION
+    input:
+      string:
+        material: STRING
+        amount: 576
+    output:
+      web:
+        material: WEB
+        amount: 64
   make_wool:
     production_time: 4s
     name: Make Wool
