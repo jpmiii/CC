@@ -19,6 +19,14 @@
       leather:
         material: LEATHER
         amount: 4
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 24
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       mithril_helm:
         material: DIAMOND_HELMET
@@ -45,6 +53,14 @@
         lore:
           - "Made from layers of thick wool"
         amount: 8
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 24
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
       leather:
         material: LEATHER
         amount: 4
@@ -77,6 +93,14 @@
       leather:
         material: LEATHER
         amount: 4
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 24
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       diamond_legs:
         material: DIAMOND_LEGGINGS
@@ -102,6 +126,14 @@
       leather:
         material: LEATHER
         amount: 4
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 24
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       mithril_boots:
         material: DIAMOND_BOOTS
@@ -121,6 +153,14 @@
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 16
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       mithril_axe:
         material: DIAMOND_AXE
@@ -139,6 +179,14 @@
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 16
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       mithril_sword:
         material: DIAMOND_SWORD
@@ -157,6 +205,14 @@
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 24
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       mithril_pick:
         material: DIAMOND_PICKAXE
@@ -176,6 +232,14 @@
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 24
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       mithril_hoe:
         material: DIAMOND_HOE
@@ -194,6 +258,14 @@
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 8
+        name: Stamina
+        amount: 24
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     output:
       mithril_shovel:
         material: DIAMOND_SPADE
