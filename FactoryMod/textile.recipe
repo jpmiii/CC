@@ -1,5 +1,4 @@
 ###############################
-
   make_string:
     production_time: 4s
     name: Make String
