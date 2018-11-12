@@ -4,6 +4,9 @@
     citadelBreakReduction: 1.0
     decay_amount: 104
     setupcost:
+      cauldron:
+        material: CAULDRON_ITEM
+        amount: 1
       iron:
         material: IRON_INGOT
         amount: 128
