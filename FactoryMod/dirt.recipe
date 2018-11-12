@@ -1,6 +1,19 @@
 ###################################################################################################################
 ########################################### old recipes
 
+  
+  upgrade_to_music:
+    production_time: 4s
+    name: Recipe for Record Factory
+    type: UPGRADE
+    input:
+      doxxer_tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - ":("
+    factory: Record Factory
   upgrade_to_charcoal_factory:
     production_time: 4s
     name: Recipe for Charcoal Factory
