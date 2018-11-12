@@ -37,7 +37,16 @@
     setupcost:
       bricks:
         material: BRICK
-        amount: 640
+        amount: 384
+      netherbrick:
+        material: NETHER_BRICK
+        amount: 128
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of tin and copper"
+        amount: 64
       golden_apple:
         material: GOLDEN_APPLE
         durability: 1
@@ -73,6 +82,12 @@
       diamonds:
         material: DIAMOND
         amount: 128
+      steel:
+        material: IRON_INGOT
+        amount: 16
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       golden_apple:
         material: GOLDEN_APPLE
         durability: 1
