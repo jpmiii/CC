@@ -1,0 +1,125 @@
+  make_fences:
+    production_time: 4s
+    name: Make Fences
+    type: PRODUCTION
+    input:
+      chest:
+        material: LOG
+        amount: 24
+        durability: -1
+    output:
+      fence:
+        material: FENCE
+        amount: 256
+  make_signs:
+    production_time: 4s
+    name: Make Signs
+    type: PRODUCTION
+    input:
+      chest:
+        material: LOG
+        amount: 16
+        durability: -1
+    output:
+      sign:
+        material: SIGN
+        amount: 64
+  make_ladders:
+    production_time: 4s
+    name: Make Ladders
+    type: PRODUCTION
+    input:
+      chest:
+        material: LOG
+        amount: 16
+        durability: -1
+    output:
+      ladder:
+        material: LADDER
+        amount: 256
+  make_bookshelves:
+    production_time: 4s
+    name: Make Bookshelves
+    type: PRODUCTION
+    input:
+      chest:
+        material: LOG
+        amount: 32
+        durability: -1
+      books:
+        material: BOOK
+        amount: 48
+    output:
+      bookshelves:
+        material: BOOKSHELF
+        amount: 16
+  make_trapdoors:
+    production_time: 4s
+    name: Make Trap Doors
+    type: PRODUCTION
+    input:
+      chest:
+        material: LOG
+        amount: 96
+        durability: -1
+    output:
+      trapdoor:
+        material: TRAP_DOOR
+        amount: 256
+  make_wood_doors:
+    production_time: 4s
+    name: Make Wood Doors
+    type: PRODUCTION
+    input:
+      chest:
+        material: LOG
+        amount: 32
+        durability: -1
+    output:
+      door:
+        material: WOOD_DOOR
+        amount: 32
+  make_primitive bed:
+    production_time: 4s
+    name: Make Primitive Bed
+    type: PRODUCTION
+    input:
+      wood:
+        material: LOG
+        amount: 1
+        durability: -1
+      skins:
+        material: LEATHER
+        amount: 4
+    output:
+      bed:
+        material: BED
+        durability: 12
+        amount: 1
+  make_sports_balls:
+    production_time: 4s
+    name: Make Sports Balls
+    type: PRODUCTION
+    input:
+      wood:
+        material: LOG
+        amount: 16
+        durability: -1
+      wool:
+        material: WOOL
+        amount: 8
+        durability: -1
+    output:
+      door:
+        material: SPONGE
+        amount: 4
+  repair_carpentry:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      chest:
+        material: LOG
+        amount: 4
+        durability: -1
+    health_gained: 10000
