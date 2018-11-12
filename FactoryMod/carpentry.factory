@@ -8,6 +8,7 @@
         amount: 64
         durability: -1
     recipes:
+     - make_boat
      - make_fences
      - make_signs
      - make_ladders
@@ -18,5 +19,4 @@
      - make_primitive bed
      - make_crates
      - make_sports_balls
-     - make_boat
      - repair_carpentry
