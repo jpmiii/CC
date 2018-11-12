@@ -78,7 +78,10 @@
     setupcost:
       bricks:
         material: BRICK
-        amount: 1024
+        amount: 384
+      netherbrick:
+        material: NETHER_BRICK
+        amount: 128
       diamonds:
         material: DIAMOND
         amount: 128
