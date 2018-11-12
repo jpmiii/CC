@@ -1,6 +1,6 @@
   make_bastion:
     production_time: 4s
-    name: Make Bastions
+    name: Make Vault Bastions
     type: PRODUCTION
     input:
       redstone:
