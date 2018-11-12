@@ -4,8 +4,9 @@
     citadelBreakReduction: 1.0
     setupcost:
       chest:
-        material: CHEST
-        amount: 32
+        material: LOG
+        amount: 64
+        durability: -1
     recipes:
      - make_fences
      - make_signs
