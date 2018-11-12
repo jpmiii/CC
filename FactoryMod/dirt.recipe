@@ -250,7 +250,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 320
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     factory: Mithril Armor Factory
@@ -262,7 +262,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 240
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     factory: Mithril Tool Factory
