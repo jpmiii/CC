@@ -1,0 +1,169 @@
+  make_mail_coifs:
+    production_time: 4s
+    name: Make Mail Coifs
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 25
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      steel_helm:
+        material: CHAINMAIL_HELMET
+        amount: 15
+        name: Chainmail Coif
+  make_mail_hauberks:
+    production_time: 4s
+    name: Make Mail Hauberks
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 64
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      steel_chest:
+        material: CHAINMAIL_CHESTPLATE
+        amount: 8
+        name: Chainmail Hauberk
+  make_mail_leggings:
+    production_time: 4s
+    name: Make Mail Leggings
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 56
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      mail_legs:
+        material: CHAINMAIL_LEGGINGS
+        amount: 8
+  make_mail_boots:
+    production_time: 4s
+    name: Make Mail Boots
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 40
+      leather_boots:
+        material: LEATHER_BOOTS
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      steel_boots:
+        material: CHAINMAIL_BOOTS
+        amount: 8
+        name: Steel Boots
+  make_iron_axe:
+    production_time: 4s
+    name: Make Iron Axe
+    type: PRODUCTION
+    input:
+      iron: 
+        material: IRON_INGOT
+        amount: 15
+    output:
+      iron_axe:
+        material: IRON_AXE
+        amount: 15
+  make_iron_sword:
+    production_time: 4s
+    name: Make Iron Sword
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 15
+    output:
+      iron_sword:
+        material: IRON_SWORD
+        amount: 15
+  make_iron_pick:
+    production_time: 4s
+    name: Make Iron Pick
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 15
+      charcoal:
+        material: COAL
+        durability: 1
+        amount: 8
+    output:
+      iron_pick:
+        material: IRON_PICKAXE
+        amount: 15
+  make_iron_hoe:
+    production_time: 4s
+    name: Make Iron Hoe
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 15
+    output:
+      iron_hoe:
+        material: IRON_HOE
+        amount: 15
+  make_iron_shovel:
+    production_time: 4s
+    name: Make Iron Shovel
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 15
+    output:
+      iron_shovel:
+        material: IRON_SPADE
+        amount: 15
+  repair_iron_tools_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 24
+    health_gained: 10000
+  repair_iron_armor_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 32
+    health_gained: 10000
