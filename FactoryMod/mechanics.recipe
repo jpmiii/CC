@@ -268,8 +268,8 @@
     name: Make Clocks
     type: PRODUCTION
     input:
-      stone:
-        gold: GOLD_INGOT
+      gold:
+        material: GOLD_INGOT
         amount: 32
       redstone:
         material: REDSTONE
