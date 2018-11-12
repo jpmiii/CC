@@ -9,14 +9,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 25
+        amount: 40
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_helm:
         material: GOLD_HELMET
         name: "Bronze Helmet"
         lore:
           - "No Owner"
-        amount: 15
+        amount: 8
   make_bronze_chest:
     production_time: 4s
     name: Make Bronze Chestplates
@@ -27,14 +30,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 40
+        amount: 64
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_chest:
         material: GOLD_CHESTPLATE
         name: "Bronze Chestplate"
         lore:
           - "No Owner"
-        amount: 15
+        amount: 8
   make_bronze_legs:
     production_time: 4s
     name: Make Bronze Leggings
@@ -45,14 +51,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 35
+        amount: 56
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_legs:
         material: GOLD_LEGGINGS
         name: "Bronze Leggings"
         lore:
           - "No Owner"
-        amount: 15
+        amount: 8
   make_bronze_boots:
     production_time: 4s
     name: Make Bronze Boots
@@ -64,13 +73,16 @@
         lore:
           - "An alloy of tin and copper"
         amount: 20
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_boots:
         material: GOLD_BOOTS
         name: "Bronze Boots"
         lore:
           - "No Owner"
-        amount: 15
+        amount: 8
   repair_bronze_armor_factory:
     production_time: 4s
     name: Repair Bronze Armor Factory
@@ -82,6 +94,9 @@
         lore:
           - "An alloy of tin and copper"
         amount: 6
+      sand:
+        material: SAND
+        amount: 32
     health_gained: 10000
   make_bronze_axe:
     production_time: 4s
@@ -93,14 +108,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 15
+        amount: 16
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_axe:
         material: GOLD_AXE
         name: "Bronze Axe"
         lore:
           - "For cutting wood and harvesting timber"
-        amount: 30
+        amount: 16
   make_bronze_sword:
     production_time: 4s
     name: Make Bronze Sword
@@ -111,14 +129,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 10
+        amount: 16
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_sword:
         material: GOLD_SWORD
         name: "Bronze Sword"
         lore:
           - "A bladed weapon made for slashing"
-        amount: 15
+        amount: 16
   make_bronze_pick:
     production_time: 4s
     name: Make Bronze Pick
@@ -129,14 +150,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 15
+        amount: 16
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_pick:
         material: GOLD_PICKAXE
         name: "Bronze Pickaxe"
         lore:
           - "For breaking hard and rocky surfaces"
-        amount: 15
+        amount: 16
   make_bronze_hoe:
     production_time: 4s
     name: Make Bronze Hoe
@@ -147,14 +171,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 10
+        amount: 16
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_hoe:
         material: GOLD_HOE
         name: "Bronze Hoe"
         lore:
           - "An agricultural tool for shaping soil"
-        amount: 30
+        amount: 16
   make_bronze_shovel:
     production_time: 4s
     name: Make Bronze Shovel
@@ -165,14 +192,17 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 5
+        amount: 16
+      sand:
+        material: SAND
+        amount: 32
     output:
       bronze_shovel:
         material: GOLD_SPADE
         name: "Bronze Shovel"
         lore:
           - "Made for digging bulk materials"
-        amount: 15
+        amount: 16
   repair_bronze_tools_factory:
     production_time: 4s
     name: Repair Factory
