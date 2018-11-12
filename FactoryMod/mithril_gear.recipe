@@ -121,14 +121,14 @@
     input:
       mithril:
         material: PRISMARINE_SHARD
-        amount: 15
+        amount: 16
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
       mithril_axe:
         material: DIAMOND_AXE
-        amount: 15
+        amount: 16
         name: Mithril Axe
         lore:
           - Made from laminated, spun mithril fibers
@@ -139,14 +139,14 @@
     input:
       mithril:
         material: PRISMARINE_SHARD
-        amount: 15
+        amount: 16
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
       mithril_sword:
         material: DIAMOND_SWORD
-        amount: 15
+        amount: 16
         name: Mithril Sword
         lore:
           - Made from laminated, spun mithril fibers
@@ -157,14 +157,14 @@
     input:
       mithril:
         material: PRISMARINE_SHARD
-        amount: 15
+        amount: 16
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
       mithril_pick:
         material: DIAMOND_PICKAXE
-        amount: 15
+        amount: 16
         name: Mithril Pickaxe
         lore:
           - Mining Mode (/chisel to toggle)
@@ -176,14 +176,14 @@
     input:
       mithril:
         material: PRISMARINE_SHARD
-        amount: 15
+        amount: 16
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
       mithril_hoe:
         material: DIAMOND_HOE
-        amount: 15
+        amount: 16
         name: Mithril Hoe
         lore:
           - Made from laminated, spun mithril fibers
@@ -194,14 +194,14 @@
     input:
       mithril:
         material: PRISMARINE_SHARD
-        amount: 15
+        amount: 16
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
       mithril_shovel:
         material: DIAMOND_SPADE
-        amount: 15
+        amount: 16
         name: Mithril Shovel
         lore:
           - Made from laminated, spun mithril fibers
