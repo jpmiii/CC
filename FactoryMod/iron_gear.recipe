@@ -5,7 +5,7 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 25
+        amount: 48
       qcap:
         material: LEATHER_HELMET
         name: "Quilted Cap"
@@ -19,7 +19,7 @@
     output:
       steel_helm:
         material: CHAINMAIL_HELMET
-        amount: 15
+        amount: 8
         name: Chainmail Coif
   make_mail_hauberks:
     production_time: 4s
@@ -28,7 +28,7 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 64
+        amount: 48
       gambeson:
         material: LEATHER_CHESTPLATE
         name: "Gambeson"
@@ -51,7 +51,7 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 56
+        amount: 48
       qpants:
         material: LEATHER_LEGGINGS
         name: "Quilted Trousers"
@@ -73,7 +73,7 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 40
+        amount: 48
       leather_boots:
         material: LEATHER_BOOTS
         amount: 8
@@ -92,11 +92,11 @@
     input:
       iron: 
         material: IRON_INGOT
-        amount: 15
+        amount: 16
     output:
       iron_axe:
         material: IRON_AXE
-        amount: 15
+        amount: 16
   make_iron_sword:
     production_time: 4s
     name: Make Iron Sword
@@ -104,11 +104,11 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 15
+        amount: 16
     output:
       iron_sword:
         material: IRON_SWORD
-        amount: 15
+        amount: 16
   make_iron_pick:
     production_time: 4s
     name: Make Iron Pick
@@ -116,15 +116,11 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 15
-      charcoal:
-        material: COAL
-        durability: 1
-        amount: 8
+        amount: 16
     output:
       iron_pick:
         material: IRON_PICKAXE
-        amount: 15
+        amount: 16
   make_iron_hoe:
     production_time: 4s
     name: Make Iron Hoe
@@ -132,11 +128,11 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 15
+        amount: 16
     output:
       iron_hoe:
         material: IRON_HOE
-        amount: 15
+        amount: 16
   make_iron_shovel:
     production_time: 4s
     name: Make Iron Shovel
@@ -144,11 +140,11 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 15
+        amount: 16
     output:
       iron_shovel:
         material: IRON_SPADE
-        amount: 15
+        amount: 16
   repair_iron_tools_factory:
     production_time: 4s
     name: Repair Factory
