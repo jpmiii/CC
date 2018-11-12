@@ -102,4 +102,6 @@
       - print_book
       - print_note
       - print_secure_note
+      - make_map
+      - make_painting
       - repair_printer
