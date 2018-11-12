@@ -395,6 +395,9 @@
     name: Recipe for Basic Experience Factory
     type: UPGRADE
     input:
+      cauldron:
+        material: CAULDRON_ITEM
+        amount: 1
       iron:
         material: IRON_INGOT
         amount: 128
