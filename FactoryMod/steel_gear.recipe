@@ -131,7 +131,7 @@
         enchants:
           eff2:
             enchant: DIG_SPEED
-            level: 1
+            level: 2
   make_steel_sword:
     production_time: 4s
     name: Make Steel Sword
@@ -153,7 +153,7 @@
         enchants:
           eff2:
             enchant: DIG_SPEED
-            level: 1
+            level: 2
   make_steel_pick:
     production_time: 4s
     name: Make Steel Pick
@@ -175,7 +175,7 @@
         enchants:
           eff2:
             enchant: DIG_SPEED
-            level: 1
+            level: 2
   make_steel_hoe:
     production_time: 4s
     name: Make Steel Hoe
@@ -197,7 +197,7 @@
         enchants:
           eff2:
             enchant: DIG_SPEED
-            level: 1
+            level: 2
   make_steel_shovel:
     production_time: 4s
     name: Make Steel Shovel
@@ -219,7 +219,7 @@
         enchants:
           eff2:
             enchant: DIG_SPEED
-            level: 1
+            level: 2
   repair_steel_tools_factory:
     production_time: 4s
     name: Repair Factory
