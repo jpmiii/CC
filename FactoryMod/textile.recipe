@@ -89,7 +89,7 @@
         amount: 4
         name: Woven Cloth
         lore:
-          - "Suitable for use as sailcloth"=
+          - "Suitable for use as sailcloth"
   make_quilted_armor:
     production_time: 4s
     name: Make Quilted Armor
