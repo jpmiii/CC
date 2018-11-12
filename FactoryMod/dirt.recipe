@@ -371,6 +371,9 @@
       gold:
         material: GOLD_BLOCK
         amount: 32
+      gunpowder:
+        material: SULPHUR
+        amount: 64
       diamonds:
         material: DIAMOND
         amount: 32
