@@ -10,6 +10,7 @@
         material: GRAVEL
         amount: 256
     recipes:
+     - mix_concrete_red
      - mix_concrete_white
      - mix_concrete_orange
      - mix_concrete_magenta
@@ -24,6 +25,5 @@
      - mix_concrete_blue
      - mix_concrete_brown
      - mix_concrete_green
-     - mix_concrete_red
      - mix_concrete_black
      - repair_mixer
