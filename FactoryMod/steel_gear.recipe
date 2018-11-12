@@ -1,3 +1,38 @@
+  make_steel_horse_armor:
+    production_time: 4s
+    name: Make Steel Horse Armor
+    type: PRODUCTION
+    input:
+      steel:
+        material: IRON_INGOT
+        amount: 24
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+      sand:
+        material: SAND
+        amount: 32
+      qhorse:
+        material: LEATHER_BARDING
+        name: "Quilted Horse Armor"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 1
+      leather:
+        material: LEATHER
+        amount: 2
+    output:
+      steel_horse:
+        material: IRON_BARDING
+        amount: 1
+        name: Steel Horse Armor
+        lore:
+          - Made with steel plate
+        enchants:
+          dur:
+            enchant: DURABILITY
+            level: 1
   make_steel_helm:
     production_time: 4s
     name: Make Steel Helmets
