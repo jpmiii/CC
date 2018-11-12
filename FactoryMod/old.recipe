@@ -16,6 +16,31 @@
       craft:
         material: EYE_OF_ENDER
         amount: 1
+  extract_mithril_strands
+    production_time: 4s
+    name: Extract Mithril Strands
+    type: PRODUCTION
+    input:
+      diamond:
+        material: DIAMOND
+        amount: 16
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 8
+        name: Sulfur
+      slime:
+        material: SLIME_BALL
+        amount: 16
+      blaze_Powder:
+        material: BLAZE_POWDER
+        amount: 2
+    output:
+      mithril_strands:
+        material: STRING
+        amount: 16
+        name: Mithril Strands
+        lore:
+          - "A spool of fibers spun from chemically altered diamonds"
   upgrade_to_charcoal_factory:
     production_time: 4s
     name: Recipe for Charcoal Factory
