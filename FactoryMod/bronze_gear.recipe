@@ -12,16 +12,12 @@
       sand:
         material: SAND
         amount: 32
-      qhorse:
-        material: LEATHER_BARDING
-        name: "Quilted Horse Armor"
-        color: A89987
-        lore:
-          - "Made from layers of thick wool"
-        amount: 1
+      wool:
+        material: WOOL
+        amount: 32
       leather:
         material: LEATHER
-        amount: 2
+        amount: 4
     output:
       mithril_horse:
         material: GOLD_BARDING
