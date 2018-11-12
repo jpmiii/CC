@@ -741,21 +741,6 @@
         material: GOLD_INGOT
         amount: 8
     factory: Rail Factory
-  upgrade_to_husbandry:
-    production_time: 4s
-    name: Recipe for Animal Husbandry
-    type: UPGRADE
-    input:
-      iron_block:
-        material: IRON_BLOCK
-        amount: 16
-      slime:
-        material: SLIME_BALL
-        amount: 16
-      leather:
-        material: LEATHER
-        amount: 32
-    factory: Animal Husbandry
   upgrade_to_forge:
     production_time: 4s
     name: Recipe for Forge
