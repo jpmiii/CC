@@ -146,6 +146,123 @@
       redstone_torch:
         material: REDSTONE_TORCH_ON
         amount: 128
+  make_droppers:
+    production_time: 4s
+    name: Make Droppers
+    type: PRODUCTION
+    input:
+      stone:
+        material: STONE
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 8
+    output:
+      droppers:
+        material: DROPPER
+        amount: 8
+  make_dispensers:
+    production_time: 4s
+    name: Make Dispensers
+    type: PRODUCTION
+    input:
+      stone:
+        material: STONE
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 8
+      redstone:
+        material: BOW
+        amount: 8
+    output:
+      droppers:
+        material: DISPENSER
+        amount: 8
+  make_observers:
+    production_time: 4s
+    name: Make Observers
+    type: PRODUCTION
+    input:
+      stone:
+        material: STONE
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 16
+      redstone:
+        material: QUARTZ_BLOCK
+        amount: 8
+    output:
+      droppers:
+        material: OBSERVER
+        amount: 8
+  make_noteblocks:
+    production_time: 4s
+    name: Make Noteblocks
+    type: PRODUCTION
+    input:
+      stone:
+        material: WOOD
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 8
+    output:
+      droppers:
+        material: NOTE_BLOCK
+        amount: 8
+  make_jukes:
+    production_time: 4s
+    name: Make Jukeboxes
+    type: PRODUCTION
+    input:
+      stone:
+        material: WOOD
+        amount: 64
+      diamond:
+        material: DIAMOND
+        amount: 8
+    output:
+      droppers:
+        material: JUKEBOX
+        amount: 8
+  make_sensors:
+    production_time: 4s
+    name: Make Daylight Sensors
+    type: PRODUCTION
+    input:
+      stone:
+        material: WOOD
+        amount: 32
+      quartz:
+        material: QUARTZ_BLOCK
+        amount: 32
+      glass:
+        material: GLASS
+        amount: 32
+    output:
+      droppers:
+        material: DAYLIGHT_DETECTOR
+        amount: 8
+  make_pistons:
+    production_time: 4s
+    name: Make Pistons
+    type: PRODUCTION
+    input:
+      stone:
+        material: WOOD
+        amount: 64
+      quartz:
+        material: REDSTONE
+        amount: 8
+      glass:
+        material: IRON_INGOT
+        amount: 8
+    output:
+      droppers:
+        material: PISTON
+        amount: 8
   make_comparator:
     production_time: 4s
     name: Make Comparators
