@@ -1,0 +1,35 @@
+  mithril_armor:
+    type: FCC
+    name: Mithril Armor Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 320
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+    recipes:
+     - make_mithril_chest
+     - make_mithril_legs
+     - make_mithril_boots
+     - make_mithril_helm
+     - repair_diamond_helm_factory
+  mithril_tool:
+    type: FCC
+    name: Mithril Tool Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 240
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+    recipes:
+     - make_mithril_pick
+     - make_mithril_sword
+     - make_mithril_shovel
+     - make_mithril_axe
+     - make_mithril_hoe
+     - repair_mithril_armor_factory
