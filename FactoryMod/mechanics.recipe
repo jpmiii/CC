@@ -1,0 +1,345 @@
+  crush_lapis:
+    production_time: 4s
+    name: Crush and Combine Lapis Ore
+    type: PRODUCTION
+    input:
+      lapis_ore:
+        material: LAPIS_ORE
+        amount: 32
+    output:
+      lapis:
+        material: LAPIS_BLOCK
+        amount: 12
+      cobblestone:
+        material: COBBLESTONE
+        amount: 42
+  crush_redstone:
+    production_time: 4s
+    name: Crush and Combine Redstone Ore
+    type: PRODUCTION
+    input:
+      redstone_ore:
+        material: REDSTONE_ORE
+        amount: 32
+    output:
+      redstone:
+        material: REDSTONE_BLOCK
+        amount: 11
+      cobblestone:
+        material: COBBLESTONE
+        amount: 53
+  crush_gold_ore:
+    production_time: 4s
+    name: Crush and Combine Gold Ore
+    type: PRODUCTION
+    input:
+      gold_ore:
+        material: GOLD_ORE
+        amount: 32
+    output:
+      gold:
+        material: GOLD_BLOCK
+        amount: 5
+      cobblestone:
+        material: COBBLESTONE
+        amount: 59
+  crush_stone:
+    production_time: 4s
+    name: Crush Stone
+    type: PRODUCTION
+    input:
+      stone:
+        material: STONE
+        amount: 32
+    output:
+      cobblestone:
+        material: COBBLESTONE
+        amount: 32
+  crush_cobble:
+    production_time: 4s
+    name: Crush Cobblestone
+    type: PRODUCTION
+    input:
+      cobble:
+        material: COBBLESTONE
+        amount: 32
+    output:
+      gravel:
+        material: GRAVEL
+        amount: 32
+  crush_gravel:
+    production_time: 4s
+    name: Crush Gravel
+    type: PRODUCTION
+    input:
+      gravel:
+        material: GRAVEL
+        amount: 32
+    output:
+      sand:
+        material: SAND
+        amount: 32
+  crush_glowstone:
+    production_time: 4s
+    name: Crush Glowstone into Sulfur
+    type: PRODUCTION
+    input:
+      glowstone:
+        material: GLOWSTONE
+        amount: 32
+    output:
+      glowdust:
+        material: GLOWSTONE_DUST
+        amount: 128
+        name: Sulfur
+  grind_bones:
+    production_time: 4s
+    name: Grind Bones
+    type: PRODUCTION
+    input:
+      bone:
+        material: BONE
+        amount: 32
+    output:
+      bonemeal:
+        material: INK_SACK
+        amount: 128
+        durability: 15
+  grind_roses:
+    production_time: 4s
+    name: Grind Roses
+    type: PRODUCTION
+    input:
+      poppy:
+        material: RED_ROSE
+        amount: 64
+    output:
+      rosered:
+        material: INK_SACK
+        amount: 128
+        durability: 1
+  grind_dandelions:
+    production_time: 4s
+    name: Grind Dandelions
+    type: PRODUCTION
+    input:
+      dandelion:
+        material: YELLOW_FLOWER
+        amount: 64
+    output:
+      dandelionyellow:
+        material: INK_SACK
+        amount: 128
+        durability: 11
+  make_torch:
+    production_time: 4s
+    name: Make Redstone Torches
+    type: PRODUCTION
+    input:
+      stick:
+        material: STICK
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 64
+    output:
+      redstone_torch:
+        material: REDSTONE_TORCH_ON
+        amount: 128
+  make_comparator:
+    production_time: 4s
+    name: Make Comparators
+    type: PRODUCTION
+    input:
+      redstone:
+        material: REDSTONE
+        amount: 32
+      stone:
+        material: STONE
+        amount: 128
+      quartz:
+        material: QUARTZ
+    output:
+      comparator:
+        material: REDSTONE_COMPARATOR
+        amount: 32
+  make_repeater:
+    production_time: 4s
+    name: Make Repeaters
+    type: PRODUCTION
+    input:
+      redstone:
+        material: REDSTONE
+        amount: 128
+      stone:
+        material: STONE
+        amount: 128
+    output:
+      repeater:
+        material: DIODE
+        amount: 96
+  compact:
+    production_time: 1s
+    fuel_consumption_intervall: 99999s
+    name: Compact
+    type: COMPACT
+    input:
+      crate:
+        material: CHEST
+        lore:
+          - Crate
+    compact_lore: Compacted Item
+    excluded_materials:
+      - BOOK
+  decompact:
+    production_time: 1s
+    fuel_consumption_intervall: 99999s
+    name: Decompact
+    type: DECOMPACT
+    input:
+    compact_lore: Compacted Item
+  bind_books:
+    type: PRODUCTION
+    name: Bind Books
+    production_time: 4s
+    input:
+      paper:
+        material: PAPER
+        amount: 18
+      leather:
+        material: LEATHER
+        amount: 6
+    output:
+      books:
+        material: BOOK
+        amount: 12
+  bind_writable_books:
+    type: PRODUCTION
+    name: Bind Written Books
+    production_time: 4s
+    input:
+      paper:
+        material: PAPER
+        amount: 18
+      leather:
+        material: LEATHER
+        amount: 6
+      ink:
+        material: INK_SACK
+        amount: 6
+    output:
+      books:
+        material: BOOK
+        amount: 12
+  craft_printing_plate:
+    type: PRINTINGPLATE
+    name: Craft Printing Plate
+    production_time: 4s
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 1
+    output:
+      plate:
+        material: TRAP_DOOR
+        amount: 1
+  print_book:
+    type: PRINTBOOK
+    name: Print Book
+    production_time: 4s
+    outputamount: 6
+    input:
+      paper:
+        material: PAPER
+        amount: 18
+      ink:
+        material: INK_SACK
+        amount: 1
+    printingplate:
+      plate:
+        material: TRAP_DOOR
+        amount: 1
+  print_note:
+    type: PRINTNOTE
+    name: Print Note
+    production_time: 4s
+    securenote: false
+    title: Pamphlet
+    outputamount: 3
+    input:
+      paper:
+        material: PAPER
+        amount: 5
+    printingplate:
+      plate:
+        material: TRAP_DOOR
+        amount: 1
+  print_secure_note:
+    type: PRINTNOTE
+    name: Print Secure Note
+    production_time: 4s
+    securenote: true
+    title: Secure Note
+    outputamount: 3
+    input:
+      paper:
+        material: PAPER
+        amount: 5
+    printingplate:
+      plate:
+        material: TRAP_DOOR
+        amount: 1
+  repair_printer:
+    forceInclude: true
+    type: REPAIR
+    name: Repair Printer
+    production_time: 4s
+    input:
+      ink:
+        material: INK_SACK
+        amount: 3
+      paper:
+        material: PAPER
+        amount: 6
+    health_gained: 10000
+  repair_compactor:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 5
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+    health_gained: 10000
+  repair_redstone:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 6
+      redstone:
+        material: REDSTONE
+        amount: 25
+      gold:
+        material: GOLD_INGOT
+        amount: 3
+    health_gained: 10000
+  repair_grinding_mill:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      stone:
+        material: STONE
+        amount: 128
+      leather:
+        material: LEATHER
+        amount: 8
+    health_gained: 10000
