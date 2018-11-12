@@ -68,7 +68,7 @@
         name: Mithril Strands
         lore:
           - "A spool of fibers spun from chemically altered diamonds"
-    repair_chemistry_factory:
+  repair_chemistry_factory:
     production_time: 4s
     name: Repair Factory
     type: REPAIR
