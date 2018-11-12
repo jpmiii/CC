@@ -14,7 +14,7 @@
      - make_mithril_chest
      - make_mithril_legs
      - make_mithril_boots
-     - repair_diamond_helm_factory
+     - repair_mithril_armor_factory
   mithril_tool:
     type: FCC
     name: Mithril Tool Factory
@@ -32,4 +32,4 @@
      - make_mithril_shovel
      - make_mithril_axe
      - make_mithril_hoe
-     - repair_mithril_armor_factory
+     - repair_mithril_tool_factory
