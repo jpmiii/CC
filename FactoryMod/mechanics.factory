@@ -13,6 +13,7 @@
         material: GOLD_INGOT
         amount: 32
     recipes:
+     - make_pistons
      - make_torch
      - make_droppers
      - make_dispensers
@@ -20,7 +21,6 @@
      - make_noteblocks
      - make_jukes
      - make_sensors
-     - make_pistons
      - make_clocks
      - make_compass
      - make_comparator
