@@ -6,8 +6,9 @@
       doxxer_tears:
         material: WATER_BUCKET
         amount: 4
+        name: Doxxer Tears
         lore:
-          - Doxxer Tears
+          - ":("
     recipes:
      - 13
      - cat
