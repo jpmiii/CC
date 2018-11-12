@@ -1,0 +1,89 @@
+  redstone_mechanics:
+    type: FCC
+    name: Mechanics Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 64
+      redstone:
+        material: REDSTONE
+        amount: 256
+      gold:
+        material: GOLD_INGOT
+        amount: 32
+    recipes:
+     - make_torch
+     - make_comparator
+     - make_repeater
+     - make_gearbox
+     - repair_redstone
+  grinding_mill:
+    type: FCC
+    name: Grinding Mill
+    citadelBreakReduction: 1.0
+    setupcost:
+      leather:
+        material: LEATHER
+        amount: 32
+      stone:
+        material: STONE
+        amount: 128
+      log:
+        material: LOG
+        durability: -1
+        amount: 128
+    recipes:
+     - crush_stone
+     - crush_cobble
+     - crush_gravel
+     - crush_lapis
+     - crush_redstone
+     - crush_gold_ore
+     - crush_glowstone
+     - grind_bones
+     - grind_roses
+     - grind_dandelions
+     - repair_grinding_mill
+  compactor:
+    type: FCC
+    name: Compactor
+    citadelBreakReduction: 0.8
+    setupcost:
+      iron_block:
+        material: IRON_BLOCK
+        amount: 32
+      redstone_block:
+        material: REDSTONE_BLOCK
+        amount: 16
+      piston:
+        material: PISTON_BASE
+        amount: 64
+      crate:
+        material: CHEST
+        amount: 32
+        lore:
+          - Crate
+    recipes:
+      - compact
+      - decompact
+      - repair_compactor
+  printing_press:
+    type: FCC
+    name: Printing Press
+    citadelBreakReduction: 0.1
+    setupcost:
+      ink:
+        material: INK_SACK
+        amount: 32
+      paper:
+        material: PAPER
+        amount: 64
+    recipes:
+      - bind_books
+      - bind_writable_books
+      - craft_printing_plate
+      - print_book
+      - print_note
+      - print_secure_note
+      - repair_printer
