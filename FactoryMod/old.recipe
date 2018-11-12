@@ -133,12 +133,16 @@
     type: UPGRADE
     input:
       stone:
-        material: STONE
+        material: SANDSTONE
         amount: 256
-      dye:
+      dandelionyellow:
         material: INK_SACK
-        amount: 32
-        durability: -1
+        amount: 64
+        durability: 11
+      rosered:
+        material: INK_SACK
+        amount: 64
+        durability: 1
     factory: Aesthetics Factory
   upgrade_to_chemistry_factory:
     production_time: 4s
@@ -372,8 +376,7 @@
         durability: -1
       Dirt!:
         material: DIRT
-        amount: 256
-        name: Dirt!
+        amount: 128
     factory: Bio Lab
   mix_concrete_white:
     production_time: 4s
