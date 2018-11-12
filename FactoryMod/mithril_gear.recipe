@@ -97,11 +97,7 @@
         lore:
           - An incredibly tough, flexible material woven from chemically altered diamonds
       qcap:
-        material: LEATHER_HELMET
-        name: "Quilted Cap"
-        color: A89987
-        lore:
-          - Made from layers of thick wool
+        material: LEATHER_BOOTS
         amount: 8
       leather:
         material: LEATHER
