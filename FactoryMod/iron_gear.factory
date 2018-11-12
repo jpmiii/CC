@@ -1,0 +1,29 @@
+  iron_tools:
+    type: FCC
+    name: Iron Tool Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      steel:
+        material: IRON_INGOT
+        amount: 64
+    recipes:
+     - make_iron_pick
+     - make_iron_sword
+     - make_iron_shovel
+     - make_iron_axe
+     - make_iron_hoe
+     - repair_steel_tools_factory
+  iron_armor:
+    type: FCC
+    name: Iron Armor Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      steel:
+        material: IRON_INGOT
+        amount: 96
+    recipes:
+     - make_mail_coifs
+     - make_mail_hauberks
+     - make_mail_leggings
+     - make_mail_boots
+     - repair_steel_armor_factory
