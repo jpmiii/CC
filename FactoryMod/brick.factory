@@ -21,7 +21,7 @@
      - sinter_stone
      - sinter_sandstone
      - sinter_red_sandstone
-     - make_glass
+     - make_green_glass
      - fire_terracotta
      - fire_bricks
      - fire_netherrack
@@ -60,7 +60,8 @@
      - sinter_stone2
      - sinter_sandstone2
      - sinter_red_sandstone2
-     - make_glass2
+     - make_green_glass2
+     - make_clear_glass2
      - fire_terracotta2
      - fire_bricks2
      - fire_netherrack2
@@ -104,7 +105,8 @@
      - sinter_stone3
      - sinter_sandstone3
      - sinter_red_sandstone3
-     - make_glass3
+     - make_green_glass3
+     - make_clear_glass3
      - fire_terracotta3
      - fire_bricks3
      - fire_netherrack3
