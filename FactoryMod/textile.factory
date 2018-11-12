@@ -21,4 +21,6 @@
      - make_woven_cloth
      - weave_mithril_wafer
      - make_cobweb
+     - make_saddle
+     - make_lead
      - repair_textile_factory
