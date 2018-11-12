@@ -45,4 +45,5 @@
     decay_amount: 104
     recipes:
      - adv_xp_1
+     - nether_star
      - repair_advanced_cauldron
