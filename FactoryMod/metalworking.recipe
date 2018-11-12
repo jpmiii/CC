@@ -1,11 +1,37 @@
+  
+  make_iron_pressure:
+    production_time: 4s
+    name: Make Iron Pressure Plates
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 16
+    output:
+      plate:
+        material: IRON_PLATE
+        amount: 8
+  make_gold_pressure:
+    production_time: 4s
+    name: Make Gold Pressure Plates
+    type: PRODUCTION
+    input:
+      iron:
+        material: GOLD_INGOT
+        amount: 16
+    output:
+      plate:
+        material: GOLD_PLATE
+        amount: 8
   make_hopper:
     production_time: 4s
     name: Make Hoppers
     type: PRODUCTION
     input:
       chests:
-        material: CHEST
-        amount: 32
+        material: LOG
+        amount: 64
+        durability: -1
       iron:
         material: IRON_INGOT
         amount: 192
