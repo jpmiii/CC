@@ -886,7 +886,7 @@
     factory: Forge
   upgrade_to_redstone:
     production_time: 4s
-    name: Recipe for Redstone Mechanics Factory
+    name: Recipe for Mechanics Factory
     type: UPGRADE
     input:
       iron:
@@ -898,7 +898,7 @@
       gold:
         material: GOLD_INGOT
         amount: 32
-    factory: Redstone Mechanics Factory
+    factory: Mechanics Factory
   upgrade_to_bastion:
     production_time: 4s
     name: Recipe for Bastion Factory
