@@ -362,7 +362,7 @@
         amount: 12
   bind_writable_books:
     type: PRODUCTION
-    name: Bind Written Books
+    name: Bind Writeable Books
     production_time: 4s
     input:
       paper:
@@ -374,10 +374,70 @@
       ink:
         material: INK_SACK
         amount: 6
+      feather:
+        material: FEATHER
+        amount: 6
     output:
       books:
-        material: BOOK
+        material: BOOK_AND_QUILL
         amount: 12
+  make_map:
+    type: PRODUCTION
+    name: Make Map
+    production_time: 4s
+    input:
+      paper:
+        material: PAPER
+        amount: 18
+        material: INK_SACK
+        amount: 6
+      feather:
+        material: FEATHER
+        amount: 6
+    output:
+      books:
+        material: MAP
+        amount: 6
+  make_painting:
+    type: PRODUCTION
+    name: Make Paintings
+    production_time: 4s
+    input:
+      cloth:
+        material: PAPER
+        amount: 16
+        name: Woven Cloth
+        lore:
+          - "Suitable for use as sailcloth"
+      ink:
+        material: INK_SACK
+        amount: 4
+      ink:
+        material: INK_SACK
+        amount: 4
+        durability: 1
+      ink:
+        material: INK_SACK
+        amount: 4
+        durability: 4
+      ink:
+        material: INK_SACK
+        amount: 4
+        durability: 2
+      ink:
+        material: INK_SACK
+        amount: 4
+        durability: 15
+      feather:
+        material: FEATHER
+        amount: 4
+      sticks:
+        material: STICK
+        amount: 16
+    output:
+      books:
+        material: PAINTING
+        amount: 4
   craft_printing_plate:
     type: PRINTINGPLATE
     name: Craft Printing Plate
