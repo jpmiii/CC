@@ -1,6 +1,6 @@
   make_item_frames:
     production_time: 4s
-    name: Make Crates
+    name: Make Item Frames
     type: PRODUCTION
     input:
       cloth:
