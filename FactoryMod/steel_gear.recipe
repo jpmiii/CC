@@ -1,0 +1,226 @@
+  make_steel_helm:
+    production_time: 4s
+    name: Make Steel Helmets
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 48
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      steel_helm:
+        material: IRON_HELMET
+        amount: 8
+        name: Steel Helmet
+        lore: 
+          - No Owner
+          - Made with steel plate
+  make_steel_chest:
+    production_time: 4s
+    name: Make Steel Chestplates
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 48
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      steel_chest:
+        material: IRON_CHESTPLATE
+        amount: 8
+        name: Steel Chestplate
+        lore: 
+          - No Owner
+          - Steel plate chest armor
+  make_steel_legs:
+    production_time: 4s
+    name: Make Steel Leggings
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 48
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      steel_legs:
+        material: IRON_LEGGINGS
+        amount: 8
+        name: Steel Leg Armor
+        lore: 
+          - No Owner
+          - Steel plate greaves and cuisses
+  make_steel_boots:
+    production_time: 4s
+    name: Make Steel Boots
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 48
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+      leather_boots:
+        material: LEATHER_BOOTS
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      steel_boots:
+        material: IRON_BOOTS
+        amount: 8
+        name: Steel Boots
+        lore: 
+          - No Owner
+          - Steel plated leather boots
+  make_steel_axe:
+    production_time: 4s
+    name: Make Steel Axe
+    type: PRODUCTION
+    input:
+      iron: 
+        material: IRON_INGOT
+        amount: 15
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_axe:
+        material: IRON_AXE
+        amount: 15
+        name: Steel Axe
+        lore: 
+          - It has a razor-sharp, steel cutting edge
+  make_steel_sword:
+    production_time: 4s
+    name: Make Steel Sword
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 15
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_sword:
+        material: IRON_SWORD
+        amount: 15
+        name: Steel Sword
+        lore: 
+          - It has a razor-sharp, steel cutting edge
+  make_steel_pick:
+    production_time: 4s
+    name: Make Steel Pick
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 15
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_pick:
+        material: IRON_PICKAXE
+        amount: 15
+        name: Steel Pick
+        lore: 
+          - Made of hardened tool steel
+  make_steel_hoe:
+    production_time: 4s
+    name: Make Steel Hoe
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 15
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_hoe:
+        material: IRON_HOE
+        amount: 15
+        name: Steel Hoe
+        lore: 
+          - Made of hardened tool steel
+  make_steel_shovel:
+    production_time: 4s
+    name: Make Steel Shovel
+    type: PRODUCTION
+    input:
+      steel:
+        material: IRON_INGOT
+        amount: 15
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    output:
+      steel_shovel:
+        material: IRON_SPADE
+        amount: 15
+        name: Steel Shovel
+        lore: 
+          - Made of hardened tool steel
+  repair_steel_tools_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      steel:
+        material: IRON_INGOT
+        amount: 12
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    health_gained: 10000
+  repair_steel_armor_factory:
+    production_time: 4s
+    name: Repair Factory
+    type: REPAIR
+    input:
+      steel:
+        material: IRON_INGOT
+        amount: 18
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    health_gained: 10000
