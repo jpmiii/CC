@@ -1,0 +1,25 @@
+  chemistry_factory:
+    type: FCC
+    name: Chemistry Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      equipment:
+        material: BREWING_STAND_ITEM
+        amount: 8
+      glassware:
+        material: GLASS_BOTTLE
+        amount: 64
+      charcoal:
+        material: COAL
+        amount: 64
+        durability: 1
+      cauldrons:
+        material: CAULDRON_ITEM
+        amount: 4
+    recipes:
+     - potassium_nitrate
+     - craft_eyes_of_ender
+     - extract_mithril_strands
+     - magma_cream
+     - fermented_eye
+     - repair_chemistry_factory
