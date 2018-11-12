@@ -1,0 +1,45 @@
+  bastion_factory:
+    type: FCC
+    name: Bastion Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      casing:
+        material: ENDER_CHEST
+        amount: 32
+        name: Casing
+        lore:
+          - Casing for bastion
+      gearbox:
+        material: WATCH
+        amount: 32
+        name: Gearbox
+        lore:
+          - Gear mechanism for bastion
+      radar:
+        material: COMPASS
+        amount: 32
+        name: Radar
+        lore:
+          - Radar for detecting pearls
+      energizer:
+        material: EMERALD
+        amount: 32
+        name: Energizer
+        lore:
+          - Power source for bastion
+      refractor:
+        material: DIAMOND
+        amount: 32
+        name: Refractor
+        lore:
+          - Refractor for bastion
+      bio_compoent:
+        material: MAGMA_CREAM
+        amount: 32
+        name: Bio-Component
+        lore:
+          - Bio-Component for bastion
+    recipes:
+     - make_bastion
+     - make_city_bastion
+     - repair_bastion
