@@ -263,6 +263,21 @@
       droppers:
         material: PISTON
         amount: 8
+  make_clocks:
+    production_time: 4s
+    name: Make Clocks
+    type: PRODUCTION
+    input:
+      stone:
+        gold: GOLD_INGOT
+        amount: 32
+      redstone:
+        material: REDSTONE
+        amount: 8
+    output:
+      clocks:
+        material: WATCH
+        amount: 8
   make_comparator:
     production_time: 4s
     name: Make Comparators
