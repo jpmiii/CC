@@ -6,6 +6,9 @@
       steel:
         material: IRON_INGOT
         amount: 64
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
     recipes:
      - make_steel_pick
      - make_steel_sword
