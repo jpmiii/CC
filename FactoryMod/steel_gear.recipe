@@ -60,7 +60,7 @@
         lore: 
           - No Owner
           - Steel plate chest armor
-      enchants:
+        enchants:
           dur:
             enchant: DURABILITY
             level: 1
