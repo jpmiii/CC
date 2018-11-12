@@ -172,7 +172,7 @@
       redstone:
         material: REDSTONE
         amount: 8
-      redstone:
+      bow:
         material: BOW
         amount: 8
     output:
@@ -190,7 +190,7 @@
       redstone:
         material: REDSTONE
         amount: 16
-      redstone:
+      quartz:
         material: QUARTZ_BLOCK
         amount: 8
     output:
@@ -202,7 +202,7 @@
     name: Make Noteblocks
     type: PRODUCTION
     input:
-      stone:
+      wood:
         material: WOOD
         amount: 64
       redstone:
@@ -217,7 +217,7 @@
     name: Make Jukeboxes
     type: PRODUCTION
     input:
-      stone:
+      wood:
         material: WOOD
         amount: 64
       diamond:
