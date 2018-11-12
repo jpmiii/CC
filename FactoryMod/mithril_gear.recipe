@@ -6,7 +6,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 24
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       wool:
@@ -38,7 +38,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 48
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       qcap:
@@ -75,7 +75,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 48
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       gambeson:
@@ -112,7 +112,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 48
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       qpants:
@@ -149,7 +149,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 48
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - An incredibly tough, flexible material woven from chemically altered diamonds
       qcap:
@@ -182,7 +182,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 16
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       golden_apple:
@@ -208,7 +208,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 16
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       golden_apple:
@@ -234,7 +234,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 16
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       golden_apple:
@@ -261,7 +261,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 16
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       golden_apple:
@@ -287,7 +287,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 16
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
       golden_apple:
@@ -313,7 +313,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 32
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     health_gained: 10000
@@ -325,7 +325,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 32
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     health_gained: 10000
