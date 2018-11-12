@@ -1,272 +1,255 @@
-  upgrade_to_diamond_helm:
+  upgrade_to_mithril_armor:
     production_time: 4s
-    name: Recipe for Diamond Helmet Smith
+    name: Recipe for Diamond Armor Factory
     type: UPGRADE
     input:
-      diamond:
-        material: DIAMOND
-        amount: 192
-    factory: Diamond Helmet Smith
-  upgrade_to_diamond_chest:
-    production_time: 4s
-    name: Recipe for Diamond Chestplate Smith
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 320
-    factory: Diamond Chestplate Smith
-  upgrade_to_diamond_legs:
-    production_time: 4s
-    name: Recipe for Diamond Leggings Smith
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 256
-    factory: Diamond Leggings Smith
-  upgrade_to_diamond_boots:
-    production_time: 4s
-    name: Recipe for Diamond Boots Smith
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 160
-    factory: Diamond Boots Smith
-  upgrade_to_diamond_pick:
-    production_time: 4s
-    name: Recipe for Diamond Pickaxe Smith
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
+      mithril:
+        material: PRISMARINE_SHARD
         amount: 96
-    factory: Diamond Pickaxe Smith
-  upgrade_to_diamond_axe:
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+    factory: Diamond Armor Factory
+  upgrade_to_mithril_tool:
     production_time: 4s
-    name: Recipe for Diamond Axe Smith
+    name: Recipe for Diamond Tool Factory
     type: UPGRADE
     input:
-      diamond:
-        material: DIAMOND
+      mithril:
+        material: PRISMARINE_SHARD
         amount: 64
-    factory: Diamond Axe Smith
-  upgrade_to_diamond_shovel:
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+    factory: Diamond Tool Factory
+  make_mithril_helm:
     production_time: 4s
-    name: Recipe for Diamond Shovel Smith
-    type: UPGRADE
+    name: Make Mithril Helmets
+    type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
+      mithril:
+        material: PRISMARINE_SHARD
         amount: 48
-    factory: Diamond Shovel Smith
-  upgrade_to_diamond_hoe:
-    production_time: 4s
-    name: Recipe for Diamond Hoe Smith
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 32
-    factory: Diamond Hoe Smith
-  upgrade_to_diamond_sword:
-    production_time: 4s
-    name: Recipe for Diamond Sword Smith
-    type: UPGRADE
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 80
-    factory: Diamond Sword Smith
-  make_diamond_helm:
-    production_time: 4s
-    name: Make Diamond Helmets
-    type: PRODUCTION
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 25
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
-      diamond_helm:
+      mithril_helm:
         material: DIAMOND_HELMET
-        amount: 15
-  make_diamond_chest:
+        amount: 8
+        name: Mithril Helmet
+        lore:
+          - No Owner
+          - Made from plates of spun mithril fibers
+  make_mithril_chest:
     production_time: 4s
-    name: Make Diamond Chestplates
+    name: Make Mithril Chestplates
     type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
-        amount: 40
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 48
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
-      diamond_chest:
+      mithril_chest:
         material: DIAMOND_CHESTPLATE
-        amount: 15
-  make_diamond_legs:
+        amount: 8
+        name: Mithril Chestplate
+        lore:
+          - No Owner
+          - Made from plates of spun mithril fibers
+  make_mithril_legs:
     production_time: 4s
-    name: Make Diamond Leggings
+    name: Make Mithril Leggings
     type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
-        amount: 35
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 48
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
       diamond_legs:
         material: DIAMOND_LEGGINGS
         amount: 15
-  make_diamond_boots:
+        name: Mithril Leg Armor
+        lore:
+          - No Owner
+          - Made from plates of spun mithril fibers
+  make_mithril_boots:
     production_time: 4s
-    name: Make Diamond Boots
+    name: Make Mithril Boots
     type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
-        amount: 20
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 48
+        name: Mithril Wafer
+        lore:
+          - An incredibly tough, flexible material woven from chemically altered diamonds
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - Made from layers of thick wool
+        amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
-      diamond_boots:
+      mithril_boots:
         material: DIAMOND_BOOTS
-        amount: 15
-  make_diamond_axe:
+        amount: 8
+        name: Mithril Plated Boots
+        lore:
+          - No Owner
+          - Made from plates of spun mithril fibers over leather boots
+  make_mithril_axe:
     production_time: 4s
-    name: Make Diamond Axe
+    name: Make mithril Axes
     type: PRODUCTION
     input:
-      diamond: 
-        material: DIAMOND
+      mithril:
+        material: PRISMARINE_SHARD
         amount: 15
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
-      diamond_axe:
+      mithril_axe:
         material: DIAMOND_AXE
-        amount: 30
-  make_diamond_sword:
+        amount: 15
+        name: Mithril Axe
+        lore:
+          - Made from laminated, spun mithril fibers
+  make_mithril_sword:
     production_time: 4s
-    name: Make Diamond Sword
+    name: Make Mithril Swords
     type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
-        amount: 10
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 15
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
-      diamond_sword:
+      mithril_sword:
         material: DIAMOND_SWORD
         amount: 15
-  make_diamond_pick:
+        name: Mithril Sword
+        lore:
+          - Made from laminated, spun mithril fibers
+  make_mithril_pick:
     production_time: 4s
-    name: Make Diamond Pick
+    name: Make Mithril Picks
     type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
+      mithril:
+        material: PRISMARINE_SHARD
         amount: 15
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
-      diamond_pick:
+      mithril_pick:
         material: DIAMOND_PICKAXE
         amount: 15
+        name: Mithril Pickaxe
         lore:
           - Mining Mode (/chisel to toggle)
-  make_diamond_hoe:
+          - Made from laminated, spun mithril fibers
+  make_mithril_hoe:
     production_time: 4s
-    name: Make Diamond Hoe
+    name: Make Mithril Hoes
     type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
-        amount: 10
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 15
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
-      diamond_hoe:
+      mithril_hoe:
         material: DIAMOND_HOE
-        amount: 30
-  make_diamond_shovel:
+        amount: 15
+        name: Mithril Hoe
+        lore:
+          - Made from laminated, spun mithril fibers
+  make_mithril_shovel:
     production_time: 4s
-    name: Make Diamond Shovel
+    name: Make Mithril Shovels
     type: PRODUCTION
     input:
-      diamond:
-        material: DIAMOND
-        amount: 5
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 15
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
     output:
-      diamond_shovel:
+      mithril_shovel:
         material: DIAMOND_SPADE
         amount: 15
-  repair_diamond_helm_factory:
+        name: Mithril Shovel
+        lore:
+          - Made from laminated, spun mithril fibers
+  repair_mithril_armor_factory:
     production_time: 4s
     name: Repair Factory
     type: REPAIR
     input:
-      diamond:
-        material: DIAMOND
-        amount: 19
-    health_gained: 10000
-  repair_diamond_chest_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      diamond:
-        material: DIAMOND
+      mithril:
+        material: PRISMARINE_SHARD
         amount: 32
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
     health_gained: 10000
-  repair_diamond_legs_factory:
+  repair_mithril_tool_factory:
     production_time: 4s
     name: Repair Factory
     type: REPAIR
     input:
-      diamond:
-        material: DIAMOND
-        amount: 25
-    health_gained: 10000
-  repair_diamond_boots_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 16
-    health_gained: 10000
-  repair_diamond_pick_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 9
-    health_gained: 10000
-  repair_diamond_sword_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 8
-    health_gained: 10000
-  repair_diamond_shovel_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 5
-    health_gained: 10000
-  repair_diamond_axe_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 6
-    health_gained: 10000
-  repair_diamond_hoe_factory:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      diamond:
-        material: DIAMOND
-        amount: 3
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 32
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
     health_gained: 10000
