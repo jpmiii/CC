@@ -152,8 +152,8 @@
           - It has a razor-sharp, steel cutting edge
         enchants:
           eff2:
-            enchant: DIG_SPEED
-            level: 2
+            enchant: DURABILITY
+            level: 1
   make_steel_pick:
     production_time: 4s
     name: Make Steel Pick
