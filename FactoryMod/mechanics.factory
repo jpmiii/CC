@@ -14,6 +14,13 @@
         amount: 32
     recipes:
      - make_torch
+     - make_droppers
+     - make_dispensers
+     - make_observers
+     - make_noteblocks
+     - make_jukes
+     - make_sensors
+     - make_pistons
      - make_comparator
      - make_repeater
      - make_gearbox
