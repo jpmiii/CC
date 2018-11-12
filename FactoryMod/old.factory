@@ -81,27 +81,6 @@
      - make_lead
      - make_bio_component
      - repair_husbandry
-  redstone_mechanics:
-    type: FCC
-    name: Redstone Mechanics Factory
-    citadelBreakReduction: 1.0
-    setupcost:
-      iron:
-        material: IRON_INGOT
-        amount: 64
-      redstone:
-        material: REDSTONE
-        amount: 256
-      gold:
-        material: GOLD_INGOT
-        amount: 32
-    recipes:
-     - make_torch
-     - make_hopper
-     - make_comparator
-     - make_repeater
-     - make_gearbox
-     - repair_redstone
   bastion_factory:
     type: FCC
     name: Bastion Factory
@@ -147,48 +126,6 @@
      - make_bastion
      - make_city_bastion
      - repair_bastion
-  compactor:
-    type: FCC
-    name: Compactor
-    citadelBreakReduction: 0.8
-    setupcost:
-      iron_block:
-        material: IRON_BLOCK
-        amount: 32
-      redstone_block:
-        material: REDSTONE_BLOCK
-        amount: 16
-      piston:
-        material: PISTON_BASE
-        amount: 64
-      crate:
-        material: CHEST
-        amount: 32
-        lore:
-          - Crate
-    recipes:
-      - compact
-      - decompact
-      - repair_compactor
-  printing_press:
-    type: FCC
-    name: Printing Press
-    citadelBreakReduction: 0.1
-    setupcost:
-      ink:
-        material: INK_SACK
-        amount: 32
-      paper:
-        material: PAPER
-        amount: 64
-    recipes:
-      - bind_books
-      - bind_writable_books
-      - craft_printing_plate
-      - print_book
-      - print_note
-      - print_secure_note
-      - repair_printer
   concrete_mixer:
     type: FCC
     name: Concrete Mixer
