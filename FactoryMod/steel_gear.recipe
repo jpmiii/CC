@@ -27,7 +27,7 @@
         lore: 
           - No Owner
           - Made with steel plate
-        enchant:
+        enchants:
           dur:
             enchant: DURABILITY
             level: 1
@@ -60,7 +60,7 @@
         lore: 
           - No Owner
           - Steel plate chest armor
-      enchant:
+      enchants:
           dur:
             enchant: DURABILITY
             level: 1
@@ -93,7 +93,7 @@
         lore: 
           - No Owner
           - Steel plate greaves and cuisses
-        enchant:
+        enchants:
           dur:
             enchant: DURABILITY
             level: 1
@@ -122,7 +122,7 @@
         lore: 
           - No Owner
           - Steel plated leather boots
-        enchant:
+        enchants:
           dur:
             enchant: DURABILITY
             level: 1
