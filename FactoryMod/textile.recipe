@@ -141,6 +141,37 @@
         name: Mithril Wafer
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
+  make_saddle:
+    production_time: 4s
+    name: Make Saddles
+    type: PRODUCTION
+    input:
+      leather:
+        material: LEATHER
+        amount: 32
+      wool:
+        material: WOOL
+        amount: 16
+        durability: -1
+      iron:
+        material: IRON_INGOT
+        amount: 16
+    output:
+      saddle:
+        material: SADDLE
+        amount: 8
+  make_lead:
+    production_time: 4s
+    name: Make Leads
+    type: PRODUCTION
+    input:
+      string:
+        material: LEATHER
+        amount: 4
+    output:
+      leads:
+        material: LEASH
+        amount: 4
   repair_textile_factory:
     production_time: 4s
     name: Repair Factory
