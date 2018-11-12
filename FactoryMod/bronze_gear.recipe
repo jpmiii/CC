@@ -9,7 +9,7 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 40
+        amount: 48
       sand:
         material: SAND
         amount: 32
@@ -30,7 +30,7 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 64
+        amount: 48
       sand:
         material: SAND
         amount: 32
@@ -51,7 +51,7 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 56
+        amount: 48
       sand:
         material: SAND
         amount: 32
@@ -72,7 +72,7 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-        amount: 20
+        amount: 48
       sand:
         material: SAND
         amount: 32
