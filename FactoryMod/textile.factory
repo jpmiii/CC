@@ -1,9 +1,5 @@
 ## Textile Factory
 
-
-
-
-
   textile_factory:
     type: FCC
     name: Textile Factory
@@ -24,4 +20,5 @@
      - make_boots
      - make_woven_cloth
      - weave_mithril_wafer
+     - make_cobweb
      - repair_textile_factory
