@@ -117,14 +117,14 @@
     input:
       iron: 
         material: IRON_INGOT
-        amount: 15
+        amount: 16
         name: Steel Ingot
         lore:
           - An alloy of carbon and iron
     output:
       steel_axe:
         material: IRON_AXE
-        amount: 15
+        amount: 16
         name: Steel Axe
         lore: 
           - It has a razor-sharp, steel cutting edge
@@ -139,14 +139,14 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 15
+        amount: 16
         name: Steel Ingot
         lore:
           - An alloy of carbon and iron
     output:
       steel_sword:
         material: IRON_SWORD
-        amount: 15
+        amount: 16
         name: Steel Sword
         lore: 
           - It has a razor-sharp, steel cutting edge
@@ -161,14 +161,14 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 15
+        amount: 16
         name: Steel Ingot
         lore:
           - An alloy of carbon and iron
     output:
       steel_pick:
         material: IRON_PICKAXE
-        amount: 15
+        amount: 16
         name: Steel Pick
         lore: 
           - Made of hardened tool steel
@@ -183,14 +183,14 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 15
+        amount: 16
         name: Steel Ingot
         lore:
           - An alloy of carbon and iron
     output:
       steel_hoe:
         material: IRON_HOE
-        amount: 15
+        amount: 16
         name: Steel Hoe
         lore: 
           - Made of hardened tool steel
@@ -205,14 +205,14 @@
     input:
       steel:
         material: IRON_INGOT
-        amount: 15
+        amount: 16
         name: Steel Ingot
         lore:
           - An alloy of carbon and iron
     output:
       steel_shovel:
         material: IRON_SPADE
-        amount: 15
+        amount: 16
         name: Steel Shovel
         lore: 
           - Made of hardened tool steel
