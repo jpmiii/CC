@@ -1,6 +1,6 @@
   make_bastion:
     production_time: 4s
-    name: Make Bastion
+    name: Make Bastions
     type: PRODUCTION
     input:
       redstone:
@@ -45,7 +45,7 @@
         amount: 16
   make_city_bastion:
     production_time: 4s
-    name: Make City Bastion
+    name: Make City Bastions
     type: PRODUCTION
     input:
       redstone:
