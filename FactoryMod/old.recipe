@@ -716,8 +716,9 @@
     type: UPGRADE
     input:
       chest:
-        material: CHEST
-        amount: 32
+        material: LOG
+        amount: 64
+        durability: -1
     factory: Carpentry Factory
   upgrade_to_rails:
     production_time: 4s
