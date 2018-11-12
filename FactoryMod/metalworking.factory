@@ -3,9 +3,12 @@
     name: Rail Factory
     citadelBreakReduction: 1.0
     setupcost:
-      steel:
+      iron:
         material: IRON_INGOT
         amount: 64
+      steel:
+        material: IRON_INGOT
+        amount: 8
         name: Steel Ingot
         lore:
           - An alloy of carbon and iron
