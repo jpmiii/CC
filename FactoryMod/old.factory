@@ -30,7 +30,6 @@
      - upgrade_to_bio_lab
      - upgrade_to_carpentry
      - upgrade_to_rails
-     - upgrade_to_husbandry
      - upgrade_to_redstone
      - upgrade_to_bastion
      - upgrade_to_basic_cauldron
