@@ -237,6 +237,48 @@
           - "An alloy of tin and copper"
         amount: 64
     factory: Bronze Tool Smith
+  upgrade_to_iron_armor_smith:
+    production_time: 4s
+    name: Recipe for Iron Armor Smith
+    type: UPGRADE
+    input:
+      bronze:
+        material: IRON_INGOT
+        amount: 96
+    factory: Iron Armor Smith
+  upgrade_to_iron_tool_smith:
+    production_time: 4s
+    name: Recipe for Iron Tool Smith
+    type: UPGRADE
+    input:
+      bronze:
+        material: IRON_INGOT
+        amount: 64
+    factory: Iron Tool Smith
+  upgrade_to_mithril_armor_smith:
+    production_time: 4s
+    name: Recipe for Mithril Armor Smith
+    type: UPGRADE
+    input:
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 320
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+    factory: Mithril Armor Smith
+  upgrade_to_mithril_tool_smith:
+    production_time: 4s
+    name: Recipe for Mithril Tool Smith
+    type: UPGRADE
+    input:
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 240
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+    factory: Mithril Tool Smith
   upgrade_to_concrete:
     forceInclude: true
     production_time: 4s
