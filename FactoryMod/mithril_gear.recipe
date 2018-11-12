@@ -1,27 +1,3 @@
-  upgrade_to_mithril_armor:
-    production_time: 4s
-    name: Recipe for Diamond Armor Factory
-    type: UPGRADE
-    input:
-      mithril:
-        material: PRISMARINE_SHARD
-        amount: 96
-        name: Mithril Wafer
-        lore:
-          - "An incredibly tough, flexible material woven from chemically altered diamonds"
-    factory: Diamond Armor Factory
-  upgrade_to_mithril_tool:
-    production_time: 4s
-    name: Recipe for Diamond Tool Factory
-    type: UPGRADE
-    input:
-      mithril:
-        material: PRISMARINE_SHARD
-        amount: 64
-        name: Mithril Wafer
-        lore:
-          - "An incredibly tough, flexible material woven from chemically altered diamonds"
-    factory: Diamond Tool Factory
   make_mithril_helm:
     production_time: 4s
     name: Make Mithril Helmets
