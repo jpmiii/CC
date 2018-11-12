@@ -109,7 +109,7 @@
         amount: 64
     output:
       glass:
-        material: GLASS
+        material: STAINED_GLASS
         amount: 64
         durability: 13
   fire_terracotta:
@@ -224,7 +224,7 @@
         amount: 64
     output:
       glass:
-        material: GLASS
+        material: STAINED_GLASS
         amount: 96
         durability: 13
   make_clear_glass2:
@@ -280,7 +280,7 @@
         amount: 64
     output:
       glass:
-        material: GLASS
+        material: STAINED_GLASS
         amount: 128
         durability: 13
   make_clear_glass3:
