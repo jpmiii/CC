@@ -261,7 +261,7 @@
         amount: 8
     output:
       droppers:
-        material: PISTON
+        material: PISTON_BASE
         amount: 8
   make_clocks:
     production_time: 4s
