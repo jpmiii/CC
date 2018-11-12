@@ -10,10 +10,10 @@
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
     recipes:
+     - make_mithril_helm
      - make_mithril_chest
      - make_mithril_legs
      - make_mithril_boots
-     - make_mithril_helm
      - repair_diamond_helm_factory
   mithril_tool:
     type: FCC
