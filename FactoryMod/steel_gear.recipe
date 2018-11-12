@@ -183,6 +183,7 @@
         amount: 16
         name: Steel Ingot
         lore:
+          - Mining Mode (/chisel to toggle)
           - An alloy of carbon and iron
     output:
       steel_pick:
