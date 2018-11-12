@@ -117,6 +117,27 @@
       detector_rail:
         material: DETECTOR_RAIL
         amount: 32
+  make_activator_rail:
+    production_time: 4s
+    name: Make Activator Rails
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 18
+      steel:
+        material: IRON_INGOT
+        amount: 2
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+      redstone:
+        material: REDSTONE
+        amount: 2
+    output:
+      detector_rail:
+        material: ACTIVATOR_RAIL
+        amount: 32
   make_minecart:
     production_time: 4s
     name: Make Minecarts
