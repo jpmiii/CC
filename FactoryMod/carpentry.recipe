@@ -1,3 +1,21 @@
+  make_item_frames:
+    production_time: 4s
+    name: Make Crates
+    type: PRODUCTION
+    input:
+      cloth:
+        material: PAPER
+        amount: 4
+        name: Woven Cloth
+        lore:
+          - "Suitable for use as sailcloth"
+      sticks:
+        material: STICK
+        amount: 16
+    output:
+      crate:
+        material: ITEM_FRAME
+        amount: 4
   make_crates:
     production_time: 4s
     name: Make Crates
