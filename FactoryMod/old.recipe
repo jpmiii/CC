@@ -674,42 +674,30 @@
     name: Recipe for Bastion Factory
     type: UPGRADE
     input:
-      casing:
-        material: ENDER_CHEST
+      redstone:
+        material: REDSTONE_BLOCK
+        amount: 64
+      iron:
+        material: IRON_BLOCK
+        amount: 64
+      gold:
+        material: GOLD_BLOCK
         amount: 32
-        name: Casing
-        lore:
-          - Casing for bastion
-      gearbox:
-        material: WATCH
-        amount: 32
-        name: Gearbox
-        lore:
-          - Gear mechanism for bastion
-      radar:
-        material: COMPASS
-        amount: 32
-        name: Radar
-        lore:
-          - Radar for detecting pearls
-      energizer:
-        material: EMERALD
-        amount: 32
-        name: Energizer
-        lore:
-          - Power source for bastion
-      refractor:
+      diamonds:
         material: DIAMOND
         amount: 32
-        name: Refractor
+      xp:
+        material: EMERALD_BLOCK
+        amount: 10
+      slime:
+        material: SLIME_BALL
+        amount: 16
+      pearls:
+        material: ENDER_PEARL
+        name: Exile Pearl
         lore:
-          - Refractor for bastion
-      bio_component:
-        material: MAGMA_CREAM
-        amount: 32
-        name: Bio-Component
-        lore:
-             - Bio-Component for bastion
+          - Used to exile other players
+        amount: 16
     factory: Bastion Factory
   upgrade_to_basic_cauldron:
     production_time: 4s
@@ -750,48 +738,6 @@
       saddle:
         material: SADDLE
         amount: 8
-  repair_bastion:
-    production_time: 4s
-    name: Repair Factory
-    type: REPAIR
-    input:
-      casing:
-        material: ENDER_CHEST
-        amount: 4
-        name: Casing
-        lore:
-          - Casing for bastion
-      gearbox:
-        material: WATCH
-        amount: 4
-        name: Gearbox
-        lore:
-          - Gear mechanism for bastion
-      radar:
-        material: COMPASS
-        amount: 3
-        name: Radar
-        lore:
-          - Radar for detecting pearls
-      energizer:
-        material: EMERALD
-        amount: 3
-        name: Energizer
-        lore:
-          - Power source for bastion
-      refractor:
-        material: DIAMOND
-        amount: 3
-        name: Refractor
-        lore:
-          - Refractor for bastion
-      bio_component:
-        material: MAGMA_CREAM
-        amount: 1
-        name: Bio-Component
-        lore:
-          - Bio-Component for bastion
-    health_gained: 10000
   make_lead:
     production_time: 4s
     name: Make Leads
@@ -807,118 +753,6 @@
       leads:
         material: LEASH
         amount: 12
-  make_radar:
-    production_time: 4s
-    name: Make Radar
-    type: PRODUCTION
-    input:
-      iron:
-        material: IRON_INGOT
-        amount: 32
-      redstone:
-        material: REDSTONE
-        amount: 16
-      ender_eye:
-        material: EYE_OF_ENDER
-        amount: 8
-    output:
-      radar:
-        material: COMPASS
-        amount: 8
-        name: Radar
-        lore:
-          - Radar for detecting pearls
-  make_casing:
-    production_time: 4s
-    name: Make Casings
-    type: PRODUCTION
-    input:
-      chest:
-        material: CHEST
-        amount: 64
-      iron_block:
-        material: IRON_BLOCK
-        amount: 4
-      obsidian:
-        material: OBSIDIAN
-        amount: 64
-    output:
-      casing:
-        material: ENDER_CHEST
-        amount: 4
-        name: Casing
-        lore:
-          - Casing for bastion
-  make_gearbox:
-    production_time: 4s
-    name: Make Gearbox
-    type: PRODUCTION
-    input:
-      gold:
-        material: GOLD_INGOT
-        amount: 16
-      iron_block:
-        material: IRON_BLOCK
-        amount: 4
-      redstone:
-        material: REDSTONE
-        amount: 32
-    output:
-      gearbox:
-        material: WATCH
-        amount: 1
-        name: Gearbox
-        lore:
-          - Gear mechanism for bastion
-  make_energizer:
-    production_time: 4s
-    name: Make Energizer
-    type: PRODUCTION
-    input:
-      emerald:
-        material: EMERALD
-        amount: 6
-      charcoal:
-        material: COAL
-        amount: 32
-        durability: 1
-      gunpowder:
-        material: SULPHUR
-        amount: 6
-    output:
-      energizer:
-        material: EMERALD
-        amount: 1
-        name: Energizer
-        lore:
-          - Power source for bastion
-  make_bio_component:
-    production_time: 4s
-    name: Make Bio-Component
-    type: PRODUCTION
-    input:
-      slime:
-        material: SLIME_BALL
-        amount: 3
-      ice:
-        material: ICE
-        amount: 32
-      grass:
-        material: GRASS
-        amount: 16
-      lava:
-        material: LAVA_BUCKET
-        amount: 1
-    output:
-      bio_component:
-        material: MAGMA_CREAM
-        amount: 1
-        name: Bio-Component
-        lore:
-          - Bio-Component for bastion
-      bucket:
-        material: BUCKET
-        amount: 1
   upgrade_to_compactor:
     production_time: 4s
     name: Recipe for Compactor
