@@ -1183,6 +1183,14 @@
         amount: 32
         lore:
           - Crate
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 5
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     factory: Compactor
   make_crates:
     production_time: 4s
