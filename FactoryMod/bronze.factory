@@ -17,5 +17,23 @@
      - make_bronze_legs
      - make_bronze_boots
      - repair_bronze_armor_factory
+  bronze_tools:
+    type: FCC
+    name: Bronze Tool Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of carbon and copper"
+        amount: 64
+    recipes:
+     - make_bronze_pick
+     - make_bronze_sword
+     - make_bronze_shovel
+     - make_bronze_axe
+     - make_bronze_hoe
+     - repair_bronze_tools_factory
      
      
