@@ -182,6 +182,18 @@
         material: IRON_INGOT
         amount: 64
     factory: Steel Tool Smith
+  upgrade_to_bronze_armor_smith:
+    production_time: 4s
+    name: Recipe for Bronze Armor Smith
+    type: UPGRADE
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of tin and copper"
+        amount: 96
+    factory: Steel Tool Smith
   upgrade_to_bronze_tool_smith:
     production_time: 4s
     name: Recipe for Bronze Tool Smith
