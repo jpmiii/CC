@@ -139,7 +139,7 @@
         material: COBBLESTONE
         amount: 64
       quartz:
-        material: QUARTZ
+        material: QUARTZ_BLOCK
         amount: 64
     output:
       diorite:
