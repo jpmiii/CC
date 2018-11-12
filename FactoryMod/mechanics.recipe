@@ -389,6 +389,7 @@
       paper:
         material: PAPER
         amount: 18
+      ink:
         material: INK_SACK
         amount: 6
       feather:
