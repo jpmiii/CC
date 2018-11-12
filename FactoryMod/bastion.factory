@@ -8,7 +8,14 @@
         amount: 64
       iron:
         material: IRON_BLOCK
-        amount: 64
+        amount: 90
+      obby:
+        material: OBSIDIAN
+        amount: 256
+      wood:
+        material: LOG
+        durability: -1
+        amount: 256
       gold:
         material: GOLD_BLOCK
         amount: 32
