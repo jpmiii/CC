@@ -4,12 +4,16 @@
     citadelBreakReduction: 1.0
     setupcost:
       stone:
-        material: STONE
+        material: SANDSTONE
         amount: 256
-      dye:
+      dandelionyellow:
         material: INK_SACK
-        amount: 32
-        durability: -1
+        amount: 64
+        durability: 11
+      rosered:
+        material: INK_SACK
+        amount: 64
+        durability: 1
     recipes:
      - make_quartz
      - make_cracked_stone_brick
@@ -41,8 +45,7 @@
         durability: -1
       Dirt!:
         material: DIRT
-        amount: 256
-        name: Dirt!
+        amount: 128
     recipes:
      - dirt_to_grass
      - dirt_to_podzol
