@@ -38,7 +38,6 @@
      - int_xp_2
      - int_xp_3
      - wither_skull
-     - make_energizer
      - upgrade_to_advanced_cauldron
      - repair_intermediate_cauldron
   advanced_cauldron:
@@ -49,5 +48,4 @@
     recipes:
      - adv_xp_1
      - wither_skull
-     - make_energizer
      - repair_advanced_cauldron
