@@ -99,7 +99,7 @@
       sandstone:
         material: SANDSTONE
         amount: 32
-  make_glass:
+  make_green_glass:
     production_time: 4s
     name: Make Green Glass
     type: PRODUCTION
@@ -214,9 +214,9 @@
       sandstone:
         material: SANDSTONE
         amount: 48
-  make_glass2:
+  make_green_glass2:
     production_time: 4s
-    name: Make Glass
+    name: Make Green Glass
     type: PRODUCTION
     input:
       sand:
@@ -226,6 +226,7 @@
       glass:
         material: GLASS
         amount: 96
+        durability: 13
   make_clear_glass2:
     production_time: 16s
     name: Make Clear Glass
@@ -269,9 +270,9 @@
       sandstone:
         material: SANDSTONE
         amount: 64
-  make_glass3:
+  make_green_glass3:
     production_time: 4s
-    name: Make Glass
+    name: Make Green Glass
     type: PRODUCTION
     input:
       sand:
@@ -281,6 +282,7 @@
       glass:
         material: GLASS
         amount: 128
+        durability: 13
   make_clear_glass3:
     production_time: 16s
     name: Make Clear Glass
