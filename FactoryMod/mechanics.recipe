@@ -278,6 +278,21 @@
       clocks:
         material: WATCH
         amount: 8
+  make_compass:
+    production_time: 4s
+    name: Make Compasses
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 32
+      redstone:
+        material: REDSTONE
+        amount: 8
+    output:
+      clocks:
+        material: COMPASS
+        amount: 8
   make_comparator:
     production_time: 4s
     name: Make Comparators
