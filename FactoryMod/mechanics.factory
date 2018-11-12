@@ -24,7 +24,6 @@
      - make_clocks
      - make_comparator
      - make_repeater
-     - make_gearbox
      - repair_redstone
   grinding_mill:
     type: FCC
