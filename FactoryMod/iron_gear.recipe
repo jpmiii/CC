@@ -84,7 +84,7 @@
       steel_boots:
         material: CHAINMAIL_BOOTS
         amount: 8
-        name: Steel Boots
+        name: Chainmail Boots
   make_iron_axe:
     production_time: 4s
     name: Make Iron Axe
