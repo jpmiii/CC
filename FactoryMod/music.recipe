@@ -1,0 +1,264 @@
+  13:
+    production_time: 4s
+    name: Make a 13 record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: GOLD_RECORD
+        amount: 1
+  cat:
+    production_time: 4s
+    name: Make a cat record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: GREEN_RECORD
+        amount: 1
+  blocks:
+    production_time: 4s
+    name: Make a blocks record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_3
+        amount: 1
+  chirp:
+    production_time: 4s
+    name: Make a chirp record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_4
+        amount: 1
+  far:
+    production_time: 4s
+    name: Make a far record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_5
+        amount: 1
+  mall:
+    production_time: 4s
+    name: Make a mall record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_6
+        amount: 1
+  mellohi:
+    production_time: 4s
+    name: Make a mellohi record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_7
+        amount: 1
+  stal:
+    production_time: 4s
+    name: Make a stal record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_8
+        amount: 1
+  strad:
+    production_time: 4s
+    name: Make a strad record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_9
+        amount: 1
+  ward:
+    production_time: 4s
+    name: Make a ward record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_10
+        amount: 1
+  11:
+    production_time: 4s
+    name: Make an 11 record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_11
+        amount: 1
+  wait:
+    production_time: 4s
+    name: Make a wait record
+    type: PRODUCTION
+    input:
+      sulfur:
+        material: GLOWSTONE_DUST
+        amount: 164
+        name: Sulfur
+      coal:
+        material: COAL
+        amount: 128
+      tears:
+        material: WATER_BUCKET
+        amount: 4
+        name: Doxxer Tears
+        lore:
+          - :(
+    output:
+      record:
+        material: RECORD_12
+        amount: 1
