@@ -122,7 +122,7 @@
         lore:
           - "Made from layers of thick wool"
         amount: 1
-  weave_mithril_wafer:
+  weave_mithril_sheet:
     production_time: 4s
     name: Weave Mithril Wafer
     type: PRODUCTION
@@ -137,7 +137,7 @@
       mithril:
         material: PRISMARINE_SHARD
         amount: 16
-        name: Mithril Wafer
+        name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
   make_saddle:
