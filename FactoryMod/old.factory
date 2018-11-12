@@ -41,27 +41,6 @@
      - upgrade_to_kiln
      - upgrade_to_charcoal_factory
      - upgrade_to_explosives_factory
-  carpentry:
-    type: FCC
-    name: Carpentry Factory
-    citadelBreakReduction: 1.0
-    setupcost:
-      chest:
-        material: CHEST
-        amount: 32
-    recipes:
-     - make_fences
-     - make_signs
-     - make_ladders
-     - make_bookshelves
-     - make_trapdoors
-     - make_wood_doors
-     - make_primitive bed
-     - make_casing
-     - make_crates
-     - make_sports_balls
-     - repair_carpentry
-     - make_boat
   husbandry:
     type: FCC
     name: Animal Husbandry
