@@ -90,6 +90,25 @@
         name: Woven Cloth
         lore:
           - "Suitable for use as sailcloth"
+  make_quilted_horse_armor:
+    production_time: 4s
+    name: Make Quilted Horse Armor
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 32
+      leather:
+        material: LEATHER
+        amount: 3
+    output:
+      qhorse:
+        material: LEATHER_BARDING
+        name: "Quilted Horse Armor"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 1
   make_quilted_armor:
     production_time: 4s
     name: Make Quilted Armor
