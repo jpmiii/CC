@@ -130,7 +130,7 @@
           - It has a razor-sharp, steel cutting edge
         enchants:
           eff2:
-            enchant: EFFICIENCY
+            enchant: DIG_SPEED
             level: 1
   make_steel_sword:
     production_time: 4s
@@ -152,7 +152,7 @@
           - It has a razor-sharp, steel cutting edge
         enchants:
           eff2:
-            enchant: EFFICIENCY
+            enchant: DIG_SPEED
             level: 1
   make_steel_pick:
     production_time: 4s
@@ -174,7 +174,7 @@
           - Made of hardened tool steel
         enchants:
           eff2:
-            enchant: EFFICIENCY
+            enchant: DIG_SPEED
             level: 1
   make_steel_hoe:
     production_time: 4s
@@ -196,7 +196,7 @@
           - Made of hardened tool steel
         enchants:
           eff2:
-            enchant: EFFICIENCY
+            enchant: DIG_SPEED
             level: 1
   make_steel_shovel:
     production_time: 4s
@@ -218,7 +218,7 @@
           - Made of hardened tool steel
         enchants:
           eff2:
-            enchant: EFFICIENCY
+            enchant: DIG_SPEED
             level: 1
   repair_steel_tools_factory:
     production_time: 4s
