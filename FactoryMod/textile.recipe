@@ -111,6 +111,24 @@
         lore:
           - "Made from layers of thick wool"
         amount: 1
+  weave_mithril_wafer
+    production_time: 4s
+    name: Weave Mithril Wafer
+    type: PRODUCTION
+    input:
+      mithril_strands:
+        material: STRING
+        amount: 16
+        name: Mithril Strands
+        lore:
+          - "A spool of fibers spun from chemically altered diamonds"
+    output:
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 16
+        name: Mithril Wafer
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
   repair_textile_factory:
     production_time: 4s
     name: Repair Factory
