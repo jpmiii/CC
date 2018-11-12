@@ -124,7 +124,7 @@
         amount: 1
   weave_mithril_sheet:
     production_time: 4s
-    name: Weave Mithril Wafer
+    name: Weave Mithril Sheets
     type: PRODUCTION
     input:
       mithril_strands:
