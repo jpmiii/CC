@@ -136,8 +136,8 @@
     type: UPGRADE
     input:
       brick:
-        material: CLAY_BRICK
-        amount: 64
+        material: BRICK
+        amount: 16
       log:
         material: LOG
         durability: -1
