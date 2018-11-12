@@ -3,42 +3,30 @@
     name: Bastion Factory
     citadelBreakReduction: 1.0
     setupcost:
-      casing:
-        material: ENDER_CHEST
+      redstone:
+        material: REDSTONE_BLOCK
+        amount: 64
+      iron:
+        material: IRON_BLOCK
+        amount: 64
+      gold:
+        material: GOLD_BLOCK
         amount: 32
-        name: Casing
-        lore:
-          - Casing for bastion
-      gearbox:
-        material: WATCH
-        amount: 32
-        name: Gearbox
-        lore:
-          - Gear mechanism for bastion
-      radar:
-        material: COMPASS
-        amount: 32
-        name: Radar
-        lore:
-          - Radar for detecting pearls
-      energizer:
-        material: EMERALD
-        amount: 32
-        name: Energizer
-        lore:
-          - Power source for bastion
-      refractor:
+      diamonds:
         material: DIAMOND
         amount: 32
-        name: Refractor
+      xp:
+        material: EMERALD_BLOCK
+        amount: 10
+      slime:
+        material: SLIME_BALL
+        amount: 16
+      pearls:
+        material: ENDER_PEARL
+        name: Exile Pearl
         lore:
-          - Refractor for bastion
-      bio_compoent:
-        material: MAGMA_CREAM
-        amount: 32
-        name: Bio-Component
-        lore:
-          - Bio-Component for bastion
+          - Used to exile other players
+        amount: 16
     recipes:
      - make_bastion
      - make_city_bastion
