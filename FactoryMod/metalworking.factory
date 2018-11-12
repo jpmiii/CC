@@ -1,0 +1,50 @@
+  rails:
+    type: FCC
+    name: Rail Factory
+    citadelBreakReduction: 1.0
+    setupcost:
+      steel:
+        material: IRON_INGOT
+        amount: 64
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+      redstone:
+        material: REDSTONE
+        amount: 32
+      gold:
+        material: GOLD_INGOT
+        amount: 8
+    recipes:
+     - make_rail
+     - make_powered_rail
+     - make_detector_rail
+     - make_minecart
+     - repair_rails
+  forge:
+    type: FCC
+    name: Forge
+    citadelBreakReduction: 1.0
+    setupcost:
+      iron:
+        material: IRON_INGOT
+        amount: 128
+      lava_bucket:
+        material: LAVA_BUCKET
+        amount: 1
+    recipes:
+     - make_anvil
+     - make_iron_fence
+     - make_bucket
+     - make_iron_trapdoor
+     - make_iron_door
+     - make_tripwire
+     - make_shears
+     - make_cauldrons
+     - make_radar
+     - refine_steel
+     - forge_iron_block
+     - forge_iron_ingot
+     - split_iron_blocks
+     - split_iron_ingots
+     - repair_forge
