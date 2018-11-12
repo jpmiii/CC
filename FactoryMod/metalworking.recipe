@@ -6,13 +6,19 @@
       iron:
         material: IRON_INGOT
         amount: 128
+      steel:
+        material: IRON_INGOT
+        amount: 16
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       stick:
         material: STICK
-        amount: 16
+        amount: 128
     output:
       rails:
         material: RAILS
-        amount: 576
+        amount: 512
   make_powered_rail:
     production_time: 4s
     name: Make Powered Rails
@@ -20,7 +26,16 @@
     input:
       gold:
         material: GOLD_INGOT
-        amount: 64
+        amount: 32
+      iron:
+        material: IRON_INGOT
+        amount: 32
+      steel:
+        material: IRON_INGOT
+        amount: 4
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 8
@@ -36,6 +51,12 @@
       iron:
         material: IRON_INGOT
         amount: 18
+      steel:
+        material: IRON_INGOT
+        amount: 2
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
       redstone:
         material: REDSTONE
         amount: 2
@@ -62,7 +83,13 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 4
+        amount: 8
+      steel:
+        material: IRON_INGOT
+        amount: 1
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
     health_gained: 10000
   make_iron_fence:
     production_time: 4s
@@ -84,6 +111,12 @@
       iron:
         material: IRON_INGOT
         amount: 256
+      steel:
+        material: IRON_INGOT
+        amount: 16
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
     output:
       anvil:
         material: ANVIL
@@ -218,7 +251,7 @@
         amount: 12
     health_gained: 10000
   refine_steel:
-    production_time: 8s
+    production_time: 16s
     name: Carburize Iron into Steel
     type: PRODUCTION
     input:
