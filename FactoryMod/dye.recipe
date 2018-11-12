@@ -328,6 +328,13 @@
         material: INK_SACK
         durability: 15
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       white_wool:
         material: WOOL
@@ -346,6 +353,13 @@
         material: INK_SACK
         durability: 14
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       orange_wool:
         material: WOOL
@@ -364,6 +378,13 @@
         material: INK_SACK
         durability: 13
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       magenta_wool:
         material: WOOL
@@ -382,6 +403,13 @@
         material: INK_SACK
         durability: 12
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       light_blue_wool:
         material: WOOL
@@ -400,6 +428,13 @@
         material: INK_SACK
         durability: 11
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       yellow_wool:
         material: WOOL
@@ -418,6 +453,13 @@
         material: INK_SACK
         durability: 10
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       lime_wool:
         material: WOOL
@@ -436,6 +478,13 @@
         material: INK_SACK
         durability: 9
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       pink_wool:
         material: WOOL
@@ -454,6 +503,13 @@
         material: INK_SACK
         durability: 8
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       gray_wool:
         material: WOOL
@@ -472,6 +528,13 @@
         material: INK_SACK
         durability: 7
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       light_gray_wool:
         material: WOOL
@@ -490,6 +553,13 @@
         material: INK_SACK
         durability: 6
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       cyan_wool:
         material: WOOL
@@ -508,6 +578,13 @@
         material: INK_SACK
         durability: 5
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       purple_wool:
         material: WOOL
@@ -526,6 +603,13 @@
         material: INK_SACK
         durability: 4
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       blue_wool:
         material: WOOL
@@ -544,6 +628,13 @@
         material: INK_SACK
         durability: 3
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       brown_wool:
         material: WOOL
@@ -562,6 +653,13 @@
         material: INK_SACK
         durability: 2
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       green_wool:
         material: WOOL
@@ -580,6 +678,13 @@
         material: INK_SACK
         durability: 1
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       red_wool:
         material: WOOL
@@ -598,6 +703,13 @@
         material: INK_SACK
         durability: 0
         amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
     output:
       black_wool:
         material: WOOL
