@@ -1,0 +1,32 @@
+  steel_tools:
+    type: FCC
+    name: Steel Tool Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      steel:
+        material: IRON_INGOT
+        amount: 64
+    recipes:
+     - make_steel_pick
+     - make_steel_sword
+     - make_steel_shovel
+     - make_steel_axe
+     - make_steel_hoe
+     - repair_steel_tools_factory
+  steel_armor:
+    type: FCC
+    name: Steel Armor Smith
+    citadelBreakReduction: 1.0
+    setupcost:
+      steel:
+        material: IRON_INGOT
+        amount: 96
+        name: Steel Ingot
+        lore:
+          - An alloy of carbon and iron
+    recipes:
+     - make_steel_helm
+     - make_steel_chest
+     - make_steel_legs
+     - make_steel_boots
+     - repair_steel_armor_factory
