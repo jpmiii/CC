@@ -176,28 +176,6 @@
           eff2:
             enchant: DIG_SPEED
             level: 2
-  make_steel_hoe:
-    production_time: 4s
-    name: Make Steel Hoe
-    type: PRODUCTION
-    input:
-      iron:
-        material: IRON_INGOT
-        amount: 16
-        name: Steel Ingot
-        lore:
-          - An alloy of carbon and iron
-    output:
-      steel_hoe:
-        material: IRON_HOE
-        amount: 16
-        name: Steel Hoe
-        lore: 
-          - Made of hardened tool steel
-        enchants:
-          eff2:
-            enchant: DIG_SPEED
-            level: 2
   make_steel_shovel:
     production_time: 4s
     name: Make Steel Shovel
