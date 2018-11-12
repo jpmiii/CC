@@ -427,6 +427,70 @@
         material: SAPLING
         amount: 32
         durability: 5
+  make_mushroom_brown:
+    type: PRODUCTION
+    name: Make Brown Mushroom Blocks
+    production_time: 4s
+    input:
+      brown_mushroom:
+        material: BROWN_MUSHROOM
+        amount: 64
+    output:
+      brown_mushroom_block:
+        material: HUGE_MUSHROOM_1
+        durability: 14
+        amount: 16
+  make_mushroom_red:
+    type: PRODUCTION
+    name: Make Red Mushroom Blocks
+    production_time: 4s
+    input:
+      red_mushroom:
+        material: RED_MUSHROOM
+        amount: 64
+    output:
+      red_mushroom_block:
+        material: HUGE_MUSHROOM_2
+        durability: 14
+        amount: 16
+  make_mushroom_stem:
+    type: PRODUCTION
+    name: Make Stem Mushroom Blocks
+    production_time: 4s
+    input:
+      brown_mushroom:
+        material: BROWN_MUSHROOM
+        amount: 64
+    output:
+      stem_mushroom_block:
+        material: HUGE_MUSHROOM_1
+        durability: 10
+        amount: 16
+  make_mushroom_pores:
+    type: PRODUCTION
+    name: Make Pore Mushroom Blocks
+    production_time: 4s
+    input:
+      brown_mushroom:
+        material: BROWN_MUSHROOM
+        amount: 64
+    output:
+      pore_mushroom_block:
+        material: HUGE_MUSHROOM_1
+        amount: 16
+  pack_ice:
+    forceInclude: true
+    type: PRODUCTION
+    name: Pack Ice
+    production_time: 4s
+    input:
+      ice:
+        material: ICE
+        amount: 512
+    output:
+      packed_ice:
+        material: PACKED_ICE
+        amount: 256
   repair_aesthetics:
     production_time: 4s
     name: Repair Factory
