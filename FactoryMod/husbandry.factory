@@ -1,0 +1,19 @@
+  husbandry:
+    type: FCC
+    name: Animal Husbandry
+    citadelBreakReduction: 1.0
+    setupcost:
+      steel_block:
+        material: IRON_BLOCK
+        amount: 16
+      slime:
+        material: SLIME_BALL
+        amount: 16
+      leather:
+        material: LEATHER
+        amount: 32
+    recipes:
+     - make_saddle
+     - make_lead
+     - make_bio_component
+     - repair_husbandry
