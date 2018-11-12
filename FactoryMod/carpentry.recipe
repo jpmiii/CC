@@ -1,3 +1,20 @@
+  make_crates:
+    production_time: 4s
+    name: Make Crates
+    type: PRODUCTION
+    input:
+      chest: 
+        material: CHEST
+        amount: 128
+      iron:
+        material: IRON_INGOT
+        amount: 3
+    output:
+      crate:
+        material: CHEST
+        amount: 128
+        lore:
+          - Crate
   make_fences:
     production_time: 4s
     name: Make Fences
