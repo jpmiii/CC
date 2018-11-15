@@ -164,7 +164,7 @@ reinforcement_damageMultiplier: 365
 mysql:
  hostname: "localhost"
  port: 3306
- dbname: "namelayer"
+ dbname: "civ"
  username: "civ"
  password: "<password>"
 # Shows reinforcement information as percentile value
