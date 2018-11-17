@@ -21,6 +21,8 @@
         material: CHAINMAIL_HELMET
         amount: 8
         name: Chainmail Coif
+        lore:
+          - "Made from riveted rings of iron"
   make_mail_hauberks:
     production_time: 4s
     name: Make Mail Hauberks
@@ -44,6 +46,8 @@
         material: CHAINMAIL_CHESTPLATE
         amount: 8
         name: Chainmail Hauberk
+        lore:
+          - "Made from riveted rings of iron"
   make_mail_leggings:
     production_time: 4s
     name: Make Mail Leggings
@@ -66,6 +70,8 @@
       mail_legs:
         material: CHAINMAIL_LEGGINGS
         amount: 8
+        lore:
+          - "Made from riveted rings of iron"
   make_mail_boots:
     production_time: 4s
     name: Make Mail Boots
@@ -85,6 +91,8 @@
         material: CHAINMAIL_BOOTS
         amount: 8
         name: Chainmail Boots
+        lore:
+          - "Made from riveted rings of iron over leather boots"
   make_iron_axe:
     production_time: 4s
     name: Make Iron Axe
@@ -97,6 +105,8 @@
       iron_axe:
         material: IRON_AXE
         amount: 16
+        lore:
+          - "Made of wrought iron"
   make_iron_sword:
     production_time: 4s
     name: Make Iron Sword
@@ -109,6 +119,8 @@
       iron_sword:
         material: IRON_SWORD
         amount: 16
+        lore:
+          - "Made of wrought iron"
   make_iron_pick:
     production_time: 4s
     name: Make Iron Pick
@@ -121,6 +133,8 @@
       iron_pick:
         material: IRON_PICKAXE
         amount: 16
+        lore:
+          - "Made of wrought iron"
   make_iron_hoe:
     production_time: 4s
     name: Make Iron Hoe
@@ -133,6 +147,8 @@
       iron_hoe:
         material: IRON_HOE
         amount: 16
+        lore:
+          - "Made of wrought iron"
   make_iron_shovel:
     production_time: 4s
     name: Make Iron Shovel
@@ -145,6 +161,8 @@
       iron_shovel:
         material: IRON_SPADE
         amount: 16
+        lore:
+          - "Made of wrought iron"
   repair_iron_tools_factory:
     production_time: 4s
     name: Repair Factory
