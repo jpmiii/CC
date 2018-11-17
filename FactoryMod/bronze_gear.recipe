@@ -24,7 +24,7 @@
         amount: 1
         name: Bronze Horse Armor
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
   make_bronze_helm:
     production_time: 4s
     name: Make Bronze Helmets
@@ -44,7 +44,7 @@
         material: GOLD_HELMET
         name: "Bronze Helmet"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
           - "No Owner"
         amount: 8
   make_bronze_chest:
@@ -66,7 +66,7 @@
         material: GOLD_CHESTPLATE
         name: "Bronze Chestplate"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
           - "No Owner"
         amount: 8
   make_bronze_legs:
@@ -88,7 +88,7 @@
         material: GOLD_LEGGINGS
         name: "Bronze Leggings"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
           - "No Owner"
         amount: 8
   make_bronze_boots:
@@ -110,7 +110,7 @@
         material: GOLD_BOOTS
         name: "Bronze Boots"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
           - "No Owner"
         amount: 8
   repair_bronze_armor_factory:
@@ -147,7 +147,7 @@
         material: GOLD_AXE
         name: "Bronze Axe"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
         amount: 16
   make_bronze_sword:
     production_time: 4s
@@ -168,7 +168,7 @@
         material: GOLD_SWORD
         name: "Bronze Sword"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
         amount: 16
   make_bronze_pick:
     production_time: 4s
@@ -189,7 +189,7 @@
         material: GOLD_PICKAXE
         name: "Bronze Pickaxe"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
         amount: 16
   make_bronze_hoe:
     production_time: 4s
@@ -210,7 +210,7 @@
         material: GOLD_HOE
         name: "Bronze Hoe"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
         amount: 16
   make_bronze_shovel:
     production_time: 4s
@@ -231,7 +231,7 @@
         material: GOLD_SPADE
         name: "Bronze Shovel"
         lore:
-          - Made of casted and hammered bronze plates
+          - Made of casted and hammered bronze
         amount: 16
   repair_bronze_tools_factory:
     production_time: 4s
