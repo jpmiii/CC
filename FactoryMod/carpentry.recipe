@@ -144,6 +144,9 @@
         material: WOOL
         amount: 8
         durability: -1
+      iron:
+        material: IRON_INGOT
+        amount: 1
     output:
       door:
         material: SPONGE
