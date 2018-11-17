@@ -22,7 +22,7 @@
         amount: 8
         name: Chainmail Coif
         lore:
-          - "Made from riveted rings of iron"
+          - "Made from riveted rings of wrought iron"
   make_mail_hauberks:
     production_time: 4s
     name: Make Mail Hauberks
@@ -47,7 +47,7 @@
         amount: 8
         name: Chainmail Hauberk
         lore:
-          - "Made from riveted rings of iron"
+          - "Made from riveted rings of wrought iron"
   make_mail_leggings:
     production_time: 4s
     name: Make Mail Leggings
@@ -71,7 +71,7 @@
         material: CHAINMAIL_LEGGINGS
         amount: 8
         lore:
-          - "Made from riveted rings of iron"
+          - "Made from riveted rings of wrought iron"
   make_mail_boots:
     production_time: 4s
     name: Make Mail Boots
@@ -92,7 +92,7 @@
         amount: 8
         name: Chainmail Boots
         lore:
-          - "Made from riveted rings of iron over leather boots"
+          - "Made from riveted rings of wrought iron over leather boots"
   make_iron_axe:
     production_time: 4s
     name: Make Iron Axe
