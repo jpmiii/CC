@@ -29,7 +29,7 @@
         amount: 1
         name: Mithril Horse Armor
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
   make_mithril_helm:
     production_time: 4s
     name: Make Mithril Helmets
@@ -65,7 +65,7 @@
         amount: 8
         name: Mithril Helmet
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
           - No Owner
   make_mithril_chest:
     production_time: 4s
@@ -102,7 +102,7 @@
         amount: 8
         name: Mithril Chestplate
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
           - No Owner
   make_mithril_legs:
     production_time: 4s
@@ -139,7 +139,7 @@
         amount: 15
         name: Mithril Leg Armor
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
           - No Owner
   make_mithril_boots:
     production_time: 4s
@@ -172,7 +172,7 @@
         amount: 8
         name: Mithril Plated Boots
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
           - No Owner
   make_mithril_axe:
     production_time: 4s
@@ -199,7 +199,7 @@
         amount: 16
         name: Mithril Axe
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
   make_mithril_sword:
     production_time: 4s
     name: Make Mithril Swords
@@ -225,7 +225,7 @@
         amount: 16
         name: Mithril Sword
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
   make_mithril_pick:
     production_time: 4s
     name: Make Mithril Picks
@@ -251,7 +251,7 @@
         amount: 16
         name: Mithril Pickaxe
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
           - Mining Mode (/chisel to toggle)
   make_mithril_hoe:
     production_time: 4s
@@ -278,7 +278,7 @@
         amount: 16
         name: Mithril Hoe
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
   make_mithril_shovel:
     production_time: 4s
     name: Make Mithril Shovels
@@ -304,7 +304,7 @@
         amount: 16
         name: Mithril Shovel
         lore:
-          - Made from laminated sheets of spun mithril fibers
+          - Made from laminated sheets of mithril
   repair_mithril_armor_factory:
     production_time: 4s
     name: Repair Factory
