@@ -24,7 +24,7 @@
         amount: 1
         name: Steel Horse Armor
         lore:
-          - Made with steel plate
+          - Made with tempered steel
         enchants:
           dur:
             enchant: DURABILITY
@@ -56,8 +56,8 @@
         amount: 8
         name: Steel Helmet
         lore: 
+          - Made with tempered steel
           - No Owner
-          - Made with steel plate
         enchants:
           dur:
             enchant: DURABILITY
@@ -89,8 +89,8 @@
         amount: 8
         name: Steel Chestplate
         lore: 
+          - Made with tempered steel
           - No Owner
-          - Steel plate chest armor
         enchants:
           dur:
             enchant: DURABILITY
@@ -122,8 +122,8 @@
         amount: 8
         name: Steel Leg Armor
         lore: 
+          - Made with tempered steel
           - No Owner
-          - Steel plate greaves and cuisses
         enchants:
           dur:
             enchant: DURABILITY
@@ -151,8 +151,8 @@
         amount: 8
         name: Steel Boots
         lore: 
+          - Made with tempered steel
           - No Owner
-          - Steel plated leather boots
         enchants:
           dur:
             enchant: DURABILITY
@@ -174,7 +174,7 @@
         amount: 16
         name: Steel Axe
         lore: 
-          - It has a razor-sharp, steel cutting edge
+          - Made with tempered steel
         enchants:
           eff2:
             enchant: DIG_SPEED
@@ -199,7 +199,7 @@
         amount: 16
         name: Steel Sword
         lore: 
-          - It has a razor-sharp, steel cutting edge
+          - Made with tempered steel
         enchants:
           dur:
             enchant: DURABILITY
@@ -221,8 +221,8 @@
         amount: 16
         name: Steel Pick
         lore:
+          - Made with tempered steel
           - Mining Mode (/chisel to toggle)
-          - Made of hardened tool steel
         enchants:
           eff2:
             enchant: DIG_SPEED
@@ -247,7 +247,7 @@
         amount: 16
         name: Steel Shovel
         lore: 
-          - Made of hardened tool steel
+          - Made with tempered steel
         enchants:
           eff2:
             enchant: DIG_SPEED
@@ -272,7 +272,7 @@
         amount: 16
         name: Steel Hoe
         lore: 
-          - Made of hardened tool steel
+          - Made with tempered steel
         enchants:
           eff2:
             enchant: DIG_SPEED
