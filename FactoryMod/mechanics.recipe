@@ -131,6 +131,18 @@
         material: INK_SACK
         amount: 128
         durability: 11
+  sift_gravel:
+    production_time: 4s
+    name: Sift Gravel
+    type: PRODUCTION
+    input:
+      gravel:
+        material: GRAVEL
+        amount: 64
+    output:
+      flint:
+        material: FLINT
+        amount: 64
   make_torch:
     production_time: 4s
     name: Make Redstone Torches
