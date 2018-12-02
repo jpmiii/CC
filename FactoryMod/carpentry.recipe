@@ -125,12 +125,12 @@
         durability: -1
       skins:
         material: LEATHER
-        amount: 4
+        amount: 3
     output:
       bed:
         material: BED
         durability: 12
-        amount: 1
+        amount: 2
   make_sports_balls:
     production_time: 4s
     name: Make Sports Balls
