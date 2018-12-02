@@ -109,7 +109,7 @@
     input:
       wheat:
         material: WHEAT
-        amount: 64
+        amount: 32
         lore:
           - Ripe, Hand-Picked
     output:
