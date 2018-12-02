@@ -217,8 +217,9 @@
       wood:
         material: WOOD
         amount: 64
-      redstone:
-        material: REDSTONE
+      lapis:
+        material: INK_SACK
+        durability: 4
         amount: 8
     output:
       droppers:
