@@ -54,7 +54,7 @@
     input:
       wool:
         material: WOOL
-        amount: 12
+        amount: 6
       wood:
         material: WOOD
         amount: 12
