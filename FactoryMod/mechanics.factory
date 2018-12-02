@@ -52,6 +52,7 @@
      - grind_bones
      - grind_roses
      - grind_dandelions
+     - sift_gravel
      - repair_grinding_mill
   compactor:
     type: FCC
