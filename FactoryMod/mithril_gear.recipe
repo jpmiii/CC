@@ -136,7 +136,7 @@
     output:
       diamond_legs:
         material: DIAMOND_LEGGINGS
-        amount: 15
+        amount: 8
         name: Mithril Leg Armor
         lore:
           - Made from laminated sheets of mithril
