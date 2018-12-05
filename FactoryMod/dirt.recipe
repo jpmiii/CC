@@ -357,41 +357,50 @@
     input:
       redstone:
         material: REDSTONE_BLOCK
-        amount: 64
+        amount: 16
       iron:
         material: IRON_BLOCK
-        amount: 90
+        amount: 22
       obby:
         material: OBSIDIAN
-        amount: 256
+        amount: 64
       wood:
         material: LOG
         durability: -1
-        amount: 256
+        amount: 64
       gold:
         material: GOLD_BLOCK
-        amount: 32
+        amount: 8
       gunpowder:
         material: SULPHUR
-        amount: 64
+        amount: 16
       diamonds:
         material: DIAMOND
-        amount: 32
+        amount: 8
       lapis:
         material: LAPIS_BLOCK
-        amount: 120
+        amount: 30
       xp:
         material: EMERALD_BLOCK
-        amount: 10
+        amount: 2
       slime:
         material: SLIME_BALL
-        amount: 16
+        amount: 4
       pearls:
         material: ENDER_PEARL
         name: Exile Pearl
         lore:
           - Used to exile other players
-        amount: 16
+        amount: 4
+      stamina:
+        golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 2
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
     factory: Bastion Factory
   upgrade_to_basic_cauldron:
     production_time: 4s
