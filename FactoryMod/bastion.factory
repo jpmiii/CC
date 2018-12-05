@@ -52,4 +52,5 @@
     recipes:
      - make_bastion
      - make_city_bastion
+     - make_claim_bastion
      - repair_bastion
