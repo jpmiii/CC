@@ -28,7 +28,8 @@ bastions:
     effectRadius: 100
     includeY: true
     startScaleFactor: 100
-    finalScaleFactor: 0.2
+    #0.385 is about 2x as strong as civclassics
+    finalScaleFactor: 0.385
     warmupTime: 86400000
     erosionPerDay: 0
     regenPerDay: 0
@@ -55,21 +56,24 @@ bastions:
     block:
       material: ENDER_CHEST
       durability: 0
-      name: Claim Bastion
+      name: Claim Bastion 
       lore: 
-        - Claim Bastions will protect your claims
+        - Claim Bastions will keep exiled players out and prevent block reinforcements in a small area
+    shortName: Claim
     squarefield: true
-    effectRadius: 300
+    effectRadius: 10
     includeY: true
     startScaleFactor: 100
-    finalScaleFactor: 0.2
+    #1.54 is weakish, but since it covers a smaller area, it's stil pretty good, just less resistant to upfront assaults.
+    #You could MIX city and claim if you want, too, for both benefits at higher cost (almost impossible for city bastions to be "OP" though)
+    finalScaleFactor: 1.54
     warmupTime: 86400000
     erosionPerDay: 0
     regenPerDay: 0
     blocksToErode: 1
     placementCooldown: 2000
-    destroyOnRemove: false
-    onlyDirectDestroy: true
+    destroyOnRemove: true
+    onlyDirectDestroy: false
     pearls:
       block: true
       blockMidair: false
@@ -78,7 +82,7 @@ bastions:
       consumeOnBlock: false
       damageFirstBastion: false
     elytra:
-      block: false
+      block: true
       scaleFactor: 1
       requireMaturity: true
       destroyOnBlock: false
@@ -96,7 +100,8 @@ bastions:
     effectRadius: 10
     includeY: true
     startScaleFactor: 100
-    finalScaleFactor: 0.2
+    #1.54 is about half as strong as civclassics
+    finalScaleFactor: 1.54
     warmupTime: 86400000
     erosionPerDay: 0
     regenPerDay: 0
