@@ -114,6 +114,64 @@
         lore: 
           - City Bastions will keep exiled players out and prevent block reinforcements
         amount: 16
+  make_claim_bastion:
+    production_time: 4s
+    name: Make Claim Bastions
+    type: PRODUCTION
+    input:
+      redstone:
+        material: REDSTONE_BLOCK
+        amount: 8
+      iron:
+        material: IRON_BLOCK
+        amount: 11
+      obby:
+        material: OBSIDIAN
+        amount: 32
+      wood:
+        material: LOG
+        durability: -1
+        amount: 32
+      gold:
+        material: GOLD_BLOCK
+        amount: 4
+      gunpowder:
+        material: SULPHUR
+        amount: 8
+      diamonds:
+        material: DIAMOND
+        amount: 4
+      lapis:
+        material: LAPIS_BLOCK
+        amount: 15
+      xp:
+        material: EMERALD_BLOCK
+        amount: 1
+      slime:
+        material: SLIME_BALL
+        amount: 2
+      pearls:
+        material: ENDER_PEARL
+        name: Exile Pearl
+        lore:
+          - Used to exile other players
+        amount: 2
+      stamina:
+        golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 1
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+    output:
+      bastion:
+        material: ENDER_CHEST
+        name: Claim Bastion 
+        lore: 
+          - City Bastions will keep exiled players out and prevent block reinforcements in a small area
+        amount: 160
   repair_bastion:
     production_time: 4s
     name: Repair Factory
