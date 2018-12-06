@@ -2,7 +2,7 @@ mysql:
   user: 'civ'
   password: '<password>'
   host: localhost
-  database: civ
+  database: <db>
   port: 3306
   poolsize: 10
   connectionTimeout: 10000
