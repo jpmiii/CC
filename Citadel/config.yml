@@ -84,10 +84,10 @@ reinforcements:
   requirements: 1
   return: 1
   percent_chance: 100
-  hit_points: 3000
+  hit_points: 3000000
 # mature time is in minutes
-  mature_time: 5000
-  acid_time: 30
+  mature_time: 5
+  acid_time: 5
   scale_amount: 1
 # grace period is in minutes, forced 100% return within that time if undamaged. Set to 0 to disable (default)
   grace_period: 1
@@ -104,20 +104,7 @@ reinforcements:
 # # Uncomment below to add limits to what blocks this reinforcement can be applied to
 # reinforceables:
 #   - STONE
- bedrock:
-  material: BEDROCK
-  requirements: 1
-  return: 0
-  percent_chance: 100
-  hit_points: 147483646
-  mature_time: 147483646
-  acid_time: 147483646
-  scale_amount: 1
-  lore:
-  effect:
-   type: FLYING_GLYPH
-   speed: 0.5
-   particleCount: 50
+
 #natural_reinforcements:
  #diamond_ore:
   #material: DIAMOND_ORE
@@ -164,7 +151,7 @@ reinforcement_damageMultiplier: 365
 mysql:
  hostname: "localhost"
  port: 3306
- dbname: "civ"
+ dbname: "<db>"
  username: "civ"
  password: "<password>"
 # Shows reinforcement information as percentile value
