@@ -135,6 +135,7 @@
         amount: 16
         lore:
           - "Made of wrought iron"
+          - Mining Mode (/chisel to toggle)
   make_iron_hoe:
     production_time: 4s
     name: Make Iron Hoe
