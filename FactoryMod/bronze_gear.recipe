@@ -180,7 +180,6 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
-          - Mining Mode (/chisel to toggle)
         amount: 16
       sand:
         material: SAND
@@ -191,6 +190,7 @@
         name: "Bronze Pickaxe"
         lore:
           - Made of cast and hammered bronze
+          - Mining Mode (/chisel to toggle)
         amount: 16
   make_bronze_hoe:
     production_time: 4s
