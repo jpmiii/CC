@@ -180,6 +180,7 @@
         name: "Bronze Ingot"
         lore:
           - "An alloy of tin and copper"
+          - Mining Mode (/chisel to toggle)
         amount: 16
       sand:
         material: SAND
