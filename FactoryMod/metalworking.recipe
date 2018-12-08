@@ -41,8 +41,8 @@
     type: PRODUCTION
     input:
       chests:
-        material: LOG
-        amount: 64
+        material: WOOD
+        amount: 256
         durability: -1
       iron:
         material: IRON_INGOT
