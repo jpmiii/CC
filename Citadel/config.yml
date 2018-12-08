@@ -123,6 +123,11 @@ non_reinforceables:
  - RED_MUSHROOM
  - TNT
  - CROPS
+ - COCOA
+ - NETHER_WARTS
+ - BEETROOT_BLOCK
+ - POTATO
+ - CARROT
  - FIRE
  - SNOW
  - ICE
