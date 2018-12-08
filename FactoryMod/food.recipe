@@ -139,9 +139,9 @@
         material: BRICK
         amount: 16
       log:
-        material: LOG
+        material: WOOD
         durability: -1
-        amount: 12
+        amount: 48
     factory: Bakery
   upgrade_to_grill:
     production_time: 4s
