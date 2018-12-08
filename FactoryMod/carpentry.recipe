@@ -39,8 +39,8 @@
     type: PRODUCTION
     input:
       chest:
-        material: LOG
-        amount: 24
+        material: WOOD
+        amount: 92
         durability: -1
     output:
       fence:
@@ -52,8 +52,8 @@
     type: PRODUCTION
     input:
       chest:
-        material: LOG
-        amount: 16
+        material: WOOD
+        amount: 64
         durability: -1
     output:
       sign:
@@ -65,8 +65,8 @@
     type: PRODUCTION
     input:
       chest:
-        material: LOG
-        amount: 16
+        material: WOOD
+        amount: 64
         durability: -1
     output:
       ladder:
@@ -78,8 +78,8 @@
     type: PRODUCTION
     input:
       chest:
-        material: LOG
-        amount: 32
+        material: WOOD
+        amount: 128
         durability: -1
       books:
         material: BOOK
@@ -94,8 +94,8 @@
     type: PRODUCTION
     input:
       chest:
-        material: LOG
-        amount: 96
+        material: WOOD
+        amount: 384
         durability: -1
     output:
       trapdoor:
@@ -107,8 +107,8 @@
     type: PRODUCTION
     input:
       chest:
-        material: LOG
-        amount: 32
+        material: WOOD
+        amount: 128
         durability: -1
     output:
       door:
@@ -120,8 +120,8 @@
     type: PRODUCTION
     input:
       wood:
-        material: LOG
-        amount: 1
+        material: WOOD
+        amount: 4
         durability: -1
       skins:
         material: LEATHER
@@ -137,8 +137,8 @@
     type: PRODUCTION
     input:
       wood:
-        material: LOG
-        amount: 16
+        material: WOOD
+        amount: 64
         durability: -1
       wool:
         material: WOOL
@@ -178,7 +178,7 @@
     type: REPAIR
     input:
       chest:
-        material: LOG
-        amount: 4
+        material: WOOD
+        amount: 16
         durability: -1
     health_gained: 10000
