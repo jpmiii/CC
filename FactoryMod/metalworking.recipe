@@ -325,7 +325,7 @@
         amount: 12
     health_gained: 10000
   refine_steel:
-    production_time: 16s
+    production_time: 8s
     name: Carburize Iron into Steel
     type: PRODUCTION
     input:
