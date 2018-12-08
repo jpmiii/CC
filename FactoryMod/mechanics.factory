@@ -38,9 +38,9 @@
         material: STONE
         amount: 128
       log:
-        material: LOG
+        material: WOOD
         durability: -1
-        amount: 128
+        amount: 512
     recipes:
      - crush_stone
      - crush_cobble
