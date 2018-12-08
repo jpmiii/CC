@@ -27,9 +27,9 @@
         material: BRICK
         amount: 16
       log:
-        material: LOG
+        material: WOOD
         durability: -1
-        amount: 12
+        amount: 48
     recipes:
      - bake_bread
      - bake_potatoes
