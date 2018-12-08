@@ -28,6 +28,28 @@
       craft:
         material: MAGMA_CREAM
         amount: 32
+  blaze_rods:
+    production_time: 2s
+    name: Extract Blaze Rods
+    type: PRODUCTION
+    input:
+      magma block:
+        material: MAGMA
+        amount: 64
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 1
+    output:
+      craft:
+        material: BLAZE_ROD
+        amount: 20
+      netherrack:
+        material: NETHERRACK
+        amount: 60
   craft_eyes_of_ender:
     production_time: 2s
     name: Craft Eyes of Ender
