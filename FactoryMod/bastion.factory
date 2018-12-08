@@ -12,10 +12,6 @@
       obby:
         material: OBSIDIAN
         amount: 64
-      wood:
-        material: WOOD
-        durability: -1
-        amount: 256
       gold:
         material: GOLD_BLOCK
         amount: 8
