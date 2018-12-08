@@ -28,7 +28,7 @@
         enchants:
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_helm:
     production_time: 4s
     name: Make Steel Helmets
@@ -61,7 +61,7 @@
         enchants:
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_chest:
     production_time: 4s
     name: Make Steel Chestplates
@@ -94,7 +94,7 @@
         enchants:
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_legs:
     production_time: 4s
     name: Make Steel Leggings
@@ -127,7 +127,7 @@
         enchants:
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_boots:
     production_time: 4s
     name: Make Steel Boots
@@ -156,7 +156,7 @@
         enchants:
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_axe:
     production_time: 4s
     name: Make Steel Axe
@@ -181,7 +181,7 @@
             level: 2
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_sword:
     production_time: 4s
     name: Make Steel Sword
@@ -203,7 +203,7 @@
         enchants:
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_pick:
     production_time: 4s
     name: Make Steel Pick
@@ -229,7 +229,7 @@
             level: 2
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_shovel:
     production_time: 4s
     name: Make Steel Shovel
@@ -254,7 +254,7 @@
             level: 2
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   make_steel_hoe:
     production_time: 4s
     name: Make Steel Hoe
@@ -279,7 +279,7 @@
             level: 
           dur:
             enchant: DURABILITY
-            level: 1
+            level: 2
   repair_steel_tools_factory:
     production_time: 4s
     name: Repair Factory
