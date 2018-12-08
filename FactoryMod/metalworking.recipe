@@ -335,6 +335,8 @@
       straw:
         material: WHEAT
         amount: 16
+        lore:
+          - Ripe, Hand-Picked
       clay:
         material: CLAY
         amount: 2
