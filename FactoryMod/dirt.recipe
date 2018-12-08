@@ -100,9 +100,9 @@
         material: GLASS_BOTTLE
         amount: 64
       logs:
-        material: LOG
+        material: WOOD
         durability: -1
-        amount: 128
+        amount: 512
       golden_apple:
         material: GOLDEN_APPLE
         durability: 1
@@ -121,8 +121,8 @@
         material: STONE
         amount: 128
       log:
-        material: LOG
-        amount: 128
+        material: WOOD
+        amount: 512
         durability: -1
       leather:
         material: LEATHER
@@ -298,8 +298,8 @@
     type: UPGRADE
     input:
       chest:
-        material: LOG
-        amount: 64
+        material: WOOD
+        amount: 256
         durability: -1
     factory: Carpentry Factory
   upgrade_to_rails:
@@ -363,10 +363,6 @@
         amount: 22
       obby:
         material: OBSIDIAN
-        amount: 64
-      wood:
-        material: LOG
-        durability: -1
         amount: 64
       gold:
         material: GOLD_BLOCK
