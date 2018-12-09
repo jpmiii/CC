@@ -325,7 +325,7 @@
         amount: 12
     health_gained: 10000
   refine_steel:
-    production_time: 8s
+    production_time: 4s
     name: Carburize Iron into Steel
     type: PRODUCTION
     input:
@@ -334,7 +334,7 @@
         amount: 8
       straw:
         material: WHEAT
-        amount: 16
+        amount: 12
         lore:
           - Ripe, Hand-Picked
       clay:
