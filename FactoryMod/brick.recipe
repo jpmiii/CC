@@ -444,11 +444,11 @@
     input:
       diamond_ore:
         material: DIAMOND_ORE
-        amount: 32
+        amount: 16
     output:
       diamond:
         material: DIAMOND
-        amount: 32
+        amount: 16
   smelt_diamond3:
     production_time: 4s
     name: Smelt Diamond
@@ -456,11 +456,11 @@
     input:
       diamond_ore:
         material: DIAMOND_ORE
-        amount: 32
+        amount: 16
     output:
       diamond:
         material: DIAMOND
-        amount: 64
+        amount: 32
   cast_obsidian:
     production_time: 32s
     fuel_consumption_intervall: 1s
