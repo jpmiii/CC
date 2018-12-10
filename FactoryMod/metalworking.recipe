@@ -29,8 +29,8 @@
     type: PRODUCTION
     input:
       iron:
-        material: GOLD_INGOT
-        amount: 16
+        material: GOLD_BLOCK
+        amount: 2
     output:
       plate:
         material: GOLD_PLATE
@@ -78,8 +78,8 @@
     type: PRODUCTION
     input:
       gold:
-        material: GOLD_INGOT
-        amount: 32
+        material: GOLD_BLOCK
+        amount: 4
       iron:
         material: IRON_INGOT
         amount: 32
