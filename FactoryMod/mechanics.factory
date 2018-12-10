@@ -10,8 +10,8 @@
         material: REDSTONE
         amount: 256
       gold:
-        material: GOLD_INGOT
-        amount: 32
+        material: GOLD_BLOCK
+        amount: 4
     recipes:
      - make_pistons
      - make_torch
