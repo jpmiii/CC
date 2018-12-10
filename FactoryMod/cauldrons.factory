@@ -11,8 +11,8 @@
         material: IRON_INGOT
         amount: 128
       gold:
-        material: GOLD_INGOT
-        amount: 32
+        material: GOLD_BLOCK
+        amount: 4
       golden_apple:
         material: GOLDEN_APPLE
         durability: 1
