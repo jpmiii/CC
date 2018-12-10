@@ -325,11 +325,6 @@
         amount: 448
         lore:
           - Ripe, Hand-Picked
-      wheat:
-        material: WHEAT
-        amount: 448
-        lore:
-          - Ripe, Hand-Picked
       wart:
         material: NETHER_STALK
         amount: 448
