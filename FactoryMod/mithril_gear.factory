@@ -5,7 +5,7 @@
     setupcost:
       mithril:
         material: PRISMARINE_SHARD
-        amount: 320
+        amount: 192
         name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
@@ -23,7 +23,7 @@
     setupcost:
       mithril:
         material: PRISMARINE_SHARD
-        amount: 240
+        amount: 128
         name: Mithril Sheet
         lore:
           - "An incredibly tough, flexible material woven from chemically altered diamonds"
