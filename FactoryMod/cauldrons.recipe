@@ -334,8 +334,6 @@
       exp:
         material: EMERALD_BLOCK
         amount: 3
-        lore:
-          - Compacted Item
   upgrade_to_advanced_cauldron:
     production_time: 4s
     name: Upgrade to Advanced Experience Factory
