@@ -432,12 +432,12 @@
         amount: 2
   fire_bucket:
     production_time: 4s
-    name: Fire Glazed, Ceramic Bucket
+    name: Fire Glazed, Ceramic Buckets
     type: PRODUCTION
     input:
       clay:
         material: CLAY
-        amount: 16
+        amount: 18
       bonemeal:
         material: INK_SACK
         amount: 6
@@ -445,7 +445,7 @@
     output:
       bucket:
         material: BUCKET
-        amount: 3
+        amount: 6
   repair_kiln:
     production_time: 4s
     name: Repair Factory
