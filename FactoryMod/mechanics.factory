@@ -54,7 +54,7 @@
      - grind_dandelions
      - sift_gravel
      - grind_sandstone
-     - grinf_red_sandstone
+     - grind_red_sandstone
      - repair_grinding_mill
   compactor:
     type: FCC
