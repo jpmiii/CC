@@ -13,8 +13,8 @@
     type: REPAIR
     input:
       brick:
-        material: CLAY_BRICK
-        amount: 16
+        material: BRICK
+        amount: 4
     health_gained: 10000
   cook_beef:
     production_time: 4s
