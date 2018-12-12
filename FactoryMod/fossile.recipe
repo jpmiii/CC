@@ -12,13 +12,6 @@
         lore:
           - Crack me in a factory for a prize!
     outputs:
-      dragon_egg:
-        chance: 0.0000000001
-        dragon_egg:
-          material: DRAGON_EGG
-          amount: 1
-          lore:
-           - Egg of Creation
       gezo:
         chance: 0.0000040909
         gezo:
