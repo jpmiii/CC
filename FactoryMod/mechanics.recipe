@@ -143,6 +143,32 @@
       flint:
         material: FLINT
         amount: 64
+  grind_sandstone:
+    production_time: 4s
+    name: Grind Sandstone
+    type: PRODUCTION
+    input:
+      sandstone:
+        material: SANDSTONE
+        amount: 64
+    output:
+      sand:
+        material: SAND
+        amount: 64
+        durability: 0
+  grind_red_sandstone:
+    production_time: 4s
+    name: Grind Red Sandstone
+    type: PRODUCTION
+    input:
+      red sandstone:
+        material: RED_SANDSTONE
+        amount: 64
+    output:
+      red sand:
+        material: SAND
+        amount: 64
+        durability: 1
   make_torch:
     production_time: 4s
     name: Make Redstone Torches
