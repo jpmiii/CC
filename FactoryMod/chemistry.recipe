@@ -13,6 +13,24 @@
       fermented:
         material: FERMENTED_SPIDER_EYE
         amount: 16
+  slime:
+    production_time: 2s
+    name: Brew Slime
+    type: PRODUCTION
+    input:
+      cactus:
+        material: CACTUS
+        amount: 64
+      milk:
+        material: MILK_BUCKET
+        amount: 1
+    output:
+      slime:
+        material: SLIME_BALL
+        amount: 4
+      bucket:
+        material: BUCKET
+        amount: 1
   magma_cream:
     production_time: 2s
     name: Make Magma Cream
