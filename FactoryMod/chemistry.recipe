@@ -31,6 +31,29 @@
       bucket:
         material: BUCKET
         amount: 1
+  tanning:
+    production_time: 2s
+    name: Tan Leather
+    type: PRODUCTION
+    input:
+      skins:
+        material: ROTTEN_FLESH
+        name: Animal Skin
+        lore:
+          - Add to Alum
+          - to make Leather
+        amount: 64
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 8
+    output:
+      leather:
+        material: LEATHER
+        amount: 64
   magma_cream:
     production_time: 2s
     name: Make Magma Cream
