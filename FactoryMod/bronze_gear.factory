@@ -17,6 +17,7 @@
      - make_bronze_legs
      - make_bronze_boots
      - make_bronze_horse_armor
+     - make_bronze_armor_sets
      - repair_bronze_armor_factory
   bronze_tools:
     type: FCC
