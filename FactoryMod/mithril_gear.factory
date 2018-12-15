@@ -15,6 +15,7 @@
      - make_mithril_legs
      - make_mithril_boots
      - make_mithril_horse_armor
+     - make_mithril_armor_sets
      - repair_mithril_armor_factory
   mithril_tool:
     type: FCC
