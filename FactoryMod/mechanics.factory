@@ -55,6 +55,7 @@
      - sift_gravel
      - grind_sandstone
      - grind_red_sandstone
+     - crush_coarse
      - repair_grinding_mill
   compactor:
     type: FCC
