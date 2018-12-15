@@ -63,6 +63,9 @@
       boots:
         material: LEATHER_BOOTS
         amount: 2
+      leather:
+        material: LEATHER
+        amount: 4
     output:
       bronze_helm:
         material: GOLD_HELMET
@@ -113,6 +116,9 @@
         lore:
           - "Made from layers of thick wool"
         amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
       bronze_helm:
         material: GOLD_HELMET
@@ -142,6 +148,9 @@
         lore:
           - "Made from layers of thick wool"
         amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
       bronze_chest:
         material: GOLD_CHESTPLATE
@@ -171,6 +180,9 @@
         lore:
           - "Made from layers of thick wool"
         amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
       bronze_legs:
         material: GOLD_LEGGINGS
@@ -196,6 +208,9 @@
       boots:
         material: LEATHER_BOOTS
         amount: 8
+      leather:
+        material: LEATHER
+        amount: 4
     output:
       bronze_boots:
         material: GOLD_BOOTS
