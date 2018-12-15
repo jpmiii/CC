@@ -33,4 +33,5 @@
      - make_steel_legs
      - make_steel_boots
      - make_steel_horse_armor
+     - make_steel_armor_sets
      - repair_steel_armor_factory
