@@ -1,3 +1,17 @@
+  crush_coarse:
+    production_time: 4s
+    name: Crush Coarse Dirt
+    type: PRODUCTION
+    input:
+      coarse:
+        material: DIRT
+        durability: 1
+        amount: 64
+    output:
+      dirt:
+        material: DIRT
+        durability: 0
+        amount: 64
   crush_lapis:
     production_time: 4s
     name: Crush and Combine Lapis Ore
