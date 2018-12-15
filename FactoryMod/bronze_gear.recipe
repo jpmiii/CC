@@ -25,6 +25,73 @@
         name: Bronze Horse Armor
         lore:
           - Made of cast and hammered bronze
+  make_bronze_armor_sets:
+    production_time: 4s
+    name: Make Bronze Armor Sets
+    type: PRODUCTION
+    input:
+      bronze:
+        material: GOLD_INGOT
+        name: "Bronze Ingot"
+        lore:
+          - "An alloy of tin and copper"
+        amount: 48
+      sand:
+        material: SAND
+        amount: 32
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      boots:
+        material: LEATHER_BOOTS
+        amount: 2
+    output:
+      bronze_helm:
+        material: GOLD_HELMET
+        name: "Bronze Helmet"
+        lore:
+          - Made of cast and hammered bronze
+          - "No Owner"
+        amount: 2
+      bronze_chest:
+        material: GOLD_CHESTPLATE
+        name: "Bronze Chestplate"
+        lore:
+          - Made of cast and hammered bronze
+          - "No Owner"
+        amount: 2
+      bronze_legs:
+        material: GOLD_LEGGINGS
+        name: "Bronze Leggings"
+        lore:
+          - Made of cast and hammered bronze
+          - "No Owner"
+        amount: 2
+      bronze_boots:
+        material: GOLD_BOOTS
+        name: "Bronze Boots"
+        lore:
+          - Made of cast and hammered bronze
+          - "No Owner"
+        amount: 2
   make_bronze_helm:
     production_time: 4s
     name: Make Bronze Helmets
@@ -39,6 +106,13 @@
       sand:
         material: SAND
         amount: 32
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
     output:
       bronze_helm:
         material: GOLD_HELMET
@@ -60,7 +134,14 @@
         amount: 48
       sand:
         material: SAND
-        amount: 32
+        amount: 3
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
     output:
       bronze_chest:
         material: GOLD_CHESTPLATE
@@ -83,6 +164,13 @@
       sand:
         material: SAND
         amount: 32
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 8
     output:
       bronze_legs:
         material: GOLD_LEGGINGS
@@ -105,6 +193,9 @@
       sand:
         material: SAND
         amount: 32
+      boots:
+        material: LEATHER_BOOTS
+        amount: 8
     output:
       bronze_boots:
         material: GOLD_BOOTS
