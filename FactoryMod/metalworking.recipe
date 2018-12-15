@@ -331,7 +331,7 @@
     input:
       iron:
         material: IRON_INGOT
-        amount: 8
+        amount: 6
       straw:
         material: WHEAT
         amount: 12
