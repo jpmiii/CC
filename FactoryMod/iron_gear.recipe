@@ -1,3 +1,62 @@
+  make_iron_armor_sets:
+    production_time: 4s
+    name: Make Chain Armor Sets
+    type: PRODUCTION
+    input:
+      iron:
+        material: IRON_INGOT
+        amount: 48
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      boots:
+        material: LEATHER_BOOTS
+        amount: 2
+      leather:
+        material: LEATHER
+        amount: 4
+    output:
+      iron_helm:
+        material: CHAINMAIL_HELMET
+        amount: 2
+        name: Chainmail Coif
+        lore:
+          - "Made of wrought iron"
+      iron_chest:
+        material: CHAINMAIL_CHESTPLATE
+        amount: 2
+        name: Chainmail Hauberk
+        lore:
+          - "Made of wrought iron"
+      mail_legs:
+        material: CHAINMAIL_LEGGINGS
+        amount: 2
+        lore:
+          - "Made of wrought iron"
+      iron_boots:
+        material: CHAINMAIL_BOOTS
+        amount: 2
+        name: Chainmail Boots
+        lore:
+          - "Made of wrought iron"
   make_mail_coifs:
     production_time: 4s
     name: Make Mail Coifs
@@ -17,7 +76,7 @@
         material: LEATHER
         amount: 4
     output:
-      steel_helm:
+      iron_helm:
         material: CHAINMAIL_HELMET
         amount: 8
         name: Chainmail Coif
@@ -42,7 +101,7 @@
         material: LEATHER
         amount: 4
     output:
-      steel_chest:
+      iron_chest:
         material: CHAINMAIL_CHESTPLATE
         amount: 8
         name: Chainmail Hauberk
@@ -87,7 +146,7 @@
         material: LEATHER
         amount: 4
     output:
-      steel_boots:
+      iron_boots:
         material: CHAINMAIL_BOOTS
         amount: 8
         name: Chainmail Boots
