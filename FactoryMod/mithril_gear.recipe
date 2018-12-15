@@ -30,6 +30,81 @@
         name: Mithril Horse Armor
         lore:
           - Made from laminated sheets of mithril
+  make_mithril_armor_sets:
+    production_time: 4s
+    name: Make Mithril Armor Sets
+    type: PRODUCTION
+    input:
+      mithril:
+        material: PRISMARINE_SHARD
+        amount: 48
+        name: Mithril Sheet
+        lore:
+          - "An incredibly tough, flexible material woven from chemically altered diamonds"
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 2
+      boots:
+        material: LEATHER_BOOTS
+        amount: 2
+      leather:
+        material: LEATHER
+        amount: 4
+      golden_apple:
+        material: GOLDEN_APPLE
+        durability: 1
+        name: Stamina
+        amount: 8
+        lore:
+          - "Prolonged physical"
+          - "or mental effort"
+    output:
+      mithril_helm:
+        material: DIAMOND_HELMET
+        amount: 2
+        name: Mithril Helmet
+        lore:
+          - Made from laminated sheets of mithril
+          - No Owner
+      mithril_chest:
+        material: DIAMOND_CHESTPLATE
+        amount: 2
+        name: Mithril Chestplate
+        lore:
+          - Made from laminated sheets of mithril
+          - No Owner
+      diamond_legs:
+        material: DIAMOND_LEGGINGS
+        amount: 2
+        name: Mithril Leg Armor
+        lore:
+          - Made from laminated sheets of mithril
+          - No Owner
+      mithril_boots:
+        material: DIAMOND_BOOTS
+        amount: 2
+        name: Mithril Plated Boots
+        lore:
+          - Made from laminated sheets of mithril
+          - No Owner
   make_mithril_helm:
     production_time: 4s
     name: Make Mithril Helmets
