@@ -101,6 +101,9 @@
         amount: 1
       Ender_Pearl:
         material: ENDER_PEARL
+        name: Exile Pearl
+        lore:
+          - Use to exile other players
         amount: 1
     output:
       craft:
