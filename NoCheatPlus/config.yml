@@ -43,7 +43,7 @@ data:
 protection:
   plugins:
     hide:
-      active: true
+      active: false
       nopermission:
         message: '&cI''m sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error.'
         commands:
@@ -409,7 +409,7 @@ checks:
           modifiers: false
       actions: log:flyfile:3:5:f cancel vl>100 log:flyshort:0:5:i log:flyfile:0:5:f cancel vl>400 log:flylong:0:5:i log:flyfile:0:5:cf cancel
     morepackets:
-      active: true
+      active: false
       seconds: 6
       epsideal: 20
       epsmax: 22
