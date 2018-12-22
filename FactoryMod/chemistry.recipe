@@ -83,7 +83,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       craft:
         material: BLAZE_ROD
