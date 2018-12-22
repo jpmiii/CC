@@ -334,7 +334,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       white_wool:
         material: WOOL
@@ -359,7 +359,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       orange_wool:
         material: WOOL
@@ -384,7 +384,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       magenta_wool:
         material: WOOL
@@ -409,7 +409,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       light_blue_wool:
         material: WOOL
@@ -434,7 +434,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       yellow_wool:
         material: WOOL
@@ -459,7 +459,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       lime_wool:
         material: WOOL
@@ -484,7 +484,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       pink_wool:
         material: WOOL
@@ -509,7 +509,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       gray_wool:
         material: WOOL
@@ -534,7 +534,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       light_gray_wool:
         material: WOOL
@@ -559,7 +559,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       cyan_wool:
         material: WOOL
@@ -584,7 +584,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       purple_wool:
         material: WOOL
@@ -609,7 +609,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       blue_wool:
         material: WOOL
@@ -634,7 +634,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       brown_wool:
         material: WOOL
@@ -659,7 +659,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       green_wool:
         material: WOOL
@@ -684,7 +684,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       red_wool:
         material: WOOL
@@ -709,7 +709,7 @@
         lore:
           - Add to Animal Skin
           - to make Leather
-        amount: 1
+        amount: 4
     output:
       black_wool:
         material: WOOL
