@@ -274,8 +274,8 @@
         material: WOOD
         amount: 64
       diamond:
-        material: DIAMOND
-        amount: 8
+        material: LAPIS_BLOCK
+        amount: 4
     output:
       droppers:
         material: JUKEBOX
