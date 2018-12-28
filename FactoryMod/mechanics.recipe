@@ -264,7 +264,7 @@
     output:
       droppers:
         material: NOTE_BLOCK
-        amount: 8
+        amount: 12
   make_jukes:
     production_time: 4s
     name: Make Jukeboxes
@@ -275,11 +275,11 @@
         amount: 64
       diamond:
         material: LAPIS_BLOCK
-        amount: 4
+        amount: 8
     output:
       droppers:
         material: JUKEBOX
-        amount: 8
+        amount: 12
   make_sensors:
     production_time: 4s
     name: Make Daylight Sensors
