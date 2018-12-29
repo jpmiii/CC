@@ -17,6 +17,9 @@
      - make_carpet
      - make_bed
      - make_quilted_armor
+     - make_quilted_helmets
+     - make_quilted_leggings
+     - make_gambesons
      - make_boots
      - make_woven_cloth
      - weave_mithril_sheet
