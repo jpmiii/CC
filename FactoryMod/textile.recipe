@@ -122,6 +122,63 @@
         lore:
           - "Made from layers of thick wool"
         amount: 1
+  make_quilted_helmets:
+    production_time: 4s
+    name: Make Quilted Caps
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 64
+      leather:
+        material: LEATHER
+        amount: 3
+    output:
+      qcap:
+        material: LEATHER_HELMET
+        name: "Quilted Cap"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 3
+  make_gambesons:
+    production_time: 4s
+    name: Make Gambesons
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 64
+      leather:
+        material: LEATHER
+        amount: 3
+    output:
+      gambeson:
+        material: LEATHER_CHESTPLATE
+        name: "Gambeson"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 3
+  make_quilted_leggings:
+    production_time: 4s
+    name: Make Quilted Trousers
+    type: PRODUCTION
+    input:
+      wool:
+        material: WOOL
+        amount: 64
+      leather:
+        material: LEATHER
+        amount: 3
+    output:
+      qpants:
+        material: LEATHER_LEGGINGS
+        name: "Quilted Trousers"
+        color: A89987
+        lore:
+          - "Made from layers of thick wool"
+        amount: 3
   weave_mithril_sheet:
     production_time: 4s
     name: Weave Mithril Sheets
