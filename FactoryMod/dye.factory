@@ -24,6 +24,22 @@
      - dye_wool_green
      - dye_wool_red
      - dye_wool_black
+     - dye_carpets_orange
+     - dye_carpets_white
+     - dye_carpets_magenta
+     - dye_carpets_light_blue
+     - dye_carpets_yellow
+     - dye_carpets_lime
+     - dye_carpets_pink
+     - dye_carpets_gray
+     - dye_carpets_light_gray
+     - dye_carpets_cyan
+     - dye_carpets_purple
+     - dye_carpets_blue
+     - dye_carpets_brown
+     - dye_carpets_green
+     - dye_carpets_red
+     - dye_carpets_black
      - repair_wool
   dye_clay:
     type: FCC
