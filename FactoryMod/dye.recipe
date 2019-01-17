@@ -1066,3 +1066,353 @@
         material: CARPET
         durability: 1
         amount: 64
+  dye_carpets_magenta:
+    production_time: 4s
+    name: Dye Carpets Magenta
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 13
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 2
+        amount: 64
+  dye_carpets_light_blue:
+    production_time: 4s
+    name: Dye Carpets Light Blue
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 12
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 3
+        amount: 64
+  dye_carpets_yellow:
+    production_time: 4s
+    name: Dye Carpets Yellow
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 11
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 4
+        amount: 64
+  dye_carpets_lime:
+    production_time: 4s
+    name: Dye Carpets Lime
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 10
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 5
+        amount: 64
+  dye_carpets_pink:
+    production_time: 4s
+    name: Dye Carpets Pink
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 9
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 6
+        amount: 64
+  dye_carpets_gray:
+    production_time: 4s
+    name: Dye Carpets Gray
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 8
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 7
+        amount: 64
+  dye_carpets_light_gray:
+    production_time: 4s
+    name: Dye Carpets Light Gray
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 7
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 8
+        amount: 64
+  dye_carpets_cyan:
+    production_time: 4s
+    name: Dye Carpets Cyan
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 6
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 9
+        amount: 64
+  dye_carpets_purple:
+    production_time: 4s
+    name: Dye Carpets Purple
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 5
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 10
+        amount: 64
+  dye_carpets_blue:
+    production_time: 4s
+    name: Dye Carpets Blue
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 4
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 11
+        amount: 64
+  dye_carpets_brown:
+    production_time: 4s
+    name: Dye Carpets Brown
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 3
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 12
+        amount: 64
+  dye_carpets_green:
+    production_time: 4s
+    name: Dye Carpets Green
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 2
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 13
+        amount: 64
+  dye_carpets_red:
+    production_time: 4s
+    name: Dye Carpets Red
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 1
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 14
+        amount: 64
+  dye_carpets_black:
+    production_time: 4s
+    name: Dye Carpets Red
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 0
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 15
+        amount: 64
