@@ -1016,3 +1016,53 @@
         material: GLASS
         amount: 16
     health_gained: 10000
+  dye_carpets_white:
+    production_time: 4s
+    name: Dye Carpets White
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 15
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 0
+        amount: 64
+  dye_carpets_orange:
+    production_time: 4s
+    name: Dye Carpets Orange
+    type: PRODUCTION
+    input:
+      carpet:
+        material: CARPET
+        durability: -1
+        amount: 64
+      dye:
+        material: INK_SACK
+        durability: 14
+        amount: 4
+      alum:
+        material: QUARTZ
+        name: Alum
+        lore:
+          - Add to Animal Skin
+          - to make Leather
+        amount: 4
+    output:
+      carpet:
+        material: CARPET
+        durability: 1
+        amount: 64
