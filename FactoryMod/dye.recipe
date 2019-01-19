@@ -1393,7 +1393,7 @@
         amount: 64
   dye_carpets_black:
     production_time: 4s
-    name: Dye Carpets Red
+    name: Dye Carpets Black
     type: PRODUCTION
     input:
       carpet:
