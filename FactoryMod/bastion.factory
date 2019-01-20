@@ -5,7 +5,7 @@
     setupcost:
       redstone:
         material: REDSTONE_BLOCK
-        amount: 16
+        amount: 10
       iron:
         material: IRON_BLOCK
         amount: 22
@@ -14,7 +14,7 @@
         amount: 64
       gold:
         material: GOLD_BLOCK
-        amount: 8
+        amount: 6
       gunpowder:
         material: SULPHUR
         amount: 16
@@ -23,7 +23,7 @@
         amount: 8
       lapis:
         material: LAPIS_BLOCK
-        amount: 30
+        amount: 10
       xp:
         material: EMERALD_BLOCK
         amount: 2
