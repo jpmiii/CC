@@ -358,7 +358,7 @@
         material: STONE
         amount: 128
       quartz:
-        material: QUARTZ
+        material: QUARTZ_BLOCK
     output:
       comparator:
         material: REDSTONE_COMPARATOR
