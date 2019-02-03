@@ -103,7 +103,8 @@
         material: ENDER_PEARL
         name: Exile Pearl
         lore:
-          - Use to exile other players
+          - Used to exile other players
+          - Do not move pearls between worlds.
         amount: 1
     output:
       craft:
