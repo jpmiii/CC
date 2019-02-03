@@ -387,6 +387,7 @@
         name: Exile Pearl
         lore:
           - Used to exile other players
+          - Do not move pearls between worlds.
         amount: 4
       stamina:
         golden_apple:
