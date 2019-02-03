@@ -35,6 +35,7 @@
         name: Exile Pearl
         lore:
           - Used to exile other players
+          - Do not move pearls between worlds.
         amount: 16
       stamina:
         golden_apple:
@@ -89,6 +90,7 @@
         name: Exile Pearl
         lore:
           - Used to exile other players
+          - Do not move pearls between worlds.
         amount: 4
       stamina:
         golden_apple:
@@ -143,6 +145,7 @@
         name: Exile Pearl
         lore:
           - Used to exile other players
+          - Do not move pearls between worlds.
         amount: 2
       stamina:
         golden_apple:
@@ -194,6 +197,7 @@
         name: Exile Pearl
         lore:
           - Used to exile other players
+          - Do not move pearls between worlds.
         amount: 4
       stamina:
         golden_apple:
