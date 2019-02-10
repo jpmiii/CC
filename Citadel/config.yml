@@ -139,6 +139,7 @@ non_reinforceables:
  - VINE
  - NETHER_WARTS
  - ENDER_PORTAL
+ - BIRCH_FENCE
 reset_player_state: 300
 enable_maturation: true
 # The max amount of reinforcements to keep loaded
