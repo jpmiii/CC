@@ -109,7 +109,6 @@
      - make_green_glass3
      - make_clear_glass3
      - fire_terracotta3
-     - downgrade_to_furnace
      - fire_bricks3
      - fire_netherrack3
      - fire_red_netherrack3
