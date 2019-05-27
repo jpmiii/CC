@@ -20,7 +20,7 @@
     input:
       cactus:
         material: CACTUS
-        amount: 64
+        amount: 12
       milk:
         material: MILK_BUCKET
         amount: 1
